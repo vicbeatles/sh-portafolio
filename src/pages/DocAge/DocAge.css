@@ -1,0 +1,34 @@
+.age-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.age-photo {
+
+    width: 1042px;
+    height: 790px;
+    background-image: url('../../assets/images/fotografia/documental/la\ mirada\ de\ la\ edad.png');
+    background-size: cover;
+    margin: 10px;
+}
+
+.age-footer {
+
+    margin: auto;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    justify-content: center;
+
+}
+
+.age-desc {
+
+    margin: auto;
+    justify-content: center;
+   
+}

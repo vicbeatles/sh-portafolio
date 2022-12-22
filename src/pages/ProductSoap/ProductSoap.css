@@ -1,0 +1,46 @@
+.soap-container {
+
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 photo2'
+    'photo3 desc';
+}
+
+.photo1-soap {
+    width: 610px;
+    height: 468px;
+    background-image: url('../../assets/images/fotografia/producto/cvaly.png');
+    background-size: cover;
+    grid-area: photo1;
+}
+
+.photo2-soap {
+    width: 419px;
+    height: 583px;
+    background-image: url('../../assets/images/fotografia/producto/civaly\ 2.png');
+    background-size: cover;
+    grid-area: photo2;
+}
+
+.photo3-soap {
+    width: 833px;
+    height: 611px;
+    background-image: url('../../assets/images/fotografia/producto/civaly\ mockup.png');
+    background-size: cover;
+    grid-area: photo3;
+    border-radius: 72px;
+}
+
+
+.description-soap {
+
+    width: 559px;
+    height: 468px;
+    font-family: 'KyivType Sans';
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+}

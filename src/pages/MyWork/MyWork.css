@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+@font-face {
+    font-family: KyivType Sans;
+    src: url('../../assets/fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Regular-.otf');
+  }
+
+.mywork-title {
+
+    margin: auto;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 128pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mywork-text {
+
+    width: 75%;
+    margin: auto;
+    font-family: 'KyivType Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+}
+
+.mywork-image {
+    
+    margin: auto;
+    bottom: 551px;
+    height: 520px;
+    width: 1046px;
+    transform: rotate(180deg);
+    background-position: bottom;
+    background-image: url('../../assets/images/sobremi-imagen.png');
+    background-size: cover;
+}

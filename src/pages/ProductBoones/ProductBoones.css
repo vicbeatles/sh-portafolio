@@ -1,0 +1,42 @@
+.boones-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 none1'
+    'photo2 desc';
+}
+
+
+.photo1-boones {
+    grid-area: photo1;
+    width: 407px;
+    height: 289px;
+    background-image: url('../../assets/images/fotografia/producto/bones.png');
+    background-size: cover;
+}
+
+.none1-boones {
+    grid-area: none1;
+}
+
+.photo2-boones {
+    grid-area: photo2;
+    width: 803px;
+    height: 551px;
+    background-image: url('../../assets/images/fotografia/producto/bones\ mockups.png');
+    background-size: cover;
+    border-radius: 72px;
+}
+
+.description-boones {
+
+    grid-area: desc;
+    width: 407px;
+    height: 289px;
+    align-self: flex-end;
+    font-family: 'KyivType Sans';
+}

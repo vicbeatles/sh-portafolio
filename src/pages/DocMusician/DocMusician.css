@@ -1,0 +1,34 @@
+.musician-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.musician-photo {
+
+    width: 1042px;
+    height: 780px;
+    background-image: url('../../assets/images/fotografia/documental/Captura\ de\ pantalla\ \(149\)\ 1.png');
+    background-size: cover;
+    margin: 10px;
+}
+
+.musician-footer {
+
+    margin: auto;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    justify-content: center;
+
+}
+
+.musician-desc {
+
+    margin: auto;
+    justify-content: center;
+   
+}

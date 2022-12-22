@@ -1,0 +1,36 @@
+
+.nextArrow {
+    background-image: url('../../../assets/images/nextarrow.png');
+    background-size: auto;
+    width: 60.02px;
+    height: 60.02px;
+    position: absolute;
+    top: 80vh;
+    left: 65vw;
+    transition: top,left 1s;
+}
+
+.nextArrow button {
+  
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+
+}
+
+.nextArrow button:hover {
+  
+    cursor: pointer;
+
+}
+
+.backArrow {
+
+    top: 75vh;
+    left: 40vw;
+    transform: rotateY(3.142rad);
+    transition: top,left 1s;
+   
+    
+}

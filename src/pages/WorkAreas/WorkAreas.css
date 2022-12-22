@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.workareas-container {
+
+    width: 100%;
+    color: #ffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "photo design "
+    "three ux";
+    
+
+}
+
+.photo-area {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    grid-area: photo;
+    width: 384px;
+    height: 405px;
+    background-color: #484444;
+    border-radius: 72px;
+
+}
+
+
+
+.photo-area svg {
+    width: 200px;
+    height: 200px;
+    flex-grow: 2;
+}
+
+
+.photo-area:hover svg path {
+
+    transition: stroke-width .5s;
+    stroke-width: 33;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.photo-area:hover svg path ~ defs .photocolor1 {
+
+    
+    stop-color: #F5EC05;
+}
+
+.photo-area:hover svg path ~ defs .photocolor2 {
+
+    
+    stop-color: #737026;
+}
+
+
+
+.area-title {
+
+    width: 100%;
+    height: 28pt;
+    background-color: none;
+    border-radius: 0px 0px 72px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+
+.design-area {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    grid-area: design;
+    width: 384px;
+    height: 405px;
+    background-color: #484444;
+    border-radius: 72px;
+
+}
+
+
+.design-area svg {
+    width: 200px;
+    height: 200px;
+    flex-grow: 2;
+}
+
+
+
+.design-area:hover svg path {
+
+    transition: stroke-width .5s;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.design-area:hover svg path ~ defs .designcolor1 {
+
+    
+    stop-color: #FF102D;
+}
+
+.design-area:hover svg path ~ defs .designcolor2 {
+
+    
+    stop-color: #FFF500;
+}
+
+
+
+.three-area {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    grid-area: three;
+    width: 384px;
+    height: 405px;
+    background-color: #484444;
+    border-radius: 72px;
+}
+
+.three-area svg {
+    width: 200px;
+    height: 200px;
+    flex-grow: 2;
+}
+
+
+.three-area:hover svg path {
+
+    transition: stroke-width .5s;
+    stroke-width: 37;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.three-area:hover svg path ~ defs .threecolor1 {
+
+    
+    stop-color: #13D5FF;
+}
+
+.three-area:hover svg path ~ defs .threecolor2 {
+
+    
+    stop-color: #640BD5;
+}
+
+
+
+.ux-area {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    grid-area: ux;
+    width: 384px;
+    height: 405px;
+    background-color: #484444;
+    border-radius: 72px;
+}
+
+.ux-area svg {
+    width: 200px;
+    height: auto;
+}
+
+.ux-area svg {
+    width: 200px;
+    height: 200px;
+    flex-grow: 2;
+}
+
+
+.ux-area div {
+    flex-grow: 1;
+}
+
+
+.ux-area:hover svg path {
+
+    transition: stroke-width .5s;
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.ux-area:hover svg path ~ defs .uxcolor1 {
+
+    
+    stop-color: #F40000;
+}
+
+.ux-area:hover svg path ~ defs .uxcolor2 {
+
+    
+    stop-color: #FF1DC0;
+}

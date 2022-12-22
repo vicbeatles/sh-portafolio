@@ -1,0 +1,74 @@
+.flowers-container {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 photo2'
+    'none1 photo3'
+    'photo4 desc';
+    grid-gap: 40px;
+}
+
+.photo1-flowers {
+
+    width: 536px;
+    height: 461px;
+    background-image: url('../../assets/images/fotografia/producto/bolsa.png');
+    background-size: cover;
+    grid-area: photo1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+
+}
+
+.photo2-flowers {
+
+    width: 309px;
+    height: 258px;
+    background-image: url('../../assets/images/fotografia/producto/bolsa\ 2.png');
+    background-size: cover;
+    grid-area: photo2;
+
+}
+
+.none1-flowers {
+
+    width: 360px;
+    height: 298px;
+    grid-area: none1;
+}
+
+.photo3-flowers {
+
+    width: 309px;
+    height: 298px;
+    background-image: url('../../assets/images/fotografia/producto/bolsa\ 3.png');
+    background-size: cover;
+    grid-area: photo3;
+
+}
+
+.photo4-flowers {
+
+    width: 826px;
+    height: 665px;
+    background-image: url('../../assets/images/fotografia/producto/bolsa\ mockup.png');
+    background-size: cover;
+    grid-area: photo4;
+    border-radius: 72px;
+
+}
+
+.description-flowers {
+
+    width: 309px;
+    height: 298px;
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+    font-family: 'KyivType Sans';
+
+
+}
