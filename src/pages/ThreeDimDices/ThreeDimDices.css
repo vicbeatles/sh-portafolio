@@ -1,0 +1,39 @@
+.dices-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.dices-photo {
+
+    width: 630px;
+    height: 500px;
+    background-image: url('../../assets/images/threedim/DADOS.png');
+    background-size: cover;
+
+}
+
+.dices-footer {
+
+    margin: auto;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    justify-content: center;
+
+}
+
+.dices-desc {
+
+    margin: auto;
+    justify-content: center;
+   
+}
+
+.dices-desc P {
+
+    margin: auto;
+}

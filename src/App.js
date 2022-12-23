@@ -28,6 +28,11 @@ import DesignCatFood from './pages/DesignCatFood/DesignCatFood';
 import DesignScene from './pages/DesignScene';
 import DesignBread from './pages/DesignBread/DesignBread';
 import Ux from './pages/Ux/Ux';
+import ThreeDim from './pages/ThreeDim/ThreeDim';
+import ThreeDimJapan from './pages/ThreeDimJapan/ThreeDimJapan';
+import ThreeDimHalloween from './pages/ThreeDimHalloween/ThreeDimHalloween';
+import ThreeDimDices from './pages/ThreeDimDices/ThreeDimDices';
+
 
 function App() {
   return (
@@ -61,6 +66,12 @@ function App() {
                     <Route path="/mywork/areas/design/scene" element={<DesignScene />} />
                     <Route path="/mywork/areas/design/bread" element={<DesignBread />} />
                     <Route path="/mywork/areas/ux" element={<Ux />} />
+                    <Route path="/mywork/areas/threedim" element={<ThreeDim />} />
+                    <Route path="/mywork/areas/threedim/japan" element={<ThreeDimJapan />} />
+                    <Route path="/mywork/areas/threedim/halloween" element={<ThreeDimHalloween />} />
+                    <Route path="/mywork/areas/threedim/dices" element={<ThreeDimDices />} />
+
+                    
                 </Route>
                 <Route path="*" element={<Navigate to="/inicio" replace />} />
             </Routes>
