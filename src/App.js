@@ -32,6 +32,7 @@ import ThreeDim from './pages/ThreeDim/ThreeDim';
 import ThreeDimJapan from './pages/ThreeDimJapan/ThreeDimJapan';
 import ThreeDimHalloween from './pages/ThreeDimHalloween/ThreeDimHalloween';
 import ThreeDimDices from './pages/ThreeDimDices/ThreeDimDices';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
                     <Route path="/mywork/areas/threedim/japan" element={<ThreeDimJapan />} />
                     <Route path="/mywork/areas/threedim/halloween" element={<ThreeDimHalloween />} />
                     <Route path="/mywork/areas/threedim/dices" element={<ThreeDimDices />} />
+                    <Route path="/mywork/areas/contact" element={<Contact />} />
 
                     
                 </Route>
