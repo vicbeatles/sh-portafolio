@@ -3,6 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
+    <div class='main-contact-container'>
     <div class='contact-container'>
       <div class='sh-name'>Samantha Hernandez Soto</div>
       <div class='contact-title'>Contactos</div>
@@ -16,6 +17,8 @@ const Contact = () => {
       <div class='qr-wa-vc'></div>
       <div class='text-wa-sh'>5554040911</div>
       <div class='text-wa-vc'>5591071020</div>
+    </div>
+    <div class='contact-buttons'><button>Ir a inicio</button><button>Ir a botones</button></div>
     </div>
   )
 }

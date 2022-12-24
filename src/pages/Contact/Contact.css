@@ -1,4 +1,4 @@
-.contact-container {
+.main-contact-container {
     width: 100vw;
     height: 100vh;
     background-image: 
@@ -21,6 +21,16 @@
     top right,
     bottom left,
     bottom right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    
+    width: 100%;
+    height: 95%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -154,3 +164,48 @@
 .text-wa-vc {
     grid-area: tvcwa;
 }
+
+.contact-buttons {
+
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:20px ;
+    
+}
+
+.contact-buttons button {
+
+    width: 191px;
+    height: 78px;
+    border-radius: 143px;
+    background-color: #FFFFFF;
+    border: 3px solid #1B07F5;
+    font-weight: 800;
+ 
+}
+
+
+.contact-buttons button:hover {
+
+    background: linear-gradient(0deg, rgba(34,200,253,1) 0%, rgba(27,7,245,1) 100%);
+    border: none;
+ 
+}
+
+.contact-buttons button ~ button {
+
+    border: 3px solid #E81111;
+ 
+}
+
+
+.contact-buttons button ~ button:hover {
+
+    border: 10px solid blue;
+    background: linear-gradient(0deg, rgba(232,17,17,1) 0%, rgba(237,7,245,1) 100%);
+    transition: border 5s ease-in;
+}
+
