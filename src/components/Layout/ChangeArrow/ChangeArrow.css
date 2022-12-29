@@ -10,27 +10,114 @@
     transition: top,left 1s;
 }
 
-.nextArrow button {
-  
+
+.nextArrowClicked {
+
+    top: 800px;
+    left: 35vw;
+    transform: rotate(180deg);
+    transition: top,left 1s;
+}
+
+
+
+.nextArrow a {
+
+    display: block;
     width: 100%;
     height: 100%;
-    background: none;
-    border: none;
-
+    background-color: none;
 }
 
-.nextArrow button:hover {
-  
-    cursor: pointer;
+.toWorkArrow {
 
-}
-
-.backArrow {
-
-    top: 75vh;
-    left: 40vw;
-    transform: rotateY(3.142rad);
+    background-image: url('../../../assets/images/nextarrow.png');
+    background-size: auto;
+    width: 60.02px;
+    height: 60.02px;
+    position: absolute;
+    top: 800px;
+    left: 60vw;
     transition: top,left 1s;
-   
-    
 }
+
+
+
+.toWorkArrowHide {
+    display: none;
+}
+
+
+@media (max-width: 1600px)
+{
+    .nextArrowClicked {
+
+        left: 30vw;
+
+    } 
+
+}
+
+
+
+@media (max-width: 1136px)
+{
+    .nextArrowClicked {
+
+        top: 1000px;
+        left: 25vw;
+        transform: rotate(180deg);
+        transition: top,left 1s;
+    } 
+
+    .toWorkArrow {
+        top: 1000px;
+        left: 60vw;
+        transition: top,left 1s;
+    }
+}
+
+
+@media (min-width: 1137px) and (max-width: 1898px)
+{
+    .nextArrowClicked {
+
+        top: 910px;
+        transform: rotate(180deg);
+        transition: top,left 1s;
+    } 
+
+    .toWorkArrow {
+        top: 910px;
+        left: 55vw;
+        transition: top 1s;
+    }
+}
+
+@media (min-width: 1898px)
+{
+    .toWorkArrow {
+
+        left: 55vw;
+
+    } 
+
+}
+
+
+.nextArrow button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+
+}
+
+.toWorkArrow button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+
+}
+

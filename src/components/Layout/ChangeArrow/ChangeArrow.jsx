@@ -1,50 +1,53 @@
-import React, { useState,useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { useState } from 'react'
+import { useNavigate, useParams } from "react-router-dom"; 
 import './ChangeArrow.css'
 
 const ChangeArrow = () => {
 
-    /* const [clicked, setClicked] = useState(false);
-    const clicker = () => {setClicked(!clicked)}
 
+  const navigate = useNavigate();
+  const [clicked,setClicked] = useState('nextArrow');
+  const [toWorkClick,setToWorkClick] = useState('toWorkArrow toWorkArrowHide');
+  const params = useParams();
+  console.log(params)
 
-    useEffect(()=>{
+  if(clicked === 'nextArrow nextArrowClicked' && params.inicio === 'inicio') {
+    setClicked('nextArrow')
+  }
 
-        let classedArrow = document.getElementsByClassName('nextArrow')[0];
-        let classedBackground = document.getElementsByClassName('startpage')[0];
-        if(clicked) {
-    
-      
-          if(classedBackground.className != 'startpage startnone') {
-            classedBackground.className += ' startnone';
-          console.log(classedBackground.className)
-          }
-          
-    
-          if(classedArrow.className != 'nextArrow backArrow') {
-            classedArrow.className += ' backArrow';
-            console.log(classedArrow.className)
-          }
-        }
-        else {
-          
-          if (classedArrow.className == 'nextArrow backArrow') {
-            classedArrow.className = classedArrow.className.slice(0,9);
-            console.log(classedArrow.className);
-          }
-    
-          if (classedBackground.className == 'startpage startnone') {
-            classedBackground.className = classedBackground.className.slice(0,9);
-            console.log(classedBackground.className);
-          }
-    
-        } 
-        console.log(clicked)
-    },[clicked]);
- */
-    
+  if(!params.inicio && clicked === 'nextArrow') {  
+    setClicked('nextArrow nextArrowClicked')
+    setToWorkClick('toWorkArrow')
+  }
+
   return (
-    <div><div className='nextArrow'><Link to='/aboutme' relative="path">.</Link></div></div>
+    <div>
+      <div className={clicked}><button onClick={()=> {
+      
+      if(clicked === 'nextArrow nextArrowClicked')
+      {
+        setClicked('nextArrow');
+        setToWorkClick('toWorkArrowHide')
+        
+        if(!params.incio) {
+          navigate('/inicio')
+          
+        } else {
+          navigate(-1);
+        }
+      } else {
+        setClicked('nextArrow nextArrowClicked')
+        setToWorkClick('toWorkArrow');
+        navigate('/aboutme');
+      }
+      }}></button>
+      </div>
+    <div className={toWorkClick}><button onClick={ ()=> {
+      navigate('/mywork');
+    }}></button>
+    </div>
+
+  </div>
   )
 }
 

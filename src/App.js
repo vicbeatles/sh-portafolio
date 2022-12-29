@@ -40,10 +40,10 @@ function App() {
     <Router>
             <Routes>
                 <Route element={<Layout />}>
-                    <Route path="/inicio" element={<Start />} />
+                    <Route path=":inicio" element={<Start />} />
                     <Route path="/aboutme" element={<AboutMe />} />
                     <Route path="/mywork" element={<MyWork />} />
-                    <Route path="/mywork/areas" element={<WorkAreas />} />
+                    <Route path="/aboutme/areas" element={<WorkAreas />} />
                     <Route path="/mywork/areas/photo" element={<PhotoAreas />} />
                     <Route path="/mywork/areas/photo/product" element={<PhotoProducts />} />
                     <Route path="/mywork/areas/photo/product/jewelry" element={<ProductJewelry />} />
@@ -72,8 +72,6 @@ function App() {
                     <Route path="/mywork/areas/threedim/halloween" element={<ThreeDimHalloween />} />
                     <Route path="/mywork/areas/threedim/dices" element={<ThreeDimDices />} />
                     <Route path="/mywork/areas/contact" element={<Contact />} />
-
-                    
                 </Route>
                 <Route path="*" element={<Navigate to="/inicio" replace />} />
             </Routes>
