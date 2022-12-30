@@ -15,22 +15,64 @@
 
 .mywork-text {
 
-    width: 75%;
+    width: 80%;
+    height: auto;
     margin: auto;
+    box-sizing: border-box;
     font-family: 'KyivType Sans', sans-serif;
     font-weight: 400;
-    font-size: 32pt;
+    font-size: 28pt;
     text-align: center;
 }
 
-.mywork-image {
-    
-    margin: auto;
-    bottom: 551px;
-    height: 520px;
-    width: 1046px;
-    transform: rotate(180deg);
-    background-position: bottom;
-    background-image: url('../../assets/images/sobremi-imagen.png');
-    background-size: cover;
+
+@media (max-width: 960px) and (max-height: 1000px) {
+
+    .mywork-title {
+
+        margin: auto;
+        font-family: 'Kosugi', sans-serif;
+        font-size: 120pt;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .mywork-text {
+        font-size: 20pt;
+    }
 }
+
+
+@media (max-width: 1299px) {
+
+    .mywork-title {
+
+        margin: auto;
+        font-family: 'Kosugi', sans-serif;
+        font-size: 120pt;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .mywork-text {
+        font-size: 18pt;
+    }
+}
+
+
+
+
+@media (max-width: 360px) or (max-width: 640px){
+
+    .mywork-title {
+
+        font-size: 60pt;
+
+    }
+
+    .mywork-text {
+        font-size: 12pt;
+    }
+}
+
+

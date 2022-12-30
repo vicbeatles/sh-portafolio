@@ -1,7 +1,13 @@
 import React from 'react'
 import './WorkAreas.css'
 
-const WorkAreas = () => {
+const WorkAreas = (props) => {
+
+        const {where,setWhere} = props;
+        setWhere('work-areas');
+
+
+
   return (
     <div class="workareas-container">
         <div class='photo-area'><svg viewBox="0 0 298 281" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,6 +103,8 @@ const WorkAreas = () => {
 </defs>
 </svg>
 <div class='area-title'>UX</div></div>
+<div class='contact-area'>Contactos</div>
+<div class='noneareas-area'></div>
     </div>
   )
 }

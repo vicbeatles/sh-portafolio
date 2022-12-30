@@ -1,7 +1,12 @@
 import React from 'react'
 import './MyWork.css'
 
-const MyWork = () => {
+const MyWork = (props) => {
+
+  const {where,setWhere} = props;
+
+  setWhere('work');
+
   return (
     <div>
       <div class='mywork-title'>MI TRABAJO</div>
@@ -12,7 +17,7 @@ const MyWork = () => {
         <p>Actualmente aparte de la carrera en diseño también me especializo en diseño de UX ya que me gusta provocar buenas sensaciones y ayudar a los usuarios.</p>
         <p>También soy fotógrafa de producto, tengo varias certificaciones oficiales en estas 3 áreas.</p>
       </div>
-      <div class='mywork-image'></div>
+      
     </div>
   )
 }

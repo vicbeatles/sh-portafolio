@@ -2,51 +2,102 @@ import { useState } from 'react'
 import { useNavigate, useParams } from "react-router-dom"; 
 import './ChangeArrow.css'
 
-const ChangeArrow = () => {
+const ChangeArrow = (props) => {
 
+  const {where, setWhere} = props;
+  console.log(where)
 
   const navigate = useNavigate();
   const [clicked,setClicked] = useState('nextArrow');
   const [toWorkClick,setToWorkClick] = useState('toWorkArrow toWorkArrowHide');
+  const [DiskImageDisplayed,setDiskImageDisplayed] = useState('abourWork-image aboutWork-imageHide');
   const params = useParams();
   console.log(params)
 
   if(clicked === 'nextArrow nextArrowClicked' && params.inicio === 'inicio') {
     setClicked('nextArrow')
+    setToWorkClick('toWorkArrowHide')
+    setDiskImageDisplayed('aboutWork-imageHide')
   }
 
   if(!params.inicio && clicked === 'nextArrow') {  
     setClicked('nextArrow nextArrowClicked')
     setToWorkClick('toWorkArrow')
+    setDiskImageDisplayed('aboutWork-image')
+
   }
+
+  if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-image') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+
+  }
+
+  if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-imageHide') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+    setToWorkClick('toWorkArrow')
+
+  }
+
+
+  if(!params.inicio && where === 'work-areas' && toWorkClick=='toWorkArrow') {  
+
+    setDiskImageDisplayed('aboutWork-imageHide')
+    setToWorkClick('toWorkArrowHide');
+
+  }
+
 
   return (
     <div>
-      <div className={clicked}><button onClick={()=> {
+    <div className={clicked}><button onClick={()=> {
       
       if(clicked === 'nextArrow nextArrowClicked')
       {
         setClicked('nextArrow');
         setToWorkClick('toWorkArrowHide')
+        setDiskImageDisplayed('aboutWork-imageHide');
         
         if(!params.incio) {
-          navigate('/inicio')
+          if(toWorkClick == 'toWorkArrow' && DiskImageDisplayed == 'aboutWork-image aboutWork-image-rotate')
+          {
+            navigate('/aboutme')
+            setWhere('aboutme')
+          } else {
+            if(where==='work-areas') {
+              navigate('/mywork')
+            } else {
+              navigate('/inicio')
+            }
+            
+          }
           
         } else {
-          navigate(-1);
+            navigate(-1);
         }
+
       } else {
         setClicked('nextArrow nextArrowClicked')
         setToWorkClick('toWorkArrow');
+        setDiskImageDisplayed('aboutWork-image');
         navigate('/aboutme');
       }
       }}></button>
-      </div>
+    </div>
     <div className={toWorkClick}><button onClick={ ()=> {
-      navigate('/mywork');
+
+      if(where==='work') {
+        navigate('/mywork/areas')
+        setToWorkClick('toWorkArrowHide');
+        setDiskImageDisplayed('aboutWork-imageHide');
+        setClicked('nextArrow nextArrowClickedWorkAreas')
+      } else {
+        navigate('/mywork');
+        setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate');
+      }
+     
     }}></button>
     </div>
-
+    <div className={DiskImageDisplayed}><img src={require('../../../assets/images/sobremi-imagen.png')} /></div>
   </div>
   )
 }

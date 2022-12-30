@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Start from "./pages/Start"
@@ -36,14 +37,18 @@ import Contact from './pages/Contact/Contact';
 
 
 function App() {
+
+  const [where,setWhere] = useState('ninguno')
+
+
   return (
     <Router>
             <Routes>
-                <Route element={<Layout />}>
+                <Route element={<Layout where={where} setWhere={setWhere} />}>
                     <Route path=":inicio" element={<Start />} />
                     <Route path="/aboutme" element={<AboutMe />} />
-                    <Route path="/mywork" element={<MyWork />} />
-                    <Route path="/aboutme/areas" element={<WorkAreas />} />
+                    <Route path="/mywork" element={<MyWork where={where} setWhere={setWhere}/>} />
+                    <Route path="/mywork/areas" element={<WorkAreas where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/photo" element={<PhotoAreas />} />
                     <Route path="/mywork/areas/photo/product" element={<PhotoProducts />} />
                     <Route path="/mywork/areas/photo/product/jewelry" element={<ProductJewelry />} />

@@ -15,7 +15,7 @@
 
 .aboutme-text {
 
-    width: 50%;
+    width: 70%;
     margin: auto;
     font-family: 'KyivType Sans', sans-serif;
     font-weight: 400;
@@ -23,12 +23,22 @@
     text-align: center;
 }
 
-.aboutme-image {
-    
-    margin: auto;
-    bottom: 551px;
-    height: 549px;
-    width: 1046px;
-    background-image: url('../../assets/images/sobremi-imagen.png');
-    background-size: cover;
+@media (max-height: 1000px) {
+    .aboutme-text {
+        font-size: 28pt;
+    }
+}
+
+
+@media (max-width: 412px) {
+
+    .aboutme-title {
+
+        font-size: 60pt;
+
+    }
+
+    .aboutme-text {
+        font-size: 20pt;
+    }
 }
