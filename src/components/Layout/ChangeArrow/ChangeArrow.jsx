@@ -40,6 +40,18 @@ const ChangeArrow = (props) => {
 
   }
 
+  if(!params.inicio && where === 'aboutme' && DiskImageDisplayed === 'aboutWork-imageHide') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+    setToWorkClick('toWorkArrow')
+
+  }
+
+  if(!params.inicio && where === 'aboutme' && DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate') {  
+    setDiskImageDisplayed('aboutWork-image')
+    setToWorkClick('toWorkArrow')
+
+  }
+
 
   if(!params.inicio && where === 'work-areas' && toWorkClick === 'toWorkArrow') {  
 
@@ -52,6 +64,34 @@ const ChangeArrow = (props) => {
   {
     setClicked('nextArrow nextArrowClickedWorkAreas')
   }
+
+
+
+  if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  
+  if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where !== 'photo-areas' && clicked === 'nextArrow nextArrowClickedTop')
+  {
+  
+    setClicked('nextArrow nextArrowClickedWorkAreas');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
 
 
 
@@ -96,11 +136,18 @@ const ChangeArrow = (props) => {
           navigate('/mywork')
 
         } else {
-        setClicked('nextArrow nextArrowClicked')
+          if(where==='photo-areas') {
+          setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClicked')
+          navigate('/mywork/areas')
+          } else {
+            setClicked('nextArrow nextArrowClicked')
         setToWorkClick('toWorkArrow');
         setDiskImageDisplayed('aboutWork-image about-Work-image-rotateback')
         navigate('/aboutme');
         setWhere('aboutme')
+          }
 
         }
 
@@ -113,7 +160,7 @@ const ChangeArrow = (props) => {
         navigate('/mywork/areas')
         setToWorkClick('toWorkArrowHide');
         setDiskImageDisplayed('aboutWork-imageHide');
-        setClicked('nextArrow nextArrowClickedWorkAreas')
+        setClicked('nextArrow nextArrowClicked')
       } else {
         navigate('/mywork');
         setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate');

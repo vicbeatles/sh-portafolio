@@ -46,10 +46,10 @@ function App() {
             <Routes>
                 <Route element={<Layout where={where} setWhere={setWhere} />}>
                     <Route path=":inicio" element={<Start />} />
-                    <Route path="/aboutme" element={<AboutMe />} />
+                    <Route path="/aboutme" element={<AboutMe where={where} setWhere={setWhere} />} />
                     <Route path="/mywork" element={<MyWork where={where} setWhere={setWhere}/>} />
                     <Route path="/mywork/areas" element={<WorkAreas where={where} setWhere={setWhere} />} />
-                    <Route path="/mywork/areas/photo" element={<PhotoAreas />} />
+                    <Route path="/mywork/areas/photo" element={<PhotoAreas where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/photo/product" element={<PhotoProducts />} />
                     <Route path="/mywork/areas/photo/product/jewelry" element={<ProductJewelry />} />
                     <Route path="/mywork/areas/photo/product/boones" element={<ProductBoones />} />
