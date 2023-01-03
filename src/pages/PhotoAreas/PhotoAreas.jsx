@@ -4,7 +4,7 @@ import './PhotoAreas.css'
 
 const PhotoAreas = (props) => {
 
-  const {where, setWhere} = props;
+  const {setWhere} = props;
   const navigate = useNavigate();
   
   useEffect(()=>{setWhere('photo-areas')});
