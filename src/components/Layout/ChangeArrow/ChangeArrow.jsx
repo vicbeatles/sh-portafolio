@@ -154,6 +154,28 @@ const ChangeArrow = (props) => {
     setDiskImageDisplayed('aboutWork-imageHide')
   }
 
+  if(where === 'three-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'three-area' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+
+  }
+
+  if(where === 'three-area-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
 
  
 
@@ -236,7 +258,6 @@ const ChangeArrow = (props) => {
 
           } else if(where === 'design-area') {
             
-            console.log('porque no pasa design')
             setToWorkClick('toWorkArrowHide')
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedWorkAreas')
@@ -248,6 +269,20 @@ const ChangeArrow = (props) => {
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedTop')
           navigate('/mywork/areas/design')
+
+          } else if (where === 'three-area') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedWorkAreas')
+          navigate('/mywork/areas')
+
+          } else if (where === 'three-area-item') {
+
+            setToWorkClick('toWorkArrowHide')
+            setDiskImageDisplayed('aboutWork-imageHide');
+            setClicked('nextArrow nextArrowClickedTop')
+            navigate('/mywork/areas/threedim')
 
           }
           

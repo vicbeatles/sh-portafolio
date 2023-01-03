@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ThreeDimDices.css'
 
-const ThreeDimDices = () => {
+const ThreeDimDices = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('three-area-item')})
+
   return (
     <div class='dices-container'>
       <div class='dices-photo'></div>

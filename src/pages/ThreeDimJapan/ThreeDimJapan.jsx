@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ThreeDimJapan.css'
 
-const ThreeDimJapan = () => {
+const ThreeDimJapan = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('three-area-item')})
+  
   return (
     <div class='japan3d-container'>
       <div class='japan3d-photo'></div>
