@@ -4,7 +4,7 @@ import './WorkAreas.css'
 
 const WorkAreas = (props) => {
 
-        const {where,setWhere} = props;
+        const {setWhere} = props;
         
         useEffect(()=> {setWhere('work-areas');});
         
