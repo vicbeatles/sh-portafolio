@@ -83,6 +83,11 @@
     overflow: hidden;
 }
 
+.about-work-image-rotateback img {
+    transform: rotate(180deg);
+    transition: all 1s;
+}
+
 .aboutWork-imageHide {
     display: none;
 }
@@ -388,10 +393,10 @@
 
 .nextArrowClickedWorkAreas {
 
+    transform: rotate(180deg);
     position: absolute;
     top: 50%;
-    left: 50%;
-    
+    left: 50%;    
 
 
 }

@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './MyWork.css'
 
 const MyWork = (props) => {
 
   const {where,setWhere} = props;
 
-  setWhere('work');
+  useEffect(() => {
+    setWhere('work');
+  });
+
 
   return (
     <div>

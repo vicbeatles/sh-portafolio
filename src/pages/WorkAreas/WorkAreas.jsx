@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './WorkAreas.css'
 
 const WorkAreas = (props) => {
 
         const {where,setWhere} = props;
-        setWhere('work-areas');
+        
+        useEffect(()=> {setWhere('work-areas');});
+        
 
 
 
