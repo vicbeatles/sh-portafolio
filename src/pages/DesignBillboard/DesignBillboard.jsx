@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DesignBillboard.css'
 
-const DesignBillboard = () => {
+const DesignBillboard = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('design-area-item')})
+  
   return (
     <div class='billboard-container'>
         <div class='photo1-billboard'></div>

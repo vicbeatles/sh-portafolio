@@ -66,6 +66,12 @@ const ChangeArrow = (props) => {
     setClicked('nextArrow nextArrowClickedWorkAreas')
   }
 
+  
+  if(where === 'work-areas' && clicked === 'nextArrow nextArrowClickedTop ')
+  {
+    setClicked('nextArrow nextArrowClickedWorkAreas')
+  }
+
 
 
   if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClicked')
@@ -125,6 +131,31 @@ const ChangeArrow = (props) => {
     setToWorkClick('toWorkArrowHide');
     setDiskImageDisplayed('aboutWork-imageHide')
   }
+
+  if(where === 'design-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'design-area' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+  }
+
+  if(where === 'design-area-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+
+ 
 
 
   return (
@@ -191,7 +222,6 @@ const ChangeArrow = (props) => {
 
           } else if(where === 'photo-documental'){
 
-            console.log('que pasa')
             setToWorkClick('toWorkArrowHide')
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedTop')
@@ -203,6 +233,21 @@ const ChangeArrow = (props) => {
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedTop')
           navigate('/mywork/areas/photo/documental')
+
+          } else if(where === 'design-area') {
+            
+            console.log('porque no pasa design')
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedWorkAreas')
+          navigate('/mywork/areas')
+
+          } else if (where === 'design-area-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/design')
 
           }
           
