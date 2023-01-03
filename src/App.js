@@ -79,6 +79,7 @@ function App() {
                     <Route path="/mywork/areas/contact" element={<Contact />} />
                 </Route>
                 <Route path="*" element={<Navigate to="/inicio" replace />} />
+                <Route path="/mywork/areas/contact" element={<Contact />} />
             </Routes>
         </Router>
   );
