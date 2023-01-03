@@ -13,7 +13,7 @@ const AboutMe = () => {
         <p>Tengo 21 años. Mis hobbies son: escuchar música, pintar y tomar fotografía documental.</p>
         <p>Resido en el Estado de México actualmente.</p>
       </div>
-      <div class='aboutme-image'></div>
+      
     </div>
 
   )

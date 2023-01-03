@@ -1,50 +1,128 @@
-import React, { useState,useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { useState } from 'react'
+import { useNavigate, useParams } from "react-router-dom"; 
 import './ChangeArrow.css'
 
-const ChangeArrow = () => {
+const ChangeArrow = (props) => {
 
-    /* const [clicked, setClicked] = useState(false);
-    const clicker = () => {setClicked(!clicked)}
+  const {where, setWhere} = props;
+  console.log(where)
 
 
-    useEffect(()=>{
+  const navigate = useNavigate();
+  const [clicked,setClicked] = useState('nextArrow');
+  const [toWorkClick,setToWorkClick] = useState('toWorkArrow toWorkArrowHide');
+  const [DiskImageDisplayed,setDiskImageDisplayed] = useState('abourWork-image aboutWork-imageHide');
+  const params = useParams();
+  console.log(params)
+  console.log(clicked);
 
-        let classedArrow = document.getElementsByClassName('nextArrow')[0];
-        let classedBackground = document.getElementsByClassName('startpage')[0];
-        if(clicked) {
-    
-      
-          if(classedBackground.className != 'startpage startnone') {
-            classedBackground.className += ' startnone';
-          console.log(classedBackground.className)
-          }
-          
-    
-          if(classedArrow.className != 'nextArrow backArrow') {
-            classedArrow.className += ' backArrow';
-            console.log(classedArrow.className)
-          }
-        }
-        else {
-          
-          if (classedArrow.className == 'nextArrow backArrow') {
-            classedArrow.className = classedArrow.className.slice(0,9);
-            console.log(classedArrow.className);
-          }
-    
-          if (classedBackground.className == 'startpage startnone') {
-            classedBackground.className = classedBackground.className.slice(0,9);
-            console.log(classedBackground.className);
-          }
-    
-        } 
-        console.log(clicked)
-    },[clicked]);
- */
-    
+  if(clicked === 'nextArrow nextArrowClicked' && params.inicio === 'inicio') {
+    setClicked('nextArrow')
+    setToWorkClick('toWorkArrowHide')
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(!params.inicio && clicked === 'nextArrow') {  
+    setClicked('nextArrow nextArrowClicked')
+    setToWorkClick('toWorkArrow')
+    setDiskImageDisplayed('aboutWork-image')
+
+  }
+
+  if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-image') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+
+  }
+
+  if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-imageHide') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+    setToWorkClick('toWorkArrow')
+
+  }
+
+
+  if(!params.inicio && where === 'work-areas' && toWorkClick === 'toWorkArrow') {  
+
+    setDiskImageDisplayed('aboutWork-imageHide')
+    setToWorkClick('toWorkArrowHide');
+
+  }
+
+  if(where === 'work-areas' && clicked === 'nextArrow nextArrowClicked')
+  {
+    setClicked('nextArrow nextArrowClickedWorkAreas')
+  }
+
+
+
   return (
-    <div><div className='nextArrow'><Link to='/aboutme' relative="path">.</Link></div></div>
+    <div>
+
+      
+    <div className={clicked}><button onClick={()=> {
+      
+      if(clicked === 'nextArrow nextArrowClicked')
+      {
+        setClicked('nextArrow');
+        setToWorkClick('toWorkArrowHide')
+        setDiskImageDisplayed('aboutWork-imageHide');
+        
+        if(!params.incio) {
+          if(toWorkClick === 'toWorkArrow' && DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate')
+          {
+            navigate('/aboutme')
+            setWhere('aboutme')
+            
+          } else {
+            if(where==='work-areas') {
+              navigate('/mywork')
+            } else {
+              navigate('/inicio')
+            }
+            
+          }
+          
+        } else {
+            navigate(-1);
+        }
+
+      } else {
+        if(where === 'work-areas')
+        {
+          console.log('ahora si aqui')
+          setToWorkClick('toWorkArrow')
+          setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate');
+          setClicked('nextArrow nextArrowClicked ')
+          navigate('/mywork')
+
+        } else {
+        setClicked('nextArrow nextArrowClicked')
+        setToWorkClick('toWorkArrow');
+        setDiskImageDisplayed('aboutWork-image about-Work-image-rotateback')
+        navigate('/aboutme');
+        setWhere('aboutme')
+
+        }
+
+      }
+      }}></button>
+    </div>
+    <div className={toWorkClick}><button onClick={ ()=> {
+
+      if(where==='work') {
+        navigate('/mywork/areas')
+        setToWorkClick('toWorkArrowHide');
+        setDiskImageDisplayed('aboutWork-imageHide');
+        setClicked('nextArrow nextArrowClickedWorkAreas')
+      } else {
+        navigate('/mywork');
+        setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate');
+      }
+     
+    }}></button>
+    </div>
+    <div className={DiskImageDisplayed}><img src={require('../../../assets/images/sobremi-imagen.png')} alt='Animación' /></div>
+  </div>
   )
 }
 

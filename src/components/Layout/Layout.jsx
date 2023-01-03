@@ -2,10 +2,13 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import ChangeArrow from './ChangeArrow/ChangeArrow'
 
-const Layout = () => {
+const Layout = (props) => {
+
+  const {where,setWhere} = props;
+
   return (
     <div>
-        <ChangeArrow />
+        <ChangeArrow where={where} setWhere={setWhere} />
         <Outlet />
     </div>
   )
