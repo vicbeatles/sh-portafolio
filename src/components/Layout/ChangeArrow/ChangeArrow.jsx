@@ -37,6 +37,7 @@ const ChangeArrow = (props) => {
   if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-imageHide') {  
     setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
     setToWorkClick('toWorkArrow')
+    setClicked('nextArrow nextArrowClicked')
 
   }
 
