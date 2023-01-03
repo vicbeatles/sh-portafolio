@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductSoap.css'
 
-const ProductSoap = () => {
+const ProductSoap = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+
+
   return (
     <div class='soap-container'>
       <div class='photo1-soap'></div>

@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AboutMe.css'
 
-const AboutMe = () => {
+const AboutMe = (props) => {
 
+  const {setWhere} = props;
+ useEffect(()=>{setWhere('aboutme')})
   
   return (
 

@@ -37,6 +37,19 @@ const ChangeArrow = (props) => {
   if(!params.inicio && where === 'work' && DiskImageDisplayed === 'aboutWork-imageHide') {  
     setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
     setToWorkClick('toWorkArrow')
+    setClicked('nextArrow nextArrowClicked')
+
+  }
+
+  if(!params.inicio && where === 'aboutme' && DiskImageDisplayed === 'aboutWork-imageHide') {  
+    setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate')
+    setToWorkClick('toWorkArrow')
+
+  }
+
+  if(!params.inicio && where === 'aboutme' && DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate') {  
+    setDiskImageDisplayed('aboutWork-image')
+    setToWorkClick('toWorkArrow')
 
   }
 
@@ -53,6 +66,65 @@ const ChangeArrow = (props) => {
     setClicked('nextArrow nextArrowClickedWorkAreas')
   }
 
+
+
+  if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  
+  if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where !== 'photo-areas' && clicked === 'nextArrow nextArrowClickedTop')
+  {
+  
+    setClicked('nextArrow nextArrowClickedWorkAreas');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+
+  if(where === 'photo-product' && (clicked === 'nextArrow nextArrowClicked' || clicked === 'nextArrow nextArrowClickedWorkAreas'))
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-product-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-documental' && (clicked === 'nextArrow nextArrowClicked' || clicked === 'nextArrow nextArrowClickedWorkAreas'))
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-documental-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
 
 
   return (
@@ -95,16 +167,54 @@ const ChangeArrow = (props) => {
           setClicked('nextArrow nextArrowClicked ')
           navigate('/mywork')
 
-        } else {
-        setClicked('nextArrow nextArrowClicked')
+        } else if(where==='photo-areas') {
+          
+          setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClicked')
+          navigate('/mywork/areas')
+
+          } else if(where==='photo-product') {
+            
+          setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo')
+
+          } else if(where === 'photo-product-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo/product')
+
+
+          } else if(where === 'photo-documental'){
+
+            console.log('que pasa')
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo')
+
+          } else if (where === 'photo-documental-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo/documental')
+
+          }
+          
+          else {
+            setClicked('nextArrow nextArrowClicked')
         setToWorkClick('toWorkArrow');
         setDiskImageDisplayed('aboutWork-image about-Work-image-rotateback')
         navigate('/aboutme');
         setWhere('aboutme')
-
+          }
         }
 
-      }
       }}></button>
     </div>
     <div className={toWorkClick}><button onClick={ ()=> {
@@ -113,7 +223,7 @@ const ChangeArrow = (props) => {
         navigate('/mywork/areas')
         setToWorkClick('toWorkArrowHide');
         setDiskImageDisplayed('aboutWork-imageHide');
-        setClicked('nextArrow nextArrowClickedWorkAreas')
+        setClicked('nextArrow nextArrowClicked')
       } else {
         navigate('/mywork');
         setDiskImageDisplayed('aboutWork-image aboutWork-image-rotate');

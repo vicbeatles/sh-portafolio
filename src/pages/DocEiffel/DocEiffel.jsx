@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DocEiffel.css'
 
-const DocEiffel = () => {
+const DocEiffel = (props) => {
+
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('photo-documental-item')})
+
   return (
     <div class='eiffel-container'>
       <div class='eiffel-photo'></div>

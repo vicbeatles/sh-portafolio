@@ -19,6 +19,15 @@
     transition: top,left 1s;
 }
 
+.nextArrowClickedTop {
+
+    position: absolute;
+    top: 35px;
+    left: 47vw;
+    transform: rotate(180deg);
+    transition: top 1s;
+}
+
 
 
 .nextArrow a {

@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductFlowers.css'
 
-const ProductFlowers = () => {
+const ProductFlowers = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+  
   return (
     <div class='flowers-container'>
       <div class='photo1-flowers'></div>
