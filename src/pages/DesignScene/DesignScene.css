@@ -1,0 +1,56 @@
+.scene-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'desc none1 none2'
+    'photo1 photo2 photo3';
+    grid-gap: 40px;
+    align-items: flex-end;
+}
+
+.photo1-scene {
+
+    width: 378px;
+    height: 512px;
+    background-image: url('../../assets/images/diseño/desiertogif.gif');
+    background-size: cover;
+    grid-area: photo1;
+    border-radius: 72px;
+
+}
+
+.photo2-scene {
+
+    width: 690px;
+    height: 800px;
+    background-image: url('../../assets/images/diseño/bosquegif.gif');
+    background-size: cover;
+    grid-area: photo2;
+    border-radius: 72px;
+
+}
+
+.photo3-scene {
+
+    width: 300px;
+    height: 217px;
+    background-image: url('../../assets/images/diseño/playagif.gif');
+    background-size: cover;
+    grid-area: photo3;
+    border-radius: 72px;
+
+}
+
+.description-scene {
+
+    width: 343px;
+    height: 144px;
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'KyivType Sans';
+    font-size: 12pt;
+
+}

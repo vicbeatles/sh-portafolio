@@ -1,0 +1,39 @@
+.halloween-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.halloween-photo {
+
+    width: 630px;
+    height: 500px;
+    background-image: url('../../assets/images/threedim/HALLOWEEN.png');
+    background-size: cover;
+
+}
+
+.halloween-footer {
+
+    margin: auto;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    justify-content: center;
+
+}
+
+.halloween-desc {
+
+    margin: auto;
+    justify-content: center;
+   
+}
+
+.halloween-desc P {
+
+    margin: auto;
+}

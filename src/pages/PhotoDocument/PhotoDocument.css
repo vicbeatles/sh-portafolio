@@ -1,0 +1,59 @@
+.photodoc-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo1-photodoc {
+
+    width: 1177px;
+    height: 810px;
+    background-image: url('../../assets/images/fotografia/documental/paris.png');
+    background-size: cover;
+    margin: 40px;
+}
+
+.photo2-photodoc {
+
+    width: 1177px;
+    height: 850px;
+    background-image: url('../../assets/images/fotografia/documental/pedacito\ de\ felicidad.png');
+    background-size: cover;
+    margin: 40px;
+
+}
+
+.photo3-photodoc {
+
+    width: 1177px;
+    height: 880px;
+    background-image: url('../../assets/images/fotografia/documental/Captura\ de\ pantalla\ \(149\)\ 1.png');
+    background-size: cover;
+    margin: 40px;
+}
+
+.photo4-photodoc {
+
+    width: 1177px;
+    height: 900px;
+    background-image: url('../../assets/images/fotografia/documental/musica\ de\ ciegos.png');
+    background-size: cover;
+    margin: 40px;
+}
+
+.photo5-photodoc {
+
+    width: 1177px;
+    height: 890px;
+    background-image: url('../../assets/images/fotografia/documental/la\ mirada\ de\ la\ edad.png');
+    background-size: cover;
+    margin: 40px;
+}
+
+.photo6-photodoc {
+
+    width: 1177px;
+    height: 1000px;
+    background-image: url('../../assets/images/fotografia/documental/pricinero\ de\ tus\ pensamientos.png');
+    background-size: cover;
+    margin: 40px;
+}

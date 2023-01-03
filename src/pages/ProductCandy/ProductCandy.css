@@ -1,0 +1,61 @@
+.candy-container {
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 none1 photo2'
+    'photo3 none2 desc';
+}
+
+
+.photo1-candy {
+    width: 337px;
+    height: 263px;
+    background-image: url('../../assets/images/fotografia/producto/dulces.png');
+    background-size: cover;
+    grid-area: photo1;
+}
+
+.none1-candy {
+
+    grid-area: none1;
+
+}
+
+
+.photo2-candy {
+
+    width: 337px;
+    height: 263px;
+    background-image: url('../../assets/images/fotografia/producto/dulces\ 2.png');
+    background-size: cover;
+    grid-area: photo2;
+    box-shadow: 10px 10px 10px lightgrey;
+    border-radius: 72px;
+}
+
+.photo3-candy {
+    width: 651px;
+    height: 469px;
+    background-image: url('../../assets/images/fotografia/producto/dulces\ mockup.png');
+    background-size: cover;
+    grid-area: photo3;
+    border-radius: 72px;
+}
+
+.none2-candy {
+
+    grid-area: none2;
+}
+
+.description-candy {
+
+    width: 337px;
+    height: 223px;
+    grid-area: desc;
+    text-align: center;
+    font-family: 'KyivType Sans';
+
+}

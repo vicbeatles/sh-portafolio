@@ -1,0 +1,211 @@
+.main-contact-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: 
+    url('../../assets/images/contactos/circulorojo.png'),
+    url('../../assets/images/contactos/circulorojob.png'), 
+    url('../../assets/images/contactos/circuloverde.png'),
+    url('../../assets/images/contactos/circuloverdeb.png');
+    background-size:
+    270px 200px,
+    270px 200px,
+    220px 200px,
+    220px 200px;
+    background-repeat: 
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+    background-position: 
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'shname title vcname'
+    'shmail shbe vcmail'
+    'tshmail shbe tvcmail'
+    'shwa shbe vcwa'
+    'tshwa shbe tvcwa';
+    align-items: center;
+    justify-items: center;
+
+}
+
+.contact-container div {
+
+    justify-items:flex-end;
+    text-align: center;
+    font-family: 'KyivType Sans';
+
+
+}
+
+.sh-name {
+
+    width: 250px;
+    height: auto;
+    text-align: center;
+    font-weight: 800;
+    grid-area: shname;
+
+}
+
+.contact-title {
+
+    width: 250px;
+    height: auto;
+    text-align: center;
+    grid-area: title;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+.vc-name {
+
+    width: 250px;
+    height: auto;
+    text-align: center;
+    font-weight: 800;
+    grid-area: vcname;
+
+}
+
+.qr-mail-sh {
+
+    width: 200px;
+    height: 200px;
+    grid-area: shmail;
+    background-image: url('../../assets/images/contactos/qrmailsh.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.qr-be-sh-bg {
+    grid-area: shbe;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    background-image: url('../../assets/images/contactos/circuloazul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-be-sh {
+
+    width: 50%;
+    height: 50%;
+    background-image: url('../../assets/images/contactos/qrbe.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.qr-mail-vc {
+
+    width: 200px;
+    height: 200px;
+    grid-area: vcmail;
+    background-image: url('../../assets/images/contactos/qrmailvc.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.text-mail-sh {
+
+    grid-area: tshmail;
+}
+
+.text-mail-vc {
+    
+    grid-area: tvcmail;
+}
+
+.qr-wa-sh {
+
+    width: 200px;
+    height: 200px;
+    grid-area: shwa;
+    background-image: url('../../assets/images/contactos/qrwash.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.qr-wa-vc {
+
+    width: 200px;
+    height: 200px;
+    grid-area: vcwa;
+    background-image: url('../../assets/images/contactos/qrwavc.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.text-wa-sh {
+    grid-area: tshwa;
+}
+
+.text-wa-vc {
+    grid-area: tvcwa;
+}
+
+.contact-buttons {
+
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:20px ;
+    
+}
+
+.contact-buttons button {
+
+    width: 191px;
+    height: 78px;
+    border-radius: 143px;
+    background-color: #FFFFFF;
+    border: 3px solid #1B07F5;
+    font-weight: 800;
+ 
+}
+
+
+.contact-buttons button:hover {
+
+    background: linear-gradient(0deg, rgba(34,200,253,1) 0%, rgba(27,7,245,1) 100%);
+    border: none;
+ 
+}
+
+.contact-buttons button ~ button {
+
+    border: 3px solid #E81111;
+ 
+}
+
+
+.contact-buttons button ~ button:hover {
+
+    border: 10px solid blue;
+    background: linear-gradient(0deg, rgba(232,17,17,1) 0%, rgba(237,7,245,1) 100%);
+    transition: border 5s ease-in;
+}
+

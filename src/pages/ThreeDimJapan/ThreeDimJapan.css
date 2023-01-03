@@ -1,0 +1,39 @@
+.japan3d-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.japan3d-photo {
+
+    width: 630px;
+    height: 500px;
+    background-image: url('../../assets/images/threedim/JAPAN.png');
+    background-size: cover;
+
+}
+
+.japan3d-footer {
+
+    margin: auto;
+    font-family: 'KyivType Sans';
+    font-weight: 800;
+    font-size: 20pt;
+    justify-content: center;
+
+}
+
+.japan3d-desc {
+
+    margin: auto;
+    justify-content: center;
+   
+}
+
+.japan3d-desc P {
+
+    margin: auto;
+}

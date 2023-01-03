@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+@font-face {
+    font-family: KyivType Sans;
+    src: url('../../assets/fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Regular-.otf');
+  }
+
+.aboutme-title {
+
+    margin: auto;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 128pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aboutme-text {
+
+    width: 70%;
+    margin: auto;
+    font-family: 'KyivType Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+}
+
+@media (max-height: 1000px) {
+    .aboutme-text {
+        font-size: 28pt;
+    }
+}
+
+
+@media (max-width: 412px) {
+
+    .aboutme-title {
+
+        font-size: 60pt;
+
+    }
+
+    .aboutme-text {
+        font-size: 20pt;
+    }
+}

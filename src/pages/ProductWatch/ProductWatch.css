@@ -1,0 +1,50 @@
+.watch-container {
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 photo2'
+    'photo3 desc';
+}
+
+.photo1-watch {
+
+    width: 569px;
+    height: 390px;
+    background-image: url('../../assets/images/fotografia/producto/reloj.png');
+    background-size: cover;
+    grid-area: photo1;
+
+}
+
+.photo2-watch {
+
+    width: 463px;
+    height: 301px;
+    background-image: url('../../assets/images/fotografia/producto/reloj\ 2.png');
+    background-size: cover;
+    grid-area: photo2;
+
+}
+
+.photo3-watch {
+
+    width: 705px;
+    height: 533px;
+    background-image: url('../../assets/images/fotografia/producto/TIMEX.png');
+    background-size: cover;
+    border-radius: 72px;
+    grid-area: photo3;
+
+}
+
+.description-watch {
+
+    width: 559px;
+    height: 390px;
+    font-family: 'KyivType Sans';
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+}

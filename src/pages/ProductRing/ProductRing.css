@@ -1,0 +1,47 @@
+.ring-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'none1 photo1'
+    'photo2 desc';
+    grid-gap: 40px;
+}
+
+.none1-ring {
+
+    width: 658px;
+    height: 432px;
+    grid-area: none1;
+
+}
+
+.photo1-ring {
+
+    width: 658px;
+    height: 432px;
+    grid-area: photo1;
+    background-image: url('../../assets/images/fotografia/producto/anillo.png');
+    background-size: cover;
+}
+
+.photo2-ring {
+
+    width: 658px;
+    height: 432px;
+    grid-area: photo2;
+    background-image: url('../../assets/images/fotografia/producto/anillo\ mockup.png');
+    background-size: cover;
+    border-radius: 72px;
+
+}
+
+.description-ring {
+
+    width: 658px;
+    height: 432px;
+    grid-area: desc;
+    align-self: center;
+    text-align: center;
+    font-family: 'KyivType Sans';
+}

@@ -1,0 +1,128 @@
+.productphotos-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "photo1 photo2"
+      "photo3 photo4"
+      "photo5 photo6"
+      "photo7 photo7"
+      "photo8 photo8"
+      ;
+}
+
+.product-photo1 {
+    width: 632px;
+    height: 520px;
+    background-image: url('../../assets/images/fotografia/producto/joya\ 1.png');
+    background-size: cover;
+    grid-area: photo1;
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+
+.product-photo2 {
+    width: 530px;
+    height: 380px;
+    background-image: url('../../assets/images/fotografia/producto/bones.png');
+    background-size: cover;
+    grid-area: photo2;
+    margin-left:20px;
+    margin-bottom: 20px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 100px;
+    justify-self: center;
+    align-self: center;
+}
+
+.product-photo3 {
+    width: 632px;
+    height: 520px;
+    background-image: url('../../assets/images/fotografia/producto/dulces.png');
+    background-size: cover;
+    grid-area: photo3;
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+
+
+.product-photo4 {
+    width: 530px;
+    height: 400px;
+    background-image: url('../../assets/images/fotografia/producto/reloj.png');
+    background-size: cover;
+    background-color: green;
+    grid-area: photo4;
+    margin-left:20px;
+    margin-bottom: 20px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 72px;
+    justify-self: center;
+    align-self: center;
+}
+
+.product-photo5 {
+    width: 530px;
+    height: 400px;
+    background-image: url('../../assets/images/fotografia/producto/cvaly.png');
+    background-size: cover;
+    background-color: black;
+    grid-area: photo5;
+    margin-left:20px;
+    margin-bottom: 20px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 100px;
+    justify-self: center;
+    align-self: center;
+}
+
+.product-photo6 {
+    width: 530px;
+    height: 400px;
+    background-image: url('../../assets/images/fotografia/producto/shasa.png');
+    background-size: cover;
+    background-color: orange;
+    grid-area: photo6;
+    margin-left:20px;
+    margin-bottom: 20px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 100px;
+    justify-self: center;
+    align-self: center;
+}
+
+.product-photo7 {
+    width: 974px;
+    height: 735px;
+    background-image: url('../../assets/images/fotografia/producto/bolsa.png');
+    background-size: cover;
+    grid-area: photo7;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 150px;
+    justify-self: center;
+    align-self: center;
+}
+
+.product-photo8 {
+    width: 974px;
+    height: 735px;
+    background-image: url('../../assets/images/fotografia/producto/anillo.png');
+    background-size: cover;
+    grid-area: photo8;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow:22px 21px 42px 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 150px;
+    justify-self: center;
+    align-self: center;
+}

@@ -1,0 +1,33 @@
+.threedim-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo1-threedim {
+
+    margin-bottom: 100px;
+    width: 597px;
+    height: 470px;
+    background-image: url('../../assets/images/threedim/JAPAN.png');
+    background-size: cover;
+}
+
+
+.photo2-threedim {
+
+    margin-bottom: 100px;
+    width: 597px;
+    height: 470px;
+    background-image: url('../../assets/images/threedim/HALLOWEEN.png');
+    background-size: cover;
+}
+
+
+.photo3-threedim {
+
+    margin-bottom: 100px;
+    width: 597px;
+    height: 470px;
+    background-image: url('../../assets/images/threedim/DADOS.png');
+    background-size: cover;
+}

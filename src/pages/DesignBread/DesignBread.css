@@ -1,0 +1,46 @@
+.bread-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'photo1 none1'
+    'desc photo2';
+    grid-gap: 20px;
+}
+
+.photo1-bread {
+
+    width: 577px;
+    height: 470px;
+    background-image: url('../../assets/images/diseño/elglobo.png');
+    background-size: cover;
+    grid-area: photo1;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+}
+
+.photo2-bread {
+
+    width: 764px;
+    height: 540px;
+    background-image: url('../../assets/images/diseño/el\ globo\ mockup.png');
+    background-size: cover;
+    grid-area: photo2;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+}
+
+.description-bread {
+
+    width: 343px;
+    height: 144px;
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'KyivType Sans';
+    font-size: 12pt;
+
+}

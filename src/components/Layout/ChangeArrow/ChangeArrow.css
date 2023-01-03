@@ -1,0 +1,403 @@
+
+.nextArrow {
+    background-image: url('../../../assets/images/nextarrow.png');
+    background-size: auto;
+    width: 60.02px;
+    height: 60.02px;
+    position: absolute;
+    top: 80vh;
+    left: 65vw;
+    transition: top,left 1s;
+}
+
+
+.nextArrowClicked {
+
+    top: 800px;
+    left: 35vw;
+    transform: rotate(180deg);
+    transition: top,left 1s;
+}
+
+
+
+.nextArrow a {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+}
+
+.toWorkArrow {
+
+    background-image: url('../../../assets/images/nextarrow.png');
+    background-size: auto;
+    width: 60.02px;
+    height: 60.02px;
+    position: absolute;
+    top: 800px;
+    left: 60vw;
+    transition: top,left 1s;
+}
+
+
+
+.toWorkArrowHide {
+    display: none;
+}
+
+
+.aboutWork-image {
+
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 100%;
+    height: 509px;
+    width: 1046px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.aboutWork-image img {
+
+    width: 100%;
+    height: 200%;
+ 
+}
+
+
+
+
+.aboutWork-image-rotate img {
+    
+    position: relative;
+    transform-origin:center;
+    transform: rotate(180deg);
+    bottom: -30px;
+    left: -80px;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.about-work-image-rotateback img {
+    transform: rotate(-180deg);
+    transition: all 1s;
+}
+
+.aboutWork-imageHide {
+    display: none;
+}
+
+
+
+@media (max-width: 1600px)
+{
+    .nextArrowClicked {
+
+        left: 30vw;
+
+    } 
+
+}
+
+
+
+@media (max-width: 1136px)
+{
+    .nextArrowClicked {
+
+        top: 850px;
+        left: 30vw;
+        transform: rotate(180deg);
+        transition: top,left 1s;
+    } 
+
+    .toWorkArrow {
+        top: 850px;
+        left: 60vw;
+        transition: top,left 1s;
+    }
+
+    .aboutWork-image {
+        height: 400px;
+        width: 746px;
+    }
+}
+
+
+@media (min-width: 1137px) and (max-width: 1898px) 
+{
+    .nextArrowClicked {
+
+        top: 800px;
+        left: 35vw;
+        transform: rotate(180deg);
+        transition: top,left 1s;
+    } 
+
+    .toWorkArrow {
+        top: 800px;
+        left: 55vw;
+        transition: top 1s;
+    }
+
+    .aboutWork-image {
+        height: 450px;
+        width: 846px;
+    }
+
+}
+
+@media (min-width: 1898px)
+{
+    .toWorkArrow {
+
+        left: 53vw;
+
+    } 
+
+    .nextArrow {
+
+        left: 42vw;
+
+    } 
+
+
+}
+
+@media (max-height: 800px)
+{
+    .nextArrowClicked {
+        top: 660px;
+    }
+    
+    .toWorkArrow {
+
+        top: 660px;
+
+    } 
+
+    .aboutWork-image {
+        width: 746px;
+        height: 400px;
+    }
+
+
+}
+
+
+
+@media (min-height: 800px)
+{
+    .nextArrowClicked {
+        top: 1100px;
+    }
+    
+    .toWorkArrow {
+
+        top: 1100px;
+
+    } 
+
+}
+
+@media (min-height: 801px) and (max-height:820px)
+{
+    .nextArrowClicked {
+        top: 710px;
+    }
+    
+    .toWorkArrow {
+
+        top: 710px;
+
+    } 
+
+}
+
+@media (min-height: 821px) and (max-height:850px)
+{
+    .nextArrowClicked {
+        top: 720px;
+    }
+    
+    .toWorkArrow {
+
+        top: 720px;
+
+    } 
+
+}
+
+@media (min-height: 851px) and (max-height:920px)
+{
+    .nextArrowClicked {
+        top: 810px;
+    }
+    
+    .toWorkArrow {
+
+        top: 810px;
+
+    } 
+
+}
+
+@media (min-height: 921px) and (max-height:970px)
+{
+    .nextArrowClicked {
+        top: 870px;
+    }
+    
+    .toWorkArrow {
+
+        top: 870px;
+        left: 55vw;
+
+    } 
+
+}
+
+@media (min-height: 971px) and (max-height:1080px)
+{
+    .nextArrowClicked {
+        top: 975px;
+    }
+    
+    .toWorkArrow {
+
+        top: 975px;
+        left: 55vw;
+
+    } 
+
+}
+
+
+
+@media (max-height: 600px) and (max-width: 800px)
+{
+    .nextArrowClicked {
+        top: 420px;
+    }
+    
+    .toWorkArrow {
+
+        top: 420px;
+
+    } 
+
+
+}
+
+
+
+
+@media (max-height: 1368px) and (max-width: 912px) and (min-height: 601px) and (min-width: 801px)
+{
+    .nextArrowClicked {
+        top: 1100px;
+    }
+    
+    .toWorkArrow {
+
+        top: 1100px;
+
+    } 
+
+}
+
+
+
+
+
+@media (max-height: 915px) and (max-width: 412px)
+{
+    .nextArrowClicked {
+        top: 750px;
+    }
+    
+    .toWorkArrow {
+
+        top: 750px;
+
+    } 
+
+    .aboutWork-image {
+        
+        top: 80%;
+        height: 250px;
+        width: 400px;
+    }
+
+    .aboutWork-image-rotate img {
+    
+        bottom: -20px;
+        left: -30px;
+
+    }
+}
+
+@media (max-height: 412px) and (max-width: 915px)
+{
+    .nextArrowClicked {
+        top: 900px;
+    }
+    
+    .toWorkArrow {
+
+        top: 900px;
+
+    } 
+
+    .aboutWork-image {
+        
+        top: 250%;
+        height: 400px;
+        width: 736px;
+    }
+
+    .aboutWork-image-rotate img {
+    
+        bottom: -10px;
+        left: -30px;
+
+    }
+}
+
+
+
+
+
+
+.nextArrow button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+
+}
+
+.toWorkArrow button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+
+}
+
+
+.nextArrowClickedWorkAreas {
+
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+
+
+}
+
