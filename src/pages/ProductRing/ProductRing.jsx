@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductRing.css'
 
-const ProductRing = () => {
+const ProductRing = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+  
   return (
     <div class='ring-container'>
       <div class='photo1-ring'></div>

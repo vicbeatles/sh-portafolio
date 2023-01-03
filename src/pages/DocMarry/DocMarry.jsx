@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DocMarry.css'
 
-const DocMarry = () => {
+const DocMarry = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('photo-documental-item')})
+
+
   return (
     <div class='marry-container'>
       <div class='marry-photo'></div>

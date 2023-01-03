@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DocPrison.css'
 
-const DocPrison = () => {
+const DocPrison = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('photo-documental-item')})
+  
   return (
     <div class='prison-container'>
       <div class='prison-photo'></div>

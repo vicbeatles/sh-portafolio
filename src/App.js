@@ -50,36 +50,35 @@ function App() {
                     <Route path="/mywork" element={<MyWork where={where} setWhere={setWhere}/>} />
                     <Route path="/mywork/areas" element={<WorkAreas where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/photo" element={<PhotoAreas where={where} setWhere={setWhere} />} />
-                    <Route path="/mywork/areas/photo/product" element={<PhotoProducts />} />
-                    <Route path="/mywork/areas/photo/product/jewelry" element={<ProductJewelry />} />
-                    <Route path="/mywork/areas/photo/product/boones" element={<ProductBoones />} />
-                    <Route path="/mywork/areas/photo/product/candy" element={<ProductCandy />} />
-                    <Route path="/mywork/areas/photo/product/watch" element={<ProductWatch />} />
-                    <Route path="/mywork/areas/photo/product/soap" element={<ProductSoap />} />
-                    <Route path="/mywork/areas/photo/product/brand" element={<ProductBrand />} />
-                    <Route path="/mywork/areas/photo/product/flowers" element={<ProductFlowers />} />
-                    <Route path="/mywork/areas/photo/product/ring" element={<ProductRing />} />
-                    <Route path="/mywork/areas/photo/documental" element={<PhotoDocument />} />
-                    <Route path="/mywork/areas/photo/documental/eiffel" element={<DocEiffel />} />
-                    <Route path="/mywork/areas/photo/documental/marry" element={<DocMarry />} />
-                    <Route path="/mywork/areas/photo/documental/musician" element={<DocMusician />} />
-                    <Route path="/mywork/areas/photo/documental/music" element={<DocMusic />} />
-                    <Route path="/mywork/areas/photo/documental/age" element={<DocAge />} />
-                    <Route path="/mywork/areas/photo/documental/prison" element={<DocPrison />} />
-                    <Route path="/mywork/areas/design" element={<Design />} />
-                    <Route path="/mywork/areas/design/billboard" element={<DesignBillboard />} />
-                    <Route path="/mywork/areas/design/cat-food" element={<DesignCatFood />} />
-                    <Route path="/mywork/areas/design/scene" element={<DesignScene />} />
-                    <Route path="/mywork/areas/design/bread" element={<DesignBread />} />
-                    <Route path="/mywork/areas/ux" element={<Ux />} />
-                    <Route path="/mywork/areas/threedim" element={<ThreeDim />} />
-                    <Route path="/mywork/areas/threedim/japan" element={<ThreeDimJapan />} />
-                    <Route path="/mywork/areas/threedim/halloween" element={<ThreeDimHalloween />} />
-                    <Route path="/mywork/areas/threedim/dices" element={<ThreeDimDices />} />
-                    <Route path="/mywork/areas/contact" element={<Contact />} />
+                    <Route path="/mywork/areas/photo/product" element={<PhotoProducts where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/jewelry" element={<ProductJewelry where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/boones" element={<ProductBoones where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/candy" element={<ProductCandy where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/watch" element={<ProductWatch where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/soap" element={<ProductSoap where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/brand" element={<ProductBrand where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/flowers" element={<ProductFlowers where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/product/ring" element={<ProductRing where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental" element={<PhotoDocument where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/eiffel" element={<DocEiffel where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/marry" element={<DocMarry where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/musician" element={<DocMusician where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/music" element={<DocMusic where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/age" element={<DocAge where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/photo/documental/prison" element={<DocPrison where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design" element={<Design where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/billboard" element={<DesignBillboard where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/cat-food" element={<DesignCatFood where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/scene" element={<DesignScene where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/bread" element={<DesignBread where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/ux" element={<Ux where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/threedim" element={<ThreeDim where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/threedim/japan" element={<ThreeDimJapan where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/threedim/halloween" element={<ThreeDimHalloween where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/threedim/dices" element={<ThreeDimDices where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/contact" element={<Contact where={where} setWhere={setWhere} />} />
                 </Route>
                 <Route path="*" element={<Navigate to="/inicio" replace />} />
-                <Route path="/mywork/areas/contact" element={<Contact />} />
             </Routes>
         </Router>
   );

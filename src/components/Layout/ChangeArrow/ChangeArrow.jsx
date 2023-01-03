@@ -94,6 +94,37 @@ const ChangeArrow = (props) => {
   }
 
 
+  if(where === 'photo-product' && (clicked === 'nextArrow nextArrowClicked' || clicked === 'nextArrow nextArrowClickedWorkAreas'))
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-product-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-documental' && (clicked === 'nextArrow nextArrowClicked' || clicked === 'nextArrow nextArrowClickedWorkAreas'))
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'photo-documental-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
 
 
   return (
@@ -136,23 +167,54 @@ const ChangeArrow = (props) => {
           setClicked('nextArrow nextArrowClicked ')
           navigate('/mywork')
 
-        } else {
-          if(where==='photo-areas') {
+        } else if(where==='photo-areas') {
+          
           setToWorkClick('toWorkArrowHide')
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClicked')
           navigate('/mywork/areas')
-          } else {
+
+          } else if(where==='photo-product') {
+            
+          setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo')
+
+          } else if(where === 'photo-product-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo/product')
+
+
+          } else if(where === 'photo-documental'){
+
+            console.log('que pasa')
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo')
+
+          } else if (where === 'photo-documental-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/photo/documental')
+
+          }
+          
+          else {
             setClicked('nextArrow nextArrowClicked')
         setToWorkClick('toWorkArrow');
         setDiskImageDisplayed('aboutWork-image about-Work-image-rotateback')
         navigate('/aboutme');
         setWhere('aboutme')
           }
-
         }
 
-      }
       }}></button>
     </div>
     <div className={toWorkClick}><button onClick={ ()=> {

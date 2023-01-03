@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DocMusician.css'
 
-const DocMusician = () => {
+const DocMusician = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('photo-documental-item')})
+
   return (
     <div class='musician-container'>
       <div class='musician-photo'></div>

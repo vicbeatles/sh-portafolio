@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from "react-router-dom"; 
 import './PhotoDocument.css'
 
 
-const PhotoDocument = () => {
+const PhotoDocument = (props) => {
 
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('photo-documental')})
   
 const navigate = useNavigate();
 
