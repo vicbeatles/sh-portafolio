@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DesignBread.css'
 
-const DesignBread = () => {
+const DesignBread = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('design-area-item')})
+  
   return (
     <div class='bread-container'>
         <div class='photo1-bread'></div>

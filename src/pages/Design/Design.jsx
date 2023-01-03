@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from "react-router-dom"; 
 import './Design.css'
 
-const Design = () => {
+const Design = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('design-area')})
 
   const navigate = useNavigate();
   

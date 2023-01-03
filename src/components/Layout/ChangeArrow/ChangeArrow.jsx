@@ -66,6 +66,15 @@ const ChangeArrow = (props) => {
     setClicked('nextArrow nextArrowClickedWorkAreas')
   }
 
+  
+  if(where === 'work-areas' && clicked === 'nextArrow nextArrowClickedTop ')
+  {
+    setClicked('nextArrow nextArrowClickedWorkAreas')
+  }
+
+  if(where === 'work-areas' && clicked === 'nextArrowHide') {
+    setClicked('nextArrow nextArrowClickedWorkAreas')
+  }
 
 
   if(where === 'photo-areas' && clicked === 'nextArrow nextArrowClicked')
@@ -126,6 +135,86 @@ const ChangeArrow = (props) => {
     setDiskImageDisplayed('aboutWork-imageHide')
   }
 
+  if(where === 'design-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'design-area' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+  }
+
+  if(where === 'design-area-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'three-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'three-area' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+
+  }
+
+  if(where === 'three-area-item' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'ux-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'ux-area' && clicked === 'nextArrow nextArrowClickedWorkAreas')
+  {
+  
+    setClicked('nextArrow nextArrowClickedTop ');
+
+  }
+
+  if(where === 'contact-area' && clicked === 'nextArrow nextArrowClicked')
+  {
+    setClicked('nextArrowHide');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+  }
+
+  if(where === 'contact-area' && clicked === 'nextArrow nextArrowClickedWorkAreas') {
+
+    setClicked('nextArrowHide');
+    setToWorkClick('toWorkArrowHide');
+    setDiskImageDisplayed('aboutWork-imageHide')
+
+  }
+
+  if(params.inicio === 'inicio' && clicked === 'nextArrowHide') {
+    setClicked('nextArrow')
+  }
+
+  
 
   return (
     <div>
@@ -191,7 +280,6 @@ const ChangeArrow = (props) => {
 
           } else if(where === 'photo-documental'){
 
-            console.log('que pasa')
             setToWorkClick('toWorkArrowHide')
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedTop')
@@ -203,6 +291,41 @@ const ChangeArrow = (props) => {
           setDiskImageDisplayed('aboutWork-imageHide');
           setClicked('nextArrow nextArrowClickedTop')
           navigate('/mywork/areas/photo/documental')
+
+          } else if(where === 'design-area') {
+            
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedWorkAreas')
+          navigate('/mywork/areas')
+
+          } else if (where === 'design-area-item') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedTop')
+          navigate('/mywork/areas/design')
+
+          } else if (where === 'three-area') {
+
+            setToWorkClick('toWorkArrowHide')
+          setDiskImageDisplayed('aboutWork-imageHide');
+          setClicked('nextArrow nextArrowClickedWorkAreas')
+          navigate('/mywork/areas')
+
+          } else if (where === 'three-area-item') {
+
+            setToWorkClick('toWorkArrowHide')
+            setDiskImageDisplayed('aboutWork-imageHide');
+            setClicked('nextArrow nextArrowClickedTop')
+            navigate('/mywork/areas/threedim')
+
+          } else if (where === 'ux-area') {
+
+            setToWorkClick('toWorkArrowHide')
+            setDiskImageDisplayed('aboutWork-imageHide');
+            setClicked('nextArrow nextArrowClickedWorkAreas')
+            navigate('/mywork/areas')
 
           }
           
