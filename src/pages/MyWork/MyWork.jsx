@@ -3,7 +3,7 @@ import './MyWork.css'
 
 const MyWork = (props) => {
 
-  const {where,setWhere} = props;
+  const {setWhere} = props;
 
   useEffect(() => {
     setWhere('work');
