@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ThreeDimHalloween.css'
 
-const ThreeDimHalloween = () => {
+const ThreeDimHalloween = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('three-area-item')})
+  
   return (
     <div class='halloween-container'>
       <div class='halloween-photo'></div>

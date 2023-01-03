@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DesignScene.css'
 
-const DesignScene = () => {
+const DesignScene = (props) => {
+  
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('design-area-item')})
+
   return (
     <div class='scene-container'>
         <div class='photo1-scene'></div>

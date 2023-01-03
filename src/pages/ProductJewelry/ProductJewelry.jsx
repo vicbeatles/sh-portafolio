@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductJewelry.css'
 
-const ProductJewelry = () => {
+const ProductJewelry = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+
   return (
     <div class='jewelry-container'>
       <div class='photo1-jewelry'></div>

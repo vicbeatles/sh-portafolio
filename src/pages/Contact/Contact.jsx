@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useNavigate } from "react-router-dom"; 
 import './Contact.css'
 
-const Contact = () => {
+const Contact = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('contact-area')})
+
+  const navigate = useNavigate();
+
   return (
     <div class='main-contact-container'>
     <div class='contact-container'>
@@ -18,7 +25,10 @@ const Contact = () => {
       <div class='text-wa-sh'>5554040911</div>
       <div class='text-wa-vc'>5591071020</div>
     </div>
-    <div class='contact-buttons'><button>Ir a inicio</button><button>Ir a botones</button></div>
+    <div class='contact-buttons'><button onClick={()=> {
+      navigate('/inicio')
+  }}>Ir a inicio</button>
+    <button onClick={()=> {navigate('/mywork/areas')}}>Ir a botones</button></div>
     </div>
   )
 }

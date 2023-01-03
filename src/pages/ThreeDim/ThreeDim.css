@@ -1,6 +1,8 @@
 .threedim-container {
+
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .photo1-threedim {
@@ -10,6 +12,18 @@
     height: 470px;
     background-image: url('../../assets/images/threedim/JAPAN.png');
     background-size: cover;
+}
+
+.photo1-threedim button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-radius: 40px;
+    border: none;
+}
+
+.photo1-threedim button:hover {
+    cursor: pointer;
 }
 
 
@@ -22,6 +36,19 @@
     background-size: cover;
 }
 
+.photo2-threedim button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-radius: 40px;
+    border: none;
+}
+
+.photo2-threedim button:hover {
+    cursor: pointer;
+}
+
+
 
 .photo3-threedim {
 
@@ -30,4 +57,16 @@
     height: 470px;
     background-image: url('../../assets/images/threedim/DADOS.png');
     background-size: cover;
+}
+
+.photo3-threedim button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-radius: 40px;
+    border: none;
+}
+
+.photo3-threedim button:hover {
+    cursor: pointer;
 }

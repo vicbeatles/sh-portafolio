@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Ux.css'
 
-const Ux = () => {
+const Ux = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('ux-area')})
+
   return (
     <div class='ux-container'>
         <div class='photo1-ux'></div>

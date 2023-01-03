@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductWatch.css'
 
-const ProductWatch = () => {
+const ProductWatch = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+  
   return (
     <div class='watch-container'>
       <div class='photo1-watch'></div>

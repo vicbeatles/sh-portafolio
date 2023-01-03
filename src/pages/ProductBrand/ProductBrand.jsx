@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ProductBrand.css'
 
-const ProductBrand = () => {
+const ProductBrand = (props) => {
+
+
+  const {setWhere} = props;
+  useEffect(()=>{setWhere('photo-product-item')})
+
   return (
     <div class='brand-container'>
       <div class='none1-brand'></div>

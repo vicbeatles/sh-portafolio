@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './DesignCatFood.css'
 
-const DesignCatFood = () => {
+const DesignCatFood = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('design-area-item')})
+
+  
   return (
     <div class='catfood-container'>
         <div class='photo1-catfood'></div>

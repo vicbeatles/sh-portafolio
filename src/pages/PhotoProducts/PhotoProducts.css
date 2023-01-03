@@ -1,5 +1,6 @@
 .productphotos-container {
     display: grid;
+    margin-top: 80px;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -21,6 +22,22 @@
     margin-bottom: 20px;
 }
 
+.product-photo1 button {
+    
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: 10%;
+    left: 6%;
+    background: none;
+    border-radius: 92px;
+    border: none;
+}
+
+.product-photo1 button:hover {
+    cursor: pointer;
+}
+
 .product-photo2 {
     width: 530px;
     height: 380px;
@@ -36,6 +53,19 @@
     align-self: center;
 }
 
+.product-photo2 button {
+    
+    width: 530px;
+    height: 380px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+}
+
+.product-photo2 button:hover {
+    cursor: pointer;
+}
+
 .product-photo3 {
     width: 632px;
     height: 520px;
@@ -44,6 +74,22 @@
     grid-area: photo3;
     margin-left:20px;
     margin-bottom: 20px;
+}
+
+.product-photo3 button {
+    
+    position: relative;
+    top: 5%;
+    width: 560px;
+    height: 450px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+
+}
+
+.product-photo3 button:hover {
+    cursor: pointer;
 }
 
 
@@ -63,6 +109,19 @@
     align-self: center;
 }
 
+.product-photo4 button {
+    
+    width: 530px;
+    height: 400px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+}
+
+.product-photo4 button:hover {
+    cursor: pointer;
+}
+
 .product-photo5 {
     width: 530px;
     height: 400px;
@@ -77,6 +136,19 @@
     border-radius: 100px;
     justify-self: center;
     align-self: center;
+}
+
+.product-photo5 button {
+    
+    width: 530px;
+    height: 400px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+}
+
+.product-photo5 button:hover {
+    cursor: pointer;
 }
 
 .product-photo6 {
@@ -95,6 +167,20 @@
     align-self: center;
 }
 
+.product-photo6 button {
+    
+    width: 530px;
+    height: 400px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+   
+}
+
+.product-photo6 button:hover {
+    cursor: pointer;
+}
+
 .product-photo7 {
     width: 974px;
     height: 735px;
@@ -111,6 +197,21 @@
     align-self: center;
 }
 
+.product-photo7 button {
+    
+    width: 970px;
+    height: 730px;
+    background: none;
+    border-radius: 92px;
+    border: none;
+   
+}
+
+.product-photo7 button:hover {
+    cursor: pointer;
+}
+
+
 .product-photo8 {
     width: 974px;
     height: 735px;
@@ -125,4 +226,18 @@
     border-radius: 150px;
     justify-self: center;
     align-self: center;
+}
+
+.product-photo8 button {
+    
+    width: 970px;
+    height: 730px;
+    background: none;
+    border-radius: 150px;
+
+   
+}
+
+.product-photo8 button:hover {
+    cursor: pointer;
 }

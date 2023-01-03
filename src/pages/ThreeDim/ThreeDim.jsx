@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useNavigate } from "react-router-dom"; 
 import './ThreeDim.css'
 
-const ThreeDim = () => {
+const ThreeDim = (props) => {
+
+  const {setWhere} = props;
+  useEffect(()=> {setWhere('three-area')})
+  
+  const navigate = useNavigate();
+
   return (
     <div class='threedim-container'>
-        <div class='photo1-threedim'></div>
-        <div class='photo2-threedim'></div>
-        <div class='photo3-threedim'></div>
+        <div class='photo1-threedim'><button onClick={()=> {navigate('/mywork/areas/threedim/japan')}}></button></div>
+        <div class='photo2-threedim'><button onClick={()=> {navigate('/mywork/areas/threedim/halloween')}}></button></div>
+        <div class='photo3-threedim'><button onClick={()=> {navigate('/mywork/areas/threedim/dices')}}></button></div>
     </div>
   )
 }
