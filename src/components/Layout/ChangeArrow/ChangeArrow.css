@@ -1,5 +1,6 @@
 
 .nextArrow {
+
     background-image: url('../../../assets/images/nextarrow.png');
     background-size: auto;
     width: 60.02px;
@@ -7,7 +8,8 @@
     position: absolute;
     top: 80vh;
     left: 65vw;
-    transition: top,left 1s;
+    transition: all 1s;
+
 }
 
 
@@ -15,8 +17,9 @@
 
     top: 800px;
     left: 35vw;
+    filter: invert(100%);
     transform: rotate(180deg);
-    transition: top,left 1s;
+    transition: all 1s;
 }
 
 .nextArrowClickedTop {
@@ -47,7 +50,8 @@
     position: absolute;
     top: 800px;
     left: 60vw;
-    transition: top,left 1s;
+    transition: all 1s;
+
 }
 
 
@@ -73,6 +77,7 @@
 
 .aboutWork-image img {
 
+    transition: all 1s;
     width: 100%;
     height: 200%;
  
@@ -122,13 +127,13 @@
         top: 850px;
         left: 30vw;
         transform: rotate(180deg);
-        transition: top,left 1s;
+        transition: all 1s;
     } 
 
     .toWorkArrow {
         top: 850px;
         left: 60vw;
-        transition: top,left 1s;
+        transition: all 1s;
     }
 
     .aboutWork-image {
@@ -145,7 +150,7 @@
         top: 800px;
         left: 35vw;
         transform: rotate(180deg);
-        transition: top,left 1s;
+        transition: all 1s;
     } 
 
     .toWorkArrow {
@@ -166,12 +171,14 @@
     .toWorkArrow {
 
         left: 53vw;
+        transition: all 1s;
 
     } 
 
     .nextArrow {
 
         left: 42vw;
+        transition: all 1s;
 
     } 
 
@@ -181,12 +188,14 @@
 @media (max-height: 800px)
 {
     .nextArrowClicked {
-        top: 660px;
+        top: 700px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
-        top: 660px;
+        top: 700px;
+        transition: all 1s;
 
     } 
 
@@ -200,15 +209,17 @@
 
 
 
-@media (min-height: 800px)
+@media (min-height: 801px)
 {
     .nextArrowClicked {
         top: 1100px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 1100px;
+        transition: all 1s;
 
     } 
 
@@ -218,12 +229,13 @@
 {
     .nextArrowClicked {
         top: 710px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 710px;
-
+        transition: all 1s;
     } 
 
 }
@@ -232,11 +244,13 @@
 {
     .nextArrowClicked {
         top: 720px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 720px;
+        transition: all 1s;
 
     } 
 
@@ -246,11 +260,13 @@
 {
     .nextArrowClicked {
         top: 810px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 810px;
+        transition: all 1s;
 
     } 
 
@@ -260,12 +276,14 @@
 {
     .nextArrowClicked {
         top: 870px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 870px;
         left: 55vw;
+        transition: all 1s;
 
     } 
 
@@ -275,12 +293,14 @@
 {
     .nextArrowClicked {
         top: 975px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 975px;
         left: 55vw;
+        transition: all 1s;
 
     } 
 
@@ -292,11 +312,13 @@
 {
     .nextArrowClicked {
         top: 420px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 420px;
+        transition: all 1s;
 
     } 
 
@@ -310,11 +332,15 @@
 {
     .nextArrowClicked {
         top: 1100px;
+        transition: all 1s;
+
     }
     
     .toWorkArrow {
 
         top: 1100px;
+        transition: all 1s;
+    
 
     } 
 
@@ -328,11 +354,14 @@
 {
     .nextArrowClicked {
         top: 750px;
+        transition: all 1s;
+
     }
     
     .toWorkArrow {
 
         top: 750px;
+        transition: all 1s;
 
     } 
 
@@ -355,11 +384,13 @@
 {
     .nextArrowClicked {
         top: 900px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 900px;
+        transition: all 1s;
 
     } 
 
@@ -378,6 +409,21 @@
     }
 }
 
+@media (width: 1368px) and (height:912px)
+{
+    .nextArrowClicked {
+        top: 850px;
+        transition: all 1s;
+    }
+    
+    .toWorkArrow {
+
+        top: 850px;
+        transition: all 1s;
+
+    } 
+
+}
 
 
 
@@ -397,6 +443,7 @@
     border: none;
     background: none;
 
+
 }
 
 
@@ -405,8 +452,14 @@
     transform: rotate(180deg);
     position: absolute;
     top: 50%;
-    left: 50%;    
-
+    left: 50%;
+    transition: all 1s;    
 
 }
 
+.nextArrowUpDown {
+
+    position: absolute;
+    top: 900px;
+    transition: top 1s;
+}

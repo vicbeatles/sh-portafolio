@@ -220,7 +220,7 @@ const ChangeArrow = (props) => {
     <div>
 
       
-    <div className={clicked}><button onClick={()=> {
+    <div className={`${clicked} ${DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate' ? 'nextArrowUpDown' : '' }`}><button onClick={()=> {
       
       if(clicked === 'nextArrow nextArrowClicked')
       {
@@ -340,7 +340,7 @@ const ChangeArrow = (props) => {
 
       }}></button>
     </div>
-    <div className={toWorkClick}><button onClick={ ()=> {
+    <div className={`${toWorkClick} ${DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate' ? 'nextArrowUpDown' : '' }`}><button onClick={ ()=> {
 
       if(where==='work') {
         navigate('/mywork/areas')
