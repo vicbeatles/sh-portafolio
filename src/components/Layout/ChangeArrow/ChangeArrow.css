@@ -8,7 +8,7 @@
     position: absolute;
     top: 80vh;
     left: 65vw;
-    transition: top,left 1s;
+    transition: all 1s;
 
 }
 
@@ -19,7 +19,7 @@
     left: 35vw;
     filter: invert(100%);
     transform: rotate(180deg);
-    transition: top,left 1s;
+    transition: all 1s;
 }
 
 .nextArrowClickedTop {
@@ -50,7 +50,7 @@
     position: absolute;
     top: 800px;
     left: 60vw;
-    transition: top,left 1s;
+    transition: all 1s;
 
 }
 
@@ -127,13 +127,13 @@
         top: 850px;
         left: 30vw;
         transform: rotate(180deg);
-        transition: top,left 1s;
+        transition: all 1s;
     } 
 
     .toWorkArrow {
         top: 850px;
         left: 60vw;
-        transition: top,left 1s;
+        transition: all 1s;
     }
 
     .aboutWork-image {
@@ -150,7 +150,7 @@
         top: 800px;
         left: 35vw;
         transform: rotate(180deg);
-        transition: top,left 1s;
+        transition: all 1s;
     } 
 
     .toWorkArrow {
@@ -171,12 +171,14 @@
     .toWorkArrow {
 
         left: 53vw;
+        transition: all 1s;
 
     } 
 
     .nextArrow {
 
         left: 42vw;
+        transition: all 1s;
 
     } 
 
@@ -187,11 +189,13 @@
 {
     .nextArrowClicked {
         top: 700px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 700px;
+        transition: all 1s;
 
     } 
 
@@ -209,11 +213,13 @@
 {
     .nextArrowClicked {
         top: 1100px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 1100px;
+        transition: all 1s;
 
     } 
 
@@ -223,12 +229,13 @@
 {
     .nextArrowClicked {
         top: 710px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 710px;
-
+        transition: all 1s;
     } 
 
 }
@@ -237,11 +244,13 @@
 {
     .nextArrowClicked {
         top: 720px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 720px;
+        transition: all 1s;
 
     } 
 
@@ -251,11 +260,13 @@
 {
     .nextArrowClicked {
         top: 810px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 810px;
+        transition: all 1s;
 
     } 
 
@@ -265,12 +276,14 @@
 {
     .nextArrowClicked {
         top: 870px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 870px;
         left: 55vw;
+        transition: all 1s;
 
     } 
 
@@ -280,12 +293,14 @@
 {
     .nextArrowClicked {
         top: 975px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 975px;
         left: 55vw;
+        transition: all 1s;
 
     } 
 
@@ -297,11 +312,13 @@
 {
     .nextArrowClicked {
         top: 420px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 420px;
+        transition: all 1s;
 
     } 
 
@@ -315,11 +332,15 @@
 {
     .nextArrowClicked {
         top: 1100px;
+        transition: all 1s;
+
     }
     
     .toWorkArrow {
 
         top: 1100px;
+        transition: all 1s;
+    
 
     } 
 
@@ -333,11 +354,14 @@
 {
     .nextArrowClicked {
         top: 750px;
+        transition: all 1s;
+
     }
     
     .toWorkArrow {
 
         top: 750px;
+        transition: all 1s;
 
     } 
 
@@ -360,11 +384,13 @@
 {
     .nextArrowClicked {
         top: 900px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 900px;
+        transition: all 1s;
 
     } 
 
@@ -387,11 +413,13 @@
 {
     .nextArrowClicked {
         top: 850px;
+        transition: all 1s;
     }
     
     .toWorkArrow {
 
         top: 850px;
+        transition: all 1s;
 
     } 
 
@@ -414,6 +442,7 @@
     height: 100%;
     border: none;
     background: none;
+
 
 }
 
