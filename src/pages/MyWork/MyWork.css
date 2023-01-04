@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
 @font-face {
     font-family: KyivType Sans;
     src: url('../../assets/fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Regular-.otf');
-  }
+
+}
+
+.mywork-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .mywork-title {
 
@@ -26,7 +36,7 @@
 }
 
 
-@media (max-width: 960px) and (max-height: 1000px) {
+/* @media (max-width: 960px) and (max-height: 1000px) {
 
     .mywork-title {
 
@@ -74,5 +84,37 @@
         font-size: 12pt;
     }
 }
+ */
+
+
+
+ @media (max-width: 640px){
+
+    .mywork-title {
+
+        font-size: 30pt;
+
+    }
+
+    .mywork-text {
+        font-size: 12pt;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width: 1368px){
+
+    .mywork-title {
+
+        font-size: 80pt;
+
+    }
+
+    .mywork-text {
+        font-size: 24pt;
+    }
+}
+
+
 
 

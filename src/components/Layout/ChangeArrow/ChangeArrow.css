@@ -378,6 +378,19 @@
     }
 }
 
+@media (width: 1368px) and (height:912px)
+{
+    .nextArrowClicked {
+        top: 850px;
+    }
+    
+    .toWorkArrow {
+
+        top: 850px;
+
+    } 
+
+}
 
 
 

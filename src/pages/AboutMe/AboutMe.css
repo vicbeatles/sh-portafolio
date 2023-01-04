@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-@media (max-height: 1000px) {
+/* @media (max-height: 1000px) {
     .aboutme-text {
         font-size: 28pt;
     }
@@ -40,5 +40,34 @@
 
     .aboutme-text {
         font-size: 20pt;
+    }
+}
+*/
+
+
+@media (max-width: 640px){
+
+    .aboutme-title {
+
+        font-size: 30pt;
+
+    }
+
+    .aboutme-text {
+        font-size: 12pt;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width: 1368px){
+
+    .aboutme-title {
+
+        font-size: 70pt;
+
+    }
+
+    .aboutme-text {
+        font-size: 28pt;
     }
 }

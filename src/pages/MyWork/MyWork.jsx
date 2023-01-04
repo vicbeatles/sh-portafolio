@@ -11,7 +11,7 @@ const MyWork = (props) => {
 
 
   return (
-    <div>
+    <div className='mywork-container'>
       <div class='mywork-title'>MI TRABAJO</div>
       <div class='mywork-text'>
         <p>Mi trabajo utiliza colores muy vivos así como el color negro. Mi paleta de colores
