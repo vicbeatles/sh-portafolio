@@ -188,13 +188,13 @@
 @media (max-height: 800px)
 {
     .nextArrowClicked {
-        top: 700px;
+        top: 650px;
         transition: all 1s;
     }
     
     .toWorkArrow {
 
-        top: 700px;
+        top: 650px;
         transition: all 1s;
 
     } 
@@ -412,13 +412,13 @@
 @media (width: 1368px) and (height:912px)
 {
     .nextArrowClicked {
-        top: 850px;
+        top: 830px;
         transition: all 1s;
     }
     
     .toWorkArrow {
 
-        top: 850px;
+        top: 830px;
         transition: all 1s;
 
     } 
@@ -460,6 +460,6 @@
 .nextArrowUpDown {
 
     position: absolute;
-    top: 900px;
+    top: 850px;
     transition: top 1s;
 }
