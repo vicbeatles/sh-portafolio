@@ -409,7 +409,7 @@
     }
 }
 
-@media (width: 1368px) and (height:912px)
+@media all and (width: 1368px) and (height:912px)
 {
     .nextArrowClicked {
         top: 830px;
@@ -423,6 +423,7 @@
 
     } 
 
+    
 }
 
 
@@ -467,15 +468,15 @@
 }
 
 
-@media (width: 1368px) and (height:912px)
+@media screen and (width: 1368px) and (height:912px)
 {
-
     .nextArrowUpDown {
 
         position: absolute;
-        top: 950px;
+        top: 920px;
         transition: top 1s;
     }
-
+    
+    
 }
 
