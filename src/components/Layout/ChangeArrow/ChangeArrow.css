@@ -468,12 +468,12 @@
 }
 
 
-@media screen and (width: 1368px) and (height:912px)
+@media (min-width: 1318px) and (min-height:648px)
 {
     .nextArrowUpDown {
 
         position: absolute;
-        top: 920px;
+        top: 950px;
         transition: top 1s;
     }
     
