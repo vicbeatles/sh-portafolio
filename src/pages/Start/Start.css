@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
 .main {
 
     width: 100%;
@@ -9,11 +11,67 @@
     width: 100vw;
     height:100vh;
     background-image: url('../../assets/images/startpage.png');
-    background-repeat:round;
-    background-size: auto;
+    background-repeat: round;
+    background-size: cover;
+}
+
+.designerName {
+    display: none;
 }
 
 .startnone {
     background: none;
 }
 
+
+
+@media (max-width: 360px) and (max-height: 680px) {
+
+    .startpage {
+
+        width: 100vw;
+        height:100vh;
+        background-image: url('../../assets/images/startpage360x640.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position-x: -80px;
+    }
+
+    .designerName {
+
+        display: block;
+        position: absolute;
+        left: 45px;
+        top: 363px;
+        width: 282px;
+        height: 84px;
+        left: 45px;
+        top: 363px;
+        background-color: #000000;
+        box-shadow: 0px 32px 60px rgba(0, 0, 0, 0.25);
+        border-radius: 62px;
+        color: #FFFCFC;
+
+    }
+    .designerName span {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 282px;
+        height: 84px;
+        font-family: 'Jockey One', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFCFC;
+
+    }
+
+    .startnone {
+        background: none;
+    }
+
+}
