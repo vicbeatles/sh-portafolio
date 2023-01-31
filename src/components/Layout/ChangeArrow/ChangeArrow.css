@@ -119,6 +119,7 @@
     bottom: 100%;
     border: none;
     background: none;
+    padding: 0;
 
 }
 
@@ -138,7 +139,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transition: all 1s;    
+    transition: all 1s;
+    filter: invert(100%);    
 
 }
 
@@ -167,13 +169,26 @@
         transform: rotate(180deg);
         transition: all 1s;
         position: absolute;
-        width: 65px;
-        height: 57px;
+        width: 60.02px;
+        height: 60.02px;
         left: 98px;
         top: 430px;
         background: #000000;
         border: 1px solid #000000;
         border-radius: 19px;
+    }
+
+    .nextArrowClickedWorkAreas {
+
+        width: 60.02px;
+    height: 60.02px;
+        left: 173px;
+        top: 16px;
+        filter: none;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 19px;
+
     }
     
 
@@ -189,8 +204,8 @@
     .toWorkArrow {
 
         position: absolute;
-        width: 65px;
-        height: 57px;
+        width: 60.02px;
+        height: 60.02px;
         left: 183px;
         top: 430px;
         border: 1px solid #000000;
@@ -206,5 +221,7 @@
         transition: all 1s;
         overflow: hidden;
     }
+
+    
 
 }
