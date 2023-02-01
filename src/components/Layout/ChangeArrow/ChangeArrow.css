@@ -181,7 +181,7 @@
     .nextArrowClickedWorkAreas {
 
         width: 60.02px;
-    height: 60.02px;
+        height: 60.02px;
         left: 173px;
         top: 16px;
         filter: none;
@@ -220,6 +220,19 @@
         left: -30px;
         transition: all 1s;
         overflow: hidden;
+    }
+
+    .nextArrowClickedTop {
+
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 19px;
+        
     }
 
     

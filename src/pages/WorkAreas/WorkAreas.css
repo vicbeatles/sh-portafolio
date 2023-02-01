@@ -317,11 +317,16 @@ body {
         position: absolute;
         width: 88px;
         height: 92px;
-        left: 125px;
+        left: -100px;
         top: 184px;
         background: #484444;
         border-radius: 72px;
     }
+
+    .design-area-t {
+      left: 124px;
+      transition: left 1s;
+  }
 
     .design-area svg path {
         stroke-width: 14;
@@ -338,11 +343,16 @@ body {
         position: absolute;
         width: 89px;
         height: 92px;
-        left: 116px;
+        right: -116px;
         top: 301px;
         background: #484444;
         border-radius: 72px;
     }
+
+    .three-area-t {
+      right: 136px;
+      transition: right 1s;
+  }
 
     .three-area svg {
         width: 75%;
@@ -359,11 +369,16 @@ body {
         position: absolute;
         width: 89px;
         height: 92px;
-        left: 114px;
+        left: -114px;
         top: 418px;  
         background: #484444;
         border-radius: 72px;
     }
+
+    .ux-area-t {
+      left: 114px;
+      transition: left 1s;
+  }
 
     .ux-area svg {
         width: 75%;
@@ -380,10 +395,15 @@ body {
         position: absolute;
         width: 95px;
         height: 100px;
-        left: 117px;
+        right: -117px;
         top: 543px;
         background: #238313;
     }
+
+    .contact-area-t {
+      right: 140px;
+      transition: right 1s;
+  }
 
     .contact-area button {
         font-weight: 700;
