@@ -16,7 +16,6 @@ const ProductRing = (props) => {
       <div class='photo1-ring'></div>
       <div class='none1-ring'></div>
       <div class='photo2-ring'></div>
-      <div class='none2-ring'></div>
       <div class='description-ring'>
         <h1 class='product-desc-title'>Anillo de calavera</h1>
         <p>En este caso se representó un pequeño anillo masculino en forma de calavera, se jugó con la
