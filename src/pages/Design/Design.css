@@ -121,3 +121,116 @@
 .photo4-design button:hover {
     cursor: pointer;
 }
+
+@media (max-width: 360px) and (max-height: 640px) {
+ 
+    .design-container {
+
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 700px;
+
+    }
+
+    .design-container-t {
+
+        top: 0px;
+        transition: top 1s;
+
+    }
+    
+    .photo1-design {
+    
+        position: absolute;
+        width: 114px;
+        height: 122px;
+        left: 125px;
+        top: 84px;
+        border-radius: 59px;
+        
+    }
+    
+    .photo1-design button {
+
+        border-radius: 59px;
+
+    }
+    
+    .photo2-design {
+    
+        position: absolute;
+        width: 102px;
+        height: 128px;
+        left: 123px;
+        top: 227px;        
+        border-radius: 55.5px;
+    }
+    
+    .photo2-design button {
+
+        border-radius: 55.5px;
+
+    }
+    
+    .photo2-design button:hover {
+        cursor: pointer;
+    }
+    
+    
+    .photo3-design {
+    
+        position: absolute;
+        width: 122px;
+        height: 132px;
+        left: 108px;
+        top: 369px;
+        border: 1px solid #000000;
+        border-radius: 246px;
+        
+    }
+    
+    .photo3-design button {
+
+        border-radius: 246px;
+
+    
+    }
+    
+    
+    .photo3-design img {
+    
+        width: 55px;
+        height: 85px;
+        
+    }
+    
+    .photo3-design img ~ img {
+    
+        width: 30px;
+        height: 45px;
+        position: relative;
+        top: 15px;
+
+    }
+    
+    
+    .photo4-design {
+    
+        position: absolute;
+        width: 129px;
+        height: 127px;
+        left: 99px;
+        top: 523px;
+        border-radius: 184px;
+        background-position: center;
+    }
+    
+    .photo4-design button {
+ 
+        border-radius: 184px;
+    
+    }
+    
+}

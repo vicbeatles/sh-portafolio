@@ -56,3 +56,68 @@
     font-size: 12pt;
 
 }
+
+@media (max-width: 360px) and (max-height: 640px) {
+
+    .scene-container {
+
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: -600px;
+
+    }
+
+    .scene-container-t {
+
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .photo1-scene {
+    
+        position: absolute;
+        width: 144px;
+        height: 136px;
+        left: 125px;
+        top: 89px;
+        border-radius: 144px;
+        background-position: center;
+    
+    }
+    
+    .photo2-scene {
+    
+        position: absolute;
+        width: 192px;
+        height: 189px;
+        left: -5px;
+        top: 229px;
+        border-radius: 229px;
+        background-position: center;
+    
+    }
+    
+    .photo3-scene {
+    
+        position: absolute;
+        width: 175px;
+        height: 218px;
+        left: 117px;
+        top: 438px;
+        border-radius: 87.5px;
+        background-position: center;
+    
+    }
+    
+    .description-scene {
+    
+        position: absolute;
+        width: 156px;
+        height: 48px;
+        left: 190px;
+        top: 296px;
+        font-size: 10px;
+    
+    }
+}
