@@ -11,6 +11,7 @@ const Contact = (props) => {
 
   return (
     <div class='main-contact-container'>
+    <div class='contact-backArrow'><button onClick={()=>{navigate('/mywork/areas')}}></button></div>
     <div class='contact-container'>
       <div class='sh-name'>Samantha Hernandez Soto</div>
       <div class='sh-title'>Diseñadora, fotógrafa y UX</div>
