@@ -1,4 +1,6 @@
 .ring-container {
+
+    width:100%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -45,3 +47,68 @@
     text-align: center;
     font-family: 'KyivType Sans';
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .ring-container {
+
+        display: block;
+        width: 360px;
+        position: fixed;
+        left: 700px;
+
+    }
+
+    .ring-container-t {
+
+        left: 0px;
+        transition: left 1s;
+
+    }
+    
+    .none1-ring {
+    
+        display: none;
+    
+    }
+    
+    .photo1-ring {
+    
+        position: absolute;
+        width: 260px;
+        height: 199px;
+        left: 25px;
+        top: 77px;
+        border-radius: 99.5px;
+    }
+    
+    .photo2-ring {
+    
+        position: absolute;
+        width: 247px;
+        height: 179px;
+        left: 38px;
+        top: 432px;
+        border-radius: 61px;
+    
+    }
+    
+    .description-ring {
+    
+        position: absolute;
+        width: 229px;
+        height: 84px;
+        left: 47px;
+        top: 264px;
+    }
+
+    .description-ring h1 {
+        font-size: 20px;
+    }
+    
+    .description-ring p {
+        font-size: 10px;
+    }
+
+}
+

@@ -45,3 +45,67 @@
     font-size: 12pt;
 
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .bread-container {
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: 600px;
+        z-index: -1;
+        
+    }
+
+    .bread-container-t {
+
+        left: 0px;
+        transition: left 1s;
+    }
+
+    
+    .photo1-bread {
+    
+        position: absolute;
+        width: 231px;
+        height: 206px;
+        left: 53px;
+        top: 94px;
+        border-radius: 79px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+    
+    }
+    
+    .photo2-bread {
+    
+        position: absolute;
+        width: 304px;
+        height: 172px;
+        left: 0px;
+        top: 438px;
+        border-radius: 67px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+    
+    }
+    
+
+    .description-bread h1 {
+
+        position: absolute;
+        width: 128px;
+        height: 33px;
+        left: 109px;
+        top: 310px;  
+        font-size: 24px;
+    }
+
+    .description-bread p {
+
+        position: absolute;
+        width: 218px;
+        height: 42px;
+        left: 63px;
+        top: 353px;
+        font-size: 10px;
+    }
+}

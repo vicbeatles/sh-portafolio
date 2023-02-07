@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from "react-router-dom"; 
 import './PhotoDocument.css'
 
@@ -6,12 +6,18 @@ import './PhotoDocument.css'
 const PhotoDocument = (props) => {
 
   const {setWhere} = props;
-  useEffect(()=> {setWhere('photo-documental')})
+  const [transition, setTransition] = useState(false)
+
+  useEffect(()=> {
+    setWhere('photo-documental')
+    setTimeout(()=>{setTransition(true)}, 100)
+  
+  })
   
 const navigate = useNavigate();
 
   return (
-    <div class='photodoc-container'>
+    <div className={!transition ? 'photodoc-container' : 'photodoc-container photodoc-container-t'}>
       <div class='photo1-photodoc'><button onClick={()=> {navigate('/mywork/areas/photo/documental/eiffel')}}></button></div>
       <div class='photo2-photodoc'><button onClick={()=> {navigate('/mywork/areas/photo/documental/marry')}}></button></div>
       <div class='photo3-photodoc'><button onClick={()=> {navigate('/mywork/areas/photo/documental/musician')}}></button></div>

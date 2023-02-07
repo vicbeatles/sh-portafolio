@@ -1,13 +1,18 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './ProductWatch.css'
 
 const ProductWatch = (props) => {
 
   const {setWhere} = props;
-  useEffect(()=>{setWhere('photo-product-item')})
+  const [transition, setTransition]=useState(false)
+
+  useEffect(()=>{
+    setWhere('photo-product-item')
+    setTimeout(()=>{setTransition(true)},100)
+  })
   
   return (
-    <div class='watch-container'>
+    <div className={!transition ? 'watch-container' : 'watch-container watch-container-t'}>
       <div class='photo1-watch'></div>
       <div class='none1-watch'></div>
       <div class='photo2-watch'></div>

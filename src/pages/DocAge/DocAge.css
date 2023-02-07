@@ -34,3 +34,54 @@
     justify-content: center;
    
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .age-container {
+
+        margin: auto;
+        position: absolute;
+        left: -600px;
+    }
+
+    .age-container-t {
+        
+        left: 0px;
+        transition: left 1s;
+    
+    }
+    
+    .age-photo {
+    
+        margin: auto;
+        position: absolute;
+        width: 312px;
+        height: 270px;
+        left: 24px;
+        top: 144px;
+        
+    }
+    
+    .age-footer {
+    
+        margin: auto;
+        position: absolute;
+        width: 245px;
+        height: 28px;
+        left: 71px;
+        top: 428px;
+        font-size: 20px;
+    
+    }
+    
+    .age-desc {
+
+        position: absolute;
+        width: 193px;
+        height: 28px;
+        left: 101px;
+        top: 485px;
+        font-size: 12px;
+
+    }
+}

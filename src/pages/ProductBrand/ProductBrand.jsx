@@ -1,14 +1,19 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './ProductBrand.css'
 
 const ProductBrand = (props) => {
 
 
   const {setWhere} = props;
-  useEffect(()=>{setWhere('photo-product-item')})
+  const [transition, setTransition]=useState(false)
+
+  useEffect(()=>{
+    setWhere('photo-product-item')
+    setTimeout(()=> {setTransition(true)},100)
+  })
 
   return (
-    <div class='brand-container'>
+    <div className={!transition ? 'brand-container' : 'brand-container brand-container-t'}>
       <div class='none1-brand'></div>
       <div class='photo1-brand'></div>
       <div class='photo2-brand'></div>

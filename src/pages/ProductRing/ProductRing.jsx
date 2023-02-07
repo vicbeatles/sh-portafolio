@@ -1,17 +1,21 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './ProductRing.css'
 
 const ProductRing = (props) => {
 
   const {setWhere} = props;
-  useEffect(()=>{setWhere('photo-product-item')})
+  const [transition, setTransition] = useState(false)
+
+  useEffect(()=>{
+    setWhere('photo-product-item')
+    setTimeout(()=> {setTransition(true)}, 100)
+  })
   
   return (
-    <div class='ring-container'>
+    <div className={!transition ? 'ring-container' : 'ring-container ring-container-t'}>
       <div class='photo1-ring'></div>
       <div class='none1-ring'></div>
       <div class='photo2-ring'></div>
-      <div class='none2-ring'></div>
       <div class='description-ring'>
         <h1 class='product-desc-title'>Anillo de calavera</h1>
         <p>En este caso se representó un pequeño anillo masculino en forma de calavera, se jugó con la
