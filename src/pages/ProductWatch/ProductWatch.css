@@ -48,8 +48,7 @@
     text-align: center;
     align-self: center;
 }
-
-@media (max-width: 360px) and (max-height: 640px) {
+@media ((max-width: 360px) and (max-height: 640px)) or ((max-width: 375px) and (max-height: 667px)) {
 
     .watch-container {
 
@@ -117,3 +116,4 @@
     }
     
 }
+
