@@ -175,7 +175,7 @@
         position: absolute;
         width: 60.02px;
         height: 60.02px;
-        left: 98px;
+        left: 30vw;
         top: 430px;
         background: #000000;
         border: 1px solid #000000;
@@ -201,7 +201,7 @@
         position: absolute;
         width: 330px;
         height: 170px;
-        left: 32.44px;
+        left: 8vw;
         top: 80vh;
     }
 
@@ -210,7 +210,7 @@
         position: absolute;
         width: 60.02px;
         height: 60.02px;
-        left: 183px;
+        left: 55vw;
         top: 430px;
         border: 1px solid #000000;
         border-radius: 19px;
