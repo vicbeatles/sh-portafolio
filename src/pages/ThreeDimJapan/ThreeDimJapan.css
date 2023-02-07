@@ -39,7 +39,7 @@
     margin: auto;
 }
 
-@media ((max-width: 360px) and (max-height: 640px)) or ((max-width: 375px) and (max-height: 667px)) or ((max-width: 360px) and (max-height: 720px)) {
+@media (min-width:320px) and (max-width: 428px) {
 
     .japan3d-container {
 
