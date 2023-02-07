@@ -240,7 +240,7 @@
 .product-photo8 button:hover {
     cursor: pointer;
 }
-@media ((max-width: 360px) and (max-height: 640px)) or ((max-width: 375px) and (max-height: 667px)) {
+@media ((max-width: 360px) and (max-height: 640px)) or ((max-width: 375px) and (max-height: 667px)) or ((max-width: 360px) and (max-height: 720px)){
 
     .productphotos-container {
 
