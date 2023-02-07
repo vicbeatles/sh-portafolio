@@ -1,13 +1,18 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './DesignScene.css'
 
 const DesignScene = (props) => {
   
   const {setWhere} = props;
-  useEffect(()=> {setWhere('design-area-item')})
+  const [transition, setTransition] = useState(false)
+
+  useEffect(()=> {
+    setWhere('design-area-item')
+    setTimeout(()=>{setTransition(true)}, 100)
+  })
 
   return (
-    <div class='scene-container'>
+    <div className={!transition ? 'scene-container' : 'scene-container scene-container-t'}>
         <div class='photo1-scene'></div>
         <div class='photo2-scene'></div>
         <div class='photo3-scene'></div>

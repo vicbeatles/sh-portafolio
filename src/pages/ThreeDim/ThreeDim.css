@@ -70,3 +70,79 @@
 .photo3-threedim button:hover {
     cursor: pointer;
 }
+
+@media (min-width:320px) and (max-width: 428px) {
+
+    .threedim-container {
+
+        margin-top: 50px;
+        display: block;
+        position: absolute;
+        top: 900px;
+        left: 0px;
+    }
+
+    .threedim-container-t {
+
+        top: 0px;
+        transition: top 1s;
+
+    }
+    
+    .photo1-threedim {
+    
+        position: absolute;
+        width: 324px;
+        height: 234px;
+        left: 20px;
+        top: 175px;
+        border-radius: 72px;
+    }
+    
+    .photo1-threedim button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-radius: 72px;
+        border: none;
+    }
+    
+
+    .photo2-threedim {
+    
+        position: absolute;
+        width: 296px;
+        height: 246px;
+        left: 23px;
+        top: 460px;
+        border-radius: 72px;
+    }
+    
+    .photo2-threedim button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-radius: 72px;
+        border: none;
+    }
+    
+    
+    .photo3-threedim {
+    
+        position: absolute;
+        width: 314px;
+        height: 213px;
+        left: 23px;
+        top: 738px;
+        border-radius: 103px;
+    }
+    
+    .photo3-threedim button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-radius: 103px;
+        border: none;
+    }
+    
+}

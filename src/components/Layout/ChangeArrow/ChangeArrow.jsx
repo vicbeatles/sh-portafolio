@@ -220,7 +220,7 @@ const ChangeArrow = (props) => {
     <div>
 
       
-    <div className={`${clicked} ${DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate' ? 'nextArrowUpDown' : '' }`}><button onClick={()=> {
+    <div className={`${clicked} ${DiskImageDisplayed === 'aboutWork-image aboutWork-image-rotate' ? 'nextArrowUpDown' : '' }`}><div className='nextArrowImage'></div><button onClick={()=> {
       
       if(clicked === 'nextArrow nextArrowClicked')
       {

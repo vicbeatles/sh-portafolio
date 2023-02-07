@@ -1,14 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './ProductSoap.css'
 
 const ProductSoap = (props) => {
 
   const {setWhere} = props;
-  useEffect(()=>{setWhere('photo-product-item')})
+  const [transition, setTransition]=useState(false)
+
+
+  useEffect(()=>{
+    
+    setWhere('photo-product-item')
+    setTimeout(()=>{setTransition(true)},100)
+  
+  })
 
 
   return (
-    <div class='soap-container'>
+    <div className={!transition ? 'soap-container' : 'soap-container soap-container-t'}>
       <div class='photo1-soap'></div>
       <div class='none1-soap'></div>
       <div class='photo2-soap'></div>
