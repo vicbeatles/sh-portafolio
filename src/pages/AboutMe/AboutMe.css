@@ -62,17 +62,17 @@
 
     .aboutme-title {
 
-        font-size: 128px;
+        font-size: 100px;
 
     }
     
     .aboutme-text {
         
-        width: 606px;
+        width: 806px;
         height: 304px;
         left: 276px;
         top: 214px;
-        font-size: 32px;
+        font-size: 28px;
     }
 
 }
