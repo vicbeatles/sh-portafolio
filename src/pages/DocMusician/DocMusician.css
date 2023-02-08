@@ -9,10 +9,14 @@
     text-align: center;
 }
 
+.musician-container div {
+    margin: auto;
+}
+
 .musician-photo {
 
-    width: 1042px;
-    height: 780px;
+    width: 630px;
+    height: 500px;
     background-image: url('../../assets/images/fotografia/documental/Captura\ de\ pantalla\ \(149\)\ 1.png');
     background-size: cover;
     margin: 10px;

@@ -9,10 +9,15 @@
     text-align: center;
 }
 
-.marry-photo {
+.marry-container div {
 
-    width: 1042px;
-    height: 745px;
+    margin: auto;
+}
+
+.marry-photo {
+    
+    width: 630px;
+    height: 500px;
     background-image: url('../../assets/images/fotografia/documental/pedacito\ de\ felicidad.png');
     background-size: cover;
     margin: 10px;

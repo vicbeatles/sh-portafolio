@@ -9,10 +9,15 @@
     text-align: center;
 }
 
+.music-container div {
+
+    margin: auto;
+}
+
 .music-photo {
 
-    width: 1042px;
-    height: 800px;
+    width: 630px;
+    height: 500px;
     background-image: url('../../assets/images/fotografia/documental/musica\ de\ ciegos.png');
     background-size: cover;
     margin: 10px;

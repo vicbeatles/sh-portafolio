@@ -144,3 +144,47 @@
 
 }
 
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .candy-container {
+
+        margin-top: 128px;
+
+    }
+    
+    
+    .photo1-candy {
+
+        left: 52px;
+        width: 287px;
+        height: 213px;
+
+    }
+    
+
+    .photo2-candy {
+    
+        width: 287px;
+        height: 213px;
+
+    }
+    
+    .photo3-candy {
+
+        width: 451px;
+        height: 269px;
+
+    }
+    
+    
+    .description-candy {
+    
+        width: 337px;
+        height: 223px;
+        grid-area: desc;
+        text-align: center;
+        font-family: 'KyivType Sans';
+    
+    }
+
+}
