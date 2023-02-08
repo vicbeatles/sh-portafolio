@@ -17,8 +17,8 @@
 
 .eiffel-photo {
 
-    width: 720px;
-    height: 500px;
+    width: 500px;
+    height: 350px;
     background-image: url('../../assets/images/fotografia/documental/paris.png');
     background-size: cover;
     margin: 10px;
