@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.dices-container div {
+
+    margin: auto;
+}
+
 .dices-photo {
 
     width: 630px;
@@ -92,4 +97,35 @@
     
         margin: auto;
     }
+}
+
+@media (min-width:1360px) and (max-width: 1440px) {
+
+
+    
+    .dices-container div {
+    
+        margin: auto;
+    }
+    
+    .dices-photo {
+    
+        width: 430px;
+        height: 340px;
+    
+    }
+    
+    .dices-footer {
+
+        font-size: 20px;
+
+    
+    }
+    
+    .dices-desc {
+    
+        font-size: 20px;
+       
+    }
+    
 }

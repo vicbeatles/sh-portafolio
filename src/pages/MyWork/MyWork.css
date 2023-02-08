@@ -62,27 +62,27 @@
     }
 }
 
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 1360px) and (max-width: 1440px) {
   
     .mywork-title {
 
         position: absolute;
         width: 640px;
-        height: 128px;
+        height: 120px;
         left: 418px;
         top: 26px;
-        font-size: 128px;
+        font-size: 98px;
 
     }
 
     .mywork-text {
 
         position: absolute;
-        width: 1017px;
+        width: 1217px;
         height: 272px;
-        left: 259px;
-        top: 195px;
-        font-size: 20px;
+        left: 70px;
+        top: 140px;
+        font-size: 17px;
         text-align: center;
     }
 }

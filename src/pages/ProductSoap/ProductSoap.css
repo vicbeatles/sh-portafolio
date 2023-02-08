@@ -9,6 +9,11 @@
     'photo3 desc';
 }
 
+.soap-container div {
+
+    margin: auto;
+}
+
 .photo1-soap {
     width: 610px;
     height: 468px;
@@ -112,3 +117,50 @@
     }
 }
 
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .soap-container {
+
+        margin-top:100px;
+
+    }
+    
+    .photo1-soap {
+
+        position: relative;
+        width: 270px;
+        height: 210px;
+        left: 100px;
+
+    }
+    
+    .photo2-soap {
+        position: relative;
+        width: 150px;
+        height: 273px;
+        left: -200px;
+
+    }
+    
+    .photo3-soap {
+
+        position: relative;
+        width: 463px;
+        height: 261px;
+        left: 100px;
+ 
+    }
+    
+    
+    .description-soap {
+    
+        position: relative;
+        top: -20px;
+        left: -200px;
+        width: 229px;
+        height: auto;
+        font-size: 12px;
+
+    }
+
+}

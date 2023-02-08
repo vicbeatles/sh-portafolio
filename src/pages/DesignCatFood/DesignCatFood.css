@@ -9,6 +9,11 @@
     grid-gap: 40px;
 }
 
+.catfood-container div {
+    
+    margin: auto;
+}
+
 .photo1-catfood {
 
     position: relative;
@@ -117,5 +122,50 @@
         top: 289px;
         font-size: 10px;
 
+    }
+}
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .catfood-container {
+        margin-top: 120px;
+        grid-gap: 40px;
+    }
+
+    
+    .photo1-catfood {
+    
+        left: 100px;
+        width: 146px;
+        height: 221px;
+        background-position: center;
+        border-radius: 32px;
+    
+    }
+    
+    .photo2-catfood {
+    
+        position: relative;
+        left: -200px;
+        width: 305px;
+        height: 355px;
+        border-radius: 62px;
+    
+    }
+    
+    .description-catfood {
+        
+        top: -50px;
+        font-size: 18px;
+        width: 300px;
+        height: auto;
+    
+    }
+    
+    .description-catfood p {
+    
+        font-size: 12px;
+        width: auto;
+        height: auto;
     }
 }

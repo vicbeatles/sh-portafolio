@@ -9,6 +9,10 @@
     grid-gap: 20px;
 }
 
+.bread-container div {
+    margin: auto;
+}
+
 .photo1-bread {
 
     width: 577px;
@@ -108,4 +112,44 @@
         top: 353px;
         font-size: 10px;
     }
+}
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .bread-container {
+        margin-top: 90px;
+        grid-gap: 20px;
+    }
+    
+    .photo1-bread {
+    
+        position: relative;
+        left: 100px;
+        width: 277px;
+        height: 200px;
+        background-position: center
+    
+    }
+    
+    .photo2-bread {
+    
+        position: relative;
+        left: -100px;
+        width: 464px;
+        height: 300px;
+        background-position: center;
+    
+    }
+    
+    .description-bread {
+    
+        position: relative;
+        left: 100px;
+        top: -20px;
+        width: 243px;
+        height: auto;
+        font-size: 12px;
+    
+    }
+
 }

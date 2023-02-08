@@ -138,7 +138,6 @@
     height: 100%;
     border: none;
     background: none;
-    position: relative;
 
 }
 
@@ -267,7 +266,7 @@
 }
 
 
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 1360px) and (max-width: 1440px) {
 
 
     .nextArrow {
@@ -278,6 +277,19 @@
         top: 75vh;
         left: 65vw;
         filter: invert(100%);
+    
+    }
+
+    .nextArrow button {
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        padding: 0;
     
     }
     
@@ -295,13 +307,13 @@
     
         width: 60.02px;
         height: 60.02px;
-        top: 67%;
-        left: 40vw;
+        top: 65%;
+        left: 39vw;
         filter: invert(100%);
         transform: rotate(180deg);
         transition: all 1s;
     }
-    
+
     
     .toWorkArrow {
     
@@ -310,8 +322,8 @@
         width: 60.02px;
         height: 60.02px;
         position: absolute;
-        top: 67%;
-        left: 63vw;
+        top: 65%;
+        left: 60vw;
         transition: all 1s;
     
     }
@@ -320,10 +332,11 @@
     .aboutWork-image {
     
         position: absolute;
-        height: 509px;
-        width: 1046px;
-        top: 50%;
-        left: 20%;
+        height: 57%;
+        width: 800px;
+        top: auto;
+        bottom: 0px;
+        left: 25%;
         z-index: -1;
         overflow: hidden;
     
@@ -337,7 +350,7 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 47%;
         transition: all 1s;
         filter: invert(100%);    
     
@@ -357,11 +370,10 @@
     .nextArrowUpDown {
     
         position: absolute;
-        top: 65%;
+        top: 70%;
         transition: top 1s;
     }
-    
-    
+  
     
 
 }
@@ -415,13 +427,22 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     }
 
-    
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
     
 
 }
@@ -475,13 +496,23 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     }
 
 
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
 }
 
 
@@ -534,12 +565,22 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     } 
     
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
     
 
 }

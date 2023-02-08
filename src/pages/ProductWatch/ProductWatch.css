@@ -10,6 +10,10 @@
     'photo3 desc';
 }
 
+.watch-container div {
+    margin: auto;
+}
+
 .photo1-watch {
 
     position: relative;
@@ -52,6 +56,8 @@
     text-align: center;
     align-self: center;
 }
+
+
 
 @media (min-width:320px) and (max-width:428px) {
 
@@ -123,3 +129,46 @@
     
 }
 
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .watch-container {
+
+        margin-top: 100px;
+
+    }
+    
+    .photo1-watch {
+
+        left: 54px;
+        width: 329px;
+        height: 220px;
+
+    
+    }
+    
+    .photo2-watch {
+    
+        width: 233px;
+        height: 150px;
+    
+    }
+    
+    .photo3-watch {
+    
+        position: relative;
+        left: 50px;
+        width: 465px;
+        height: 320px;
+
+    
+    }
+    
+    .description-watch {
+    
+        width: 459px;
+        height: 290px;
+
+    }
+    
+}

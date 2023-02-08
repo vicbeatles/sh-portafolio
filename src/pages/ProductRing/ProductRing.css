@@ -11,6 +11,11 @@
     grid-gap: 40px;
 }
 
+.ring-container div {
+
+    margin: auto;
+}
+
 .none1-ring {
 
     width: 658px;
@@ -116,3 +121,47 @@
 
 }
 
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .ring-container {
+
+        margin-top: 120px;
+        grid-gap: 40px;
+    }
+    
+    .none1-ring {
+    
+        width: auto;
+        height: auto;
+        grid-area: none1;
+    
+    }
+    
+    .photo1-ring {
+    
+        width: 358px;
+        height: 232px;
+        position: relative;
+        left: -100px;
+
+    }
+    
+    .photo2-ring {
+    
+        width: 358px;
+        height: 232px;
+        position: relative;
+        left: 100px;
+    
+    }
+    
+    .description-ring {
+    
+        position: relative;
+        left: -100px;
+        width: 190px;
+        height: auto;
+        font-size: 10px;
+    }
+    
+}

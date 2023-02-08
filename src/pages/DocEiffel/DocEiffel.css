@@ -10,10 +10,15 @@
 
 }
 
+.eiffel-container div {
+
+    margin: auto;
+}
+
 .eiffel-photo {
 
-    width: 1042px;
-    height: 710px;
+    width: 500px;
+    height: 350px;
     background-image: url('../../assets/images/fotografia/documental/paris.png');
     background-size: cover;
     margin: 10px;

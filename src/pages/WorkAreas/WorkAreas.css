@@ -1,20 +1,16 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .workareas-container {
-  margin-top: 10%;
-  width: 75%;
+
+  margin-top: 5vh;
+  width: 100%;
   color: #ffff;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
   grid-template-areas:
-    "photo none1 design "
+    "photo none1 design"
     "three contacts ux";
+  grid-gap: 10px;
+  justify-items: center;
+
 }
 
 .photo-area {
@@ -24,8 +20,8 @@ body {
   justify-content: center;
   margin: 10px;
   grid-area: photo;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -81,8 +77,8 @@ body {
   justify-content: center;
   margin: 10px;
   grid-area: design;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -127,8 +123,8 @@ body {
   justify-content: center;
   margin: 10px;
   grid-area: three;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -172,11 +168,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 10px;
-  grid-area: ux;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
+  grid-area: ux;
 }
 
 .ux-area button {
@@ -265,7 +261,6 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 428px) {
-
 
     .workareas-container {
 
@@ -418,3 +413,71 @@ body {
 
 }
 
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+
+
+
+.workareas-container {
+
+  grid-gap: 5px;
+
+}
+
+.photo-area {
+  
+  width: 255px;
+  height: 275px;
+
+}
+
+.photo-area svg {
+  width: 125px;
+  height: 125px;
+}
+
+
+.design-area {
+
+  width: 255px;
+  height: 275px;
+
+}
+
+.design-area svg {
+  width: 125px;
+  height: 125px;
+
+}
+
+.three-area {
+
+  width: 255px;
+  height: 275px;
+
+}
+
+
+.three-area svg {
+
+  width: 125px;
+  height: 125px;
+
+}
+
+
+.ux-area {
+
+  width: 255px;
+  height: 275px;
+  
+}
+
+.ux-area svg {
+
+  width: 125px;
+  height: 125px;
+}
+
+
+}

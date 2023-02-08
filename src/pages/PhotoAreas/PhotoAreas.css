@@ -1,6 +1,8 @@
+
 .photoa-container {
 
     display: flex;
+    justify-content: center;
     margin-top: 90px;
 }
 
@@ -147,6 +149,7 @@
 
 @media (min-width:320px) and (max-width: 428px) {
 
+
     .photoa-container {
 
         display: block;
@@ -178,7 +181,7 @@
 
     .product-area-t {
 
-        right: 59px;
+        right: 25vw;
         transition: right 1s;
 
     }
