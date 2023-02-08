@@ -8,6 +8,7 @@
     'photo1 photo2'
     'desc desc';
     grid-gap: 40px;
+
 }
 
 .photo1-billboard {
@@ -20,6 +21,7 @@
     box-shadow: 22px 21px 42px 13px lightgray;
     border-radius: 72px;
 
+
 }
 
 .photo2-billboard {
@@ -31,6 +33,8 @@
     grid-area: photo2;
     box-shadow: 22px 21px 42px 13px lightgray;
     border-radius: 72px;
+    position: relative;
+    left: 120px;
 
 }
 
@@ -44,6 +48,9 @@
     justify-self: center;
     font-family: 'KyivType Sans';
     font-size: 12pt;
+    position: relative;
+    left: -150px;
+    top: -120px;
 
 }
 
@@ -89,6 +96,12 @@
     
     }
     
+    .description-billboard {
+
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
 
     .description-billboard h1 {
         

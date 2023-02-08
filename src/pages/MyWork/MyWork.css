@@ -18,20 +18,21 @@
 
     margin: auto;
     font-family: 'Kosugi', sans-serif;
-    font-size: 128pt;
+    font-size: 128px;
     font-weight: 400;
     text-align: center;
 }
 
 .mywork-text {
 
-    width: 80%;
-    height: auto;
+
+    width: 1017px;
+    height: 272px;
     margin: auto;
     box-sizing: border-box;
     font-family: 'KyivType Sans', sans-serif;
     font-weight: 400;
-    font-size: 28pt;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -58,6 +59,31 @@
         font-weight: 350;
         font-size: 11px;
         line-height: 13px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  
+    .mywork-title {
+
+        position: absolute;
+        width: 640px;
+        height: 128px;
+        left: 418px;
+        top: 26px;
+        font-size: 128px;
+
+    }
+
+    .mywork-text {
+
+        position: absolute;
+        width: 1017px;
+        height: 272px;
+        left: 259px;
+        top: 195px;
+        font-size: 20px;
+        text-align: center;
     }
 }
 

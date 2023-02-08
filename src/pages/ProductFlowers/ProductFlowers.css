@@ -1,5 +1,6 @@
 .flowers-container {
 
+    margin-top: 234px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -77,6 +78,7 @@
 
     .flowers-container {
 
+        margin-top: 0px;
         width: 100%;
         display: block;
         position: absolute;

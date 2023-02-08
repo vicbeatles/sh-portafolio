@@ -15,6 +15,8 @@
 .product-photo1 {
     width: 632px;
     height: 520px;
+    position: relative;
+    top: 20px;
     background-image: url('../../assets/images/fotografia/producto/joya\ 1.png');
     background-size: cover;
     grid-area: photo1;

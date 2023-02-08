@@ -1,6 +1,5 @@
 .scene-container {
 
-    margin-top: 90px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -46,6 +45,8 @@
 
 .description-scene {
 
+    position: relative;
+    top: 150px;
     width: 343px;
     height: 144px;
     grid-area: desc;

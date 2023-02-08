@@ -1,4 +1,6 @@
 .brand-container {
+
+    margin-top: 81px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -33,18 +35,22 @@
 
 .description-brand {
 
+    position: relative;
+    left: 79px;
     width: 487px;
     height: 280px;
     grid-area: desc;
     text-align: center;
     align-self: center;
     font-family: 'KyivType Sans';
+    line-height: 137.52%;
 }
 
 @media (min-width:320px) and (max-width:428px) {
 
     .brand-container {
 
+        margin-top: 0px;
         display: block;
         width: 100%;
         position: absolute;
