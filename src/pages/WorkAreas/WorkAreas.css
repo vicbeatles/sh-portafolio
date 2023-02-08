@@ -1,20 +1,17 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .workareas-container {
-  margin-top: 10%;
-  width: 75%;
+
+  margin: auto;
+  width: 100%;
   color: #ffff;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
   grid-template-areas:
-    "photo none1 design "
+    "photo none1 design"
     "three contacts ux";
+  grid-gap: 30px;
+  justify-items: center;
+
 }
 
 .photo-area {
@@ -172,11 +169,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 10px;
-  grid-area: ux;
   width: 384px;
   height: 405px;
   background-color: #484444;
   border-radius: 72px;
+  grid-area: ux;
 }
 
 .ux-area button {

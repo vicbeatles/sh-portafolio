@@ -267,7 +267,7 @@
 }
 
 
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 1360px) and (max-width: 1440px) {
 
 
     .nextArrow {
@@ -320,10 +320,10 @@
     .aboutWork-image {
     
         position: absolute;
-        height: 509px;
-        width: 1046px;
-        top: 50%;
-        left: 20%;
+        height: 50%;
+        width: 946px;
+        bottom: 0px;
+        left: 22%;
         z-index: -1;
         overflow: hidden;
     
@@ -337,7 +337,7 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
@@ -415,13 +415,22 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     }
 
-    
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
     
 
 }
@@ -475,13 +484,23 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     }
 
 
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
 }
 
 
@@ -534,12 +553,22 @@
         transform: rotate(180deg);
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transition: all 1s;
         filter: invert(100%);    
     
     } 
     
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
     
 
 }
