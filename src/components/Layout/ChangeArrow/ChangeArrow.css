@@ -145,6 +145,8 @@
 
 .nextArrowClickedWorkAreas {
 
+    width: 60.02px;
+    height: 60.02px;
     transform: rotate(180deg);
     position: absolute;
     top: 50%;
@@ -159,107 +161,6 @@
     position: absolute;
     top: 65%;
     transition: top 1s;
-}
-
-
-
-@media (min-width: 1366px) and (max-width: 1440px) {
-
-
-    .nextArrow {
-
-        width: 166.69px;
-        height: 149px;
-        position: absolute;
-        top: 75vh;
-        left: 65vw;
-        filter: invert(100%);
-    
-    }
-    
-    .nextArrowImage {
-    
-        width: 100%;
-        height: 100%;
-        background-image: url('../../../assets/images/nextarrow.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        filter: invert(100%);
-    }
-    
-    .nextArrowClicked {
-    
-        width: 60.02px;
-        height: 60.02px;
-        top: 67%;
-        left: 40vw;
-        filter: invert(100%);
-        transform: rotate(180deg);
-        transition: all 1s;
-    }
-    
-    
-    .toWorkArrow {
-    
-        background-image: url('../../../assets/images/nextarrow.png');
-        background-size: auto;
-        width: 60.02px;
-        height: 60.02px;
-        position: absolute;
-        top: 67%;
-        left: 63vw;
-        transition: all 1s;
-    
-    }
-    
-    
-    .aboutWork-image {
-    
-        position: absolute;
-        height: 509px;
-        width: 1046px;
-        top: 50%;
-        left: 20%;
-        z-index: -1;
-        overflow: hidden;
-    
-    }
-    
-    
-    .nextArrowClickedWorkAreas {
-    
-        width: 60.02px;
-        height: 60.02px;
-        transform: rotate(180deg);
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transition: all 1s;
-        filter: invert(100%);    
-    
-    }
-
-    .nextArrowClickedTop {
-
-        width: 60.02px;
-        height: 60.02px;
-        position: absolute;
-        top: 35px;
-        left: 47vw;
-        transform: rotate(180deg);
-        transition: top 1s;
-    }
-    
-    .nextArrowUpDown {
-    
-        position: absolute;
-        top: 65%;
-        transition: top 1s;
-    }
-    
-    
-    
-
 }
 
 
@@ -364,3 +265,282 @@
     
 
 }
+
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+
+
+    .nextArrow {
+
+        width: 166.69px;
+        height: 149px;
+        position: absolute;
+        top: 75vh;
+        left: 65vw;
+        filter: invert(100%);
+    
+    }
+    
+    .nextArrowImage {
+    
+        width: 100%;
+        height: 100%;
+        background-image: url('../../../assets/images/nextarrow.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: invert(100%);
+    }
+    
+    .nextArrowClicked {
+    
+        width: 60.02px;
+        height: 60.02px;
+        top: 67%;
+        left: 40vw;
+        filter: invert(100%);
+        transform: rotate(180deg);
+        transition: all 1s;
+    }
+    
+    
+    .toWorkArrow {
+    
+        background-image: url('../../../assets/images/nextarrow.png');
+        background-size: auto;
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 67%;
+        left: 63vw;
+        transition: all 1s;
+    
+    }
+    
+    
+    .aboutWork-image {
+    
+        position: absolute;
+        height: 509px;
+        width: 1046px;
+        top: 50%;
+        left: 20%;
+        z-index: -1;
+        overflow: hidden;
+    
+    }
+    
+    
+    .nextArrowClickedWorkAreas {
+    
+        width: 60.02px;
+        height: 60.02px;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transition: all 1s;
+        filter: invert(100%);    
+    
+    }
+
+    .nextArrowClickedTop {
+
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 35px;
+        left: 47vw;
+        transform: rotate(180deg);
+        transition: top 1s;
+    }
+    
+    .nextArrowUpDown {
+    
+        position: absolute;
+        top: 65%;
+        transition: top 1s;
+    }
+    
+    
+    
+
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+
+    
+    .nextArrowClicked {
+    
+        width: 60.02px;
+        height: 60.02px;
+        top: 67%;
+        left: 40vw;
+        filter: invert(100%);
+        transform: rotate(180deg);
+        transition: all 1s;
+    }
+    
+    
+    .toWorkArrow {
+    
+        background-image: url('../../../assets/images/nextarrow.png');
+        background-size: auto;
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 67%;
+        left: 62vw;
+        transition: all 1s;
+    
+    }
+    
+    
+    .aboutWork-image {
+    
+        position: absolute;
+        height: 509px;
+        width: 1046px;
+        top: 50%;
+        left: 20%;
+        z-index: -1;
+        overflow: hidden;
+    
+    }
+    
+    
+    .nextArrowClickedWorkAreas {
+    
+        width: 60.02px;
+        height: 60.02px;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transition: all 1s;
+        filter: invert(100%);    
+    
+    }
+
+    
+    
+
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+    
+    
+    .nextArrowClicked {
+    
+        width: 60.02px;
+        height: 60.02px;
+        top: 67%;
+        left: 38vw;
+        filter: invert(100%);
+        transform: rotate(180deg);
+        transition: all 1s;
+    }
+    
+    
+    .toWorkArrow {
+    
+        background-image: url('../../../assets/images/nextarrow.png');
+        background-size: auto;
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 67%;
+        left: 58vw;
+        transition: all 1s;
+    
+    }
+    
+    
+    .aboutWork-image {
+    
+        position: absolute;
+        height: 509px;
+        width: 1046px;
+        top: 50%;
+        left: 20%;
+        z-index: -1;
+        overflow: hidden;
+    
+    }
+    
+    
+    .nextArrowClickedWorkAreas {
+    
+        width: 60.02px;
+        height: 60.02px;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transition: all 1s;
+        filter: invert(100%);    
+    
+    }
+
+
+}
+
+
+@media (min-width: 1701px) and (max-width: 1920px) {
+
+    
+    .nextArrowClicked {
+    
+        width: 60.02px;
+        height: 60.02px;
+        top: 67%;
+        left: 35vw;
+        filter: invert(100%);
+        transform: rotate(180deg);
+        transition: all 1s;
+    }
+    
+    
+    .toWorkArrow {
+    
+        background-image: url('../../../assets/images/nextarrow.png');
+        background-size: auto;
+        width: 60.02px;
+        height: 60.02px;
+        position: absolute;
+        top: 67%;
+        left: 50vw;
+        transition: all 1s;
+    
+    }
+    
+    
+    .aboutWork-image {
+    
+        position: absolute;
+        height: 509px;
+        width: 1046px;
+        top: 50%;
+        left: 20%;
+        z-index: -1;
+        overflow: hidden;
+    
+    }
+    
+    
+    .nextArrowClickedWorkAreas {
+    
+        width: 60.02px;
+        height: 60.02px;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transition: all 1s;
+        filter: invert(100%);    
+    
+    } 
+    
+    
+
+}
+

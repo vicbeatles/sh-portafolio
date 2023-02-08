@@ -18,20 +18,21 @@
 
     margin: auto;
     font-family: 'Kosugi', sans-serif;
-    font-size: 128pt;
+    font-size: 128px;
     font-weight: 400;
     text-align: center;
 }
 
 .mywork-text {
 
-    width: 80%;
-    height: auto;
+
+    width: 1017px;
+    height: 272px;
     margin: auto;
     box-sizing: border-box;
     font-family: 'KyivType Sans', sans-serif;
     font-weight: 400;
-    font-size: 28pt;
+    font-size: 20px;
     text-align: center;
 }
 
