@@ -24,7 +24,7 @@ const Ux = (props) => {
         <div class='photo7-ux'></div>
         <div class='photo8-ux'></div>
         <div class='photo9-ux'></div>
-        <div class='video1-ux'><video src={video1} lopp autoPlay muted></video></div>
+        <div class='video1-ux'><video src={video1} loop autoPlay muted></video></div>
         <div class='video2-ux'><video src={video2} loop autoPlay muted></video></div>
         <div class='frame-te'>
         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwIcvjggBIyBb2HrIXjBE4k%2FUntitled%3Fnode-id%3D0%253A1%26t%3DKBfLEm41VDaGqv27-1" allowfullscreen title='FIGMA'></iframe>

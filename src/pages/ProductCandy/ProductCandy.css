@@ -1,5 +1,6 @@
 .candy-container {
 
+    margin-top: 168px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto;
@@ -11,6 +12,8 @@
 
 
 .photo1-candy {
+    position: relative;
+    left: 52px;
     width: 337px;
     height: 263px;
     background-image: url('../../assets/images/fotografia/producto/dulces.png');
@@ -66,6 +69,7 @@
 
     .candy-container {
 
+        margin-top: 0px;
         display: block;
         position: absolute;
         left: -700px;

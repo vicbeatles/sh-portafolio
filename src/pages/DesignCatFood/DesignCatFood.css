@@ -11,6 +11,8 @@
 
 .photo1-catfood {
 
+    position: relative;
+    left: 200px;
     width: 316px;
     height: 421px;
     background-image: url('../../assets/images/diseño/wiskas.png');
@@ -24,7 +26,7 @@
 .photo2-catfood {
 
     width: 605px;
-    height: 421px;
+    height: 655px;
     background-image: url('../../assets/images/diseño/whiskas\ mockup.png');
     background-size: cover;
     grid-area: photo2;
@@ -35,7 +37,9 @@
 
 .description-catfood {
 
-    width: 343px;
+    position: relative;
+    left: 300px;
+    width: 583px;
     height: 144px;
     grid-area: desc;
     text-align: center;
@@ -44,6 +48,11 @@
     font-family: 'KyivType Sans';
     font-size: 12pt;
 
+}
+
+.description-catfood p {
+
+    font-size: 22px;
 }
 
 @media (min-width:320px) and (max-width:428px) {
