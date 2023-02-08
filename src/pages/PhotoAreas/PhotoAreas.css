@@ -1,3 +1,4 @@
+
 .photoa-container {
 
     display: flex;
@@ -147,6 +148,7 @@
 }
 
 @media (min-width:320px) and (max-width: 428px) {
+
 
     .photoa-container {
 

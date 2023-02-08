@@ -1,15 +1,14 @@
 
-
 .workareas-container {
 
-  margin: auto;
+  margin-top: 5vh;
   width: 100%;
   color: #ffff;
   display: grid;
   grid-template-areas:
     "photo none1 design"
     "three contacts ux";
-  grid-gap: 30px;
+  grid-gap: 10px;
   justify-items: center;
 
 }
@@ -21,8 +20,8 @@
   justify-content: center;
   margin: 10px;
   grid-area: photo;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -78,8 +77,8 @@
   justify-content: center;
   margin: 10px;
   grid-area: design;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -124,8 +123,8 @@
   justify-content: center;
   margin: 10px;
   grid-area: three;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
 }
@@ -169,8 +168,8 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
-  width: 384px;
-  height: 405px;
+  width: 374px;
+  height: 395px;
   background-color: #484444;
   border-radius: 72px;
   grid-area: ux;
@@ -262,7 +261,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 428px) {
-
 
     .workareas-container {
 
@@ -422,62 +420,63 @@
 
 .workareas-container {
 
-  grid-gap: 20px;
+  grid-gap: 5px;
 
 }
 
 .photo-area {
   
-  width: 324px;
-  height: 355px;
+  width: 255px;
+  height: 275px;
 
 }
 
 .photo-area svg {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
 }
 
 
 .design-area {
 
-  width: 324px;
-  height: 355px;
+  width: 255px;
+  height: 275px;
 
 }
 
 .design-area svg {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
 
 }
 
 .three-area {
 
-  width: 324px;
-  height: 355px;
+  width: 255px;
+  height: 275px;
 
 }
 
 
 .three-area svg {
-  width: 150px;
-  height: 150px;
+
+  width: 125px;
+  height: 125px;
 
 }
 
 
 .ux-area {
 
-  width: 324px;
-  height: 355px;
+  width: 255px;
+  height: 275px;
   
 }
 
 .ux-area svg {
 
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
 }
 
 
