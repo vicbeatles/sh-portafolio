@@ -311,7 +311,7 @@
         height: 60.02px;
         position: absolute;
         top: 67%;
-        left: 63vw;
+        left: 61vw;
         transition: all 1s;
     
     }
@@ -320,8 +320,9 @@
     .aboutWork-image {
     
         position: absolute;
-        height: 50%;
-        width: 946px;
+        height: 55%;
+        width: 900px;
+        top: auto;
         bottom: 0px;
         left: 22%;
         z-index: -1;

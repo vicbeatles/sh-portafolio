@@ -415,3 +415,70 @@
 
 }
 
+
+@media (min-width: 1360px) and (max-width: 1440px) {
+
+
+
+.workareas-container {
+
+  grid-gap: 20px;
+
+}
+
+.photo-area {
+  
+  width: 324px;
+  height: 355px;
+
+}
+
+.photo-area svg {
+  width: 150px;
+  height: 150px;
+}
+
+
+.design-area {
+
+  width: 324px;
+  height: 355px;
+
+}
+
+.design-area svg {
+  width: 150px;
+  height: 150px;
+
+}
+
+.three-area {
+
+  width: 324px;
+  height: 355px;
+
+}
+
+
+.three-area svg {
+  width: 150px;
+  height: 150px;
+
+}
+
+
+.ux-area {
+
+  width: 324px;
+  height: 355px;
+  
+}
+
+.ux-area svg {
+
+  width: 150px;
+  height: 150px;
+}
+
+
+}
