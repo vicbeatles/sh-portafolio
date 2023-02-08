@@ -10,25 +10,31 @@
     align-items: flex-end;
 }
 
+.scene-container div {
+    margin: auto;
+}
+
 .photo1-scene {
 
     width: 378px;
-    height: 512px;
+    height: 378px;
     background-image: url('../../assets/images/diseño/desiertogif.gif');
     background-size: cover;
+    background-position: center;
     grid-area: photo1;
-    border-radius: 72px;
+    border-radius: 512px;
 
 }
 
 .photo2-scene {
 
     width: 690px;
-    height: 800px;
+    height: 690px;
     background-image: url('../../assets/images/diseño/bosquegif.gif');
     background-size: cover;
+    background-position: center;
     grid-area: photo2;
-    border-radius: 72px;
+    border-radius: 690px;
 
 }
 
@@ -122,3 +128,56 @@
     
     }
 }
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .scene-container {
+
+        grid-gap: 0px;
+
+    }
+    
+    .photo1-scene {
+    
+        position: relative;
+        top: 100px;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        border-radius: 200px;
+    
+    }
+    
+    .photo2-scene {
+    
+        width: 400px;
+        height: 400px;
+        background-position: center;
+        border-radius: 400px;
+    
+    }
+    
+    .photo3-scene {
+    
+        position: relative;
+        top: 150px;
+        left: -100px;
+        width: 150px;
+        height: 157px;
+        border-radius: 72px;
+    
+    }
+    
+    .description-scene {
+    
+        position: relative;
+        top: 150px;
+        left: 100px;
+        width: 343px;
+        height: 144px;
+        font-size: 12px;
+    
+    }
+
+    }
