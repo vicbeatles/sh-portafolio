@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.halloween-container div {
+
+    margin: auto;
+}
+
 .halloween-photo {
 
     width: 630px;
@@ -95,3 +100,29 @@
     }
 
 }
+
+@media (min-width:1360px) and (max-width: 1440px) {
+    
+    .halloween-photo {
+    
+        width: 430px;
+        height: 340px;
+    
+    }
+    
+    .halloween-footer {
+    
+        font-size: 20px;
+    
+    }
+    
+    .halloween-desc {
+    
+        font-size: 20px;
+       
+    }
+    
+
+}
+
+

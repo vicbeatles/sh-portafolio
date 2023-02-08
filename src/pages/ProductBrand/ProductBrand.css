@@ -10,6 +10,11 @@
     grid-gap: 40px;
 }
 
+.brand-container div {
+
+    margin: auto;
+}
+
 .none1-brand {
     grid-area: none1;
 }
@@ -103,6 +108,41 @@
 
     .description-brand p {
         font-size: 10px;
+    }
+
+}
+
+
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .photo1-brand {
+    
+        width: 258px;
+        height: 209px;
+        position: relative;
+        left: -50px;
+
+    }
+    
+    .photo2-brand {
+    
+        width: 493px;
+        height: 310px;
+        position: relative;
+        left: 50px;
+
+    }
+    
+    .description-brand {
+    
+        position: relative;
+        left: -50px;
+        width: 387px;
+        height: auto;
+        grid-area: desc;
+        font-size: 12px;
+
     }
 
 }

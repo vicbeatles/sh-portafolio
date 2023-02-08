@@ -9,10 +9,15 @@
     text-align: center;
 }
 
+.age-container div {
+
+    margin: auto;
+}
+
 .age-photo {
 
-    width: 1042px;
-    height: 790px;
+    width: 630px;
+    height: 500px;
     background-image: url('../../assets/images/fotografia/documental/la\ mirada\ de\ la\ edad.png');
     background-size: cover;
     margin: 10px;

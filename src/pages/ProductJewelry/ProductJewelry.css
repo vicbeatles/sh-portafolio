@@ -1,6 +1,6 @@
 .jewelry-container {
 
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -13,6 +13,7 @@
 
 .jewelry-container div {
     
+    margin: auto;
     border-radius: 72px;
     font-family: 'KyivType Sans';
 }
@@ -21,8 +22,8 @@
 
     position: relative;
     left: 41px;
-    width: 452px;
-    height: 373px;
+    width: 372px;
+    height: 293px;
     grid-area: photo1;
     background-image: url('../../assets/images/fotografia/producto/joya\ 1.png');
     background-size: cover;
@@ -36,8 +37,8 @@
 .photo2-jewelry {
     position: relative;
     left: -35px;
-    width:452px;
-    height: 373px;
+    width: 372px;
+    height: 293px;
     grid-area: photo2;
     background-image: url('../../assets/images/fotografia/producto/joya\ 2.png');
     background-size: cover;
@@ -50,8 +51,8 @@
 }
 
 .photo3-jewelry {
-    width: 567px;
-    height: 474px;
+    width: 447px;
+    height: 354px;
     grid-area: photo3;
     background-image: url('../../assets/images/fotografia/producto/Mokup\ joyeria.png');
     background-size: cover;
@@ -61,8 +62,8 @@
 .description-jewelry {
 
     position: relative;
-    top: 50px;
-    left: 40px;
+    top: -100px;
+    left: 0px;
     width: 324px;
     height: 85px;
     grid-area: desc;

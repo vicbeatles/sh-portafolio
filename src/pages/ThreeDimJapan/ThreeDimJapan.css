@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.japan3d-container div {
+    margin: auto;
+}
+
 .japan3d-photo {
 
     width: 630px;
@@ -94,4 +98,30 @@
         text-align: center;
     }
     
+}
+
+@media (min-width:1360px) and (max-width: 1440px) {
+
+    
+    .japan3d-photo {
+    
+        width: 430px;
+        height: 340px;
+    
+    }
+    
+    .japan3d-footer {
+    
+        margin: auto;
+        font-family: 'KyivType Sans';
+        font-weight: 800;
+        font-size: 20px;
+        justify-content: center;
+    
+    }
+
+    .japan3d-desc {
+        font-size: 20px;
+    }
+        
 }

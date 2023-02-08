@@ -1,6 +1,6 @@
 .flowers-container {
 
-    margin-top: 234px;
+    margin-top: 150px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -9,6 +9,11 @@
     'none1 photo3'
     'photo4 desc';
     grid-gap: 40px;
+}
+
+.flowers-container div {
+
+    margin: auto;
 }
 
 .photo1-flowers {
@@ -155,3 +160,71 @@
     }
 }
 
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .flowers-container {
+
+        margin-top: 100px;
+        grid-gap: 40px;
+    }
+    
+    .photo1-flowers {
+    
+        width: 206px;
+        height: 171px;
+        position: relative;
+        left: 150px;
+    
+    }
+    
+    .photo2-flowers {
+    
+        width: 109px;
+        height: 90px;
+        position: relative;
+        left: -150px;
+
+    
+    }
+    
+    .none1-flowers {
+    
+        width: auto;
+        height: auto;
+
+    }
+    
+    .photo3-flowers {
+    
+        width: 109px;
+        height: 90px;
+        position: relative;
+        left: -150px;
+
+    
+    }
+    
+    .photo4-flowers {
+    
+        width: 426px;
+        height: 265px;
+        position: relative;
+        top: -40px;
+        left: 150px;
+    
+    }
+    
+    .description-flowers {
+    
+        width: 209px;
+        height: auto;
+        grid-area: desc;
+        font-size: 12px;
+        position: relative;
+        left: -150px;
+    
+    }
+
+    }
+    
