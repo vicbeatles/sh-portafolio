@@ -1,7 +1,7 @@
 .soap-container {
 
+    margin-top:295px;
     display: grid;
-    grid-gap: 40px;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -37,10 +37,78 @@
 
 .description-soap {
 
-    width: 559px;
-    height: 468px;
+    position: relative;
+    left: 50px;
+    width: 329px;
+    height: 119px;
     font-family: 'KyivType Sans';
     grid-area: desc;
     text-align: center;
     align-self: center;
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .soap-container {
+
+        margin-top: 0px;
+        display: block;
+        position: absolute;
+        left: -700px;
+
+    }
+
+    .soap-container-t {
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .photo1-soap {
+        position: absolute;
+        width: 145px;
+        height: 134px;
+        left: 0px;
+        top: 95px;
+        border-radius: 94px;
+    }
+    
+    .photo2-soap {
+
+        position: absolute;
+        width: 167px;
+        height: 285px;
+        left: 156px;
+        top: 87px;
+        border-radius: 39px;
+    }
+    
+    .photo3-soap {
+
+        position: absolute;
+        width: 298px;
+        height: 184px;
+        left: 10px;
+        top: 445px;
+        border-radius: 72px;
+    }
+    
+    
+    .description-soap {
+    
+        position: absolute;
+        width: 141px;
+        height: 168px;
+        left: 10px;
+        top: 241px;
+    }
+
+    .description-soap h1 {
+
+        font-size: 20px;
+    }
+
+    .description-soap p {
+        font-size: 10px;
+    }
+}
+

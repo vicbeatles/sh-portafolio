@@ -38,3 +38,60 @@
 
     margin: auto;
 }
+
+@media (min-width:320px) and (max-width: 428px) {
+
+    .japan3d-container {
+
+        margin-top: 0px;
+        display: block;
+        position: absolute;
+        left: -700px;
+    }
+
+    .japan3d-container-t {
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .japan3d-photo {
+    
+        position: absolute;
+        width: 333px;
+        height: 234px;
+        left: 27px;
+        top: 163px;
+        border-radius: 90px;
+    
+    }
+    
+    .japan3d-footer {
+    
+        position: absolute;
+        width: 158px;
+        height: 23px;
+        left: 117px;
+        top: 431px;
+        font-size: 20px;
+    
+    }
+    
+    .japan3d-desc {
+    
+        position: absolute;
+        width: 168px;
+        height: 23px;
+        left: 117px;
+        top: 471px;
+        font-size: 10px;
+       
+    }
+    
+    .japan3d-desc P {
+    
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

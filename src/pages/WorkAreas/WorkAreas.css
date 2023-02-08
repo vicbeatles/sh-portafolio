@@ -1,336 +1,420 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .workareas-container {
-
-    margin-top: 10%;
-    width: 75%;
-    color: #ffff;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: 
+  margin-top: 10%;
+  width: 75%;
+  color: #ffff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
     "photo none1 design "
     "three contacts ux";
-    
-
 }
 
 .photo-area {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    margin: 10px;
-    grid-area: photo;
-    width: 384px;
-    height: 405px;
-    background-color: #484444;
-    border-radius: 72px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  grid-area: photo;
+  width: 384px;
+  height: 405px;
+  background-color: #484444;
+  border-radius: 72px;
 }
 
-
 .photo-area button {
-
-    flex-grow: 2;
-    width: 100%;
-    border-radius: 72px;
-    border: none;
-    background: none;
-
+  flex-grow: 2;
+  width: 100%;
+  border-radius: 72px;
+  border: none;
+  background: none;
 }
 
 .photo-area button:hover {
-
-    cursor:pointer;
-
+  cursor: pointer;
 }
 
 .photo-area svg {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
-
 
 .photo-area:hover svg path {
-
-    transition: stroke-width .5s;
-    stroke-width: 33;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  transition: stroke-width 0.5s;
+  stroke-width: 33;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-
 .photo-area:hover svg path ~ defs .photocolor1 {
-
-    
-    stop-color: #F5EC05;
+  stop-color: #f5ec05;
 }
 
 .photo-area:hover svg path ~ defs .photocolor2 {
+  stop-color: #737026;
+}
 
+.area-title-workareas {
     
-    stop-color: #737026;
+  width: 100%;
+  height: 28pt;
+  background-color: none;
+  border-radius: 0px 0px 72px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
-
-
-
-.area-title {
-
-    width: 100%;
-    height: 28pt;
-    background-color: none;
-    border-radius: 0px 0px 72px 72px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-
 
 .design-area {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    grid-area: design;
-    width: 384px;
-    height: 405px;
-    background-color: #484444;
-    border-radius: 72px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  grid-area: design;
+  width: 384px;
+  height: 405px;
+  background-color: #484444;
+  border-radius: 72px;
 }
 
 .design-area button {
-
-    flex-grow: 2;
-    width: 100%;
-    border-radius: 72px;
-    border: none;
-    background: none;
-
+  flex-grow: 2;
+  width: 100%;
+  border-radius: 72px;
+  border: none;
+  background: none;
 }
 
 .design-area button:hover {
-
-    cursor:pointer;
-
+  cursor: pointer;
 }
-
 
 .design-area svg {
-    width: 200px;
-    height: 200px;
-    flex-grow: 2;
+  width: 200px;
+  height: 200px;
+  flex-grow: 2;
 }
-
-
 
 .design-area:hover svg path {
-
-    transition: stroke-width .5s;
-    stroke-width: 22;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  transition: stroke-width 0.5s;
+  stroke-width: 22;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-
 .design-area:hover svg path ~ defs .designcolor1 {
-
-    
-    stop-color: #FF102D;
+  stop-color: #ff102d;
 }
 
 .design-area:hover svg path ~ defs .designcolor2 {
-
-    
-    stop-color: #FFF500;
+  stop-color: #fff500;
 }
 
-
-
 .three-area {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    grid-area: three;
-    width: 384px;
-    height: 405px;
-    background-color: #484444;
-    border-radius: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  grid-area: three;
+  width: 384px;
+  height: 405px;
+  background-color: #484444;
+  border-radius: 72px;
 }
 
 .three-area button {
-
-    flex-grow: 2;
-    width: 100%;
-    border-radius: 72px;
-    border: none;
-    background: none;
-
+  flex-grow: 2;
+  width: 100%;
+  border-radius: 72px;
+  border: none;
+  background: none;
 }
 
 .three-area button:hover {
-
-    cursor:pointer;
-
+  cursor: pointer;
 }
 
 .three-area svg {
-    width: 200px;
-    height: 200px;
-    flex-grow: 2;
+  width: 200px;
+  height: 200px;
+  flex-grow: 2;
 }
-
 
 .three-area:hover svg path {
-
-    transition: stroke-width .5s;
-    stroke-width: 37;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  transition: stroke-width 0.5s;
+  stroke-width: 37;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-
 .three-area:hover svg path ~ defs .threecolor1 {
-
-    
-    stop-color: #13D5FF;
+  stop-color: #13d5ff;
 }
 
 .three-area:hover svg path ~ defs .threecolor2 {
-
-    
-    stop-color: #640BD5;
+  stop-color: #640bd5;
 }
 
-
-
 .ux-area {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    grid-area: ux;
-    width: 384px;
-    height: 405px;
-    background-color: #484444;
-    border-radius: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  grid-area: ux;
+  width: 384px;
+  height: 405px;
+  background-color: #484444;
+  border-radius: 72px;
 }
 
 .ux-area button {
-
-    flex-grow: 2;
-    width: 100%;
-    border-radius: 72px;
-    border: none;
-    background: none;
-
+  flex-grow: 2;
+  width: 100%;
+  border-radius: 72px;
+  border: none;
+  background: none;
 }
 
 .ux-area button:hover {
-
-    cursor:pointer;
-
+  cursor: pointer;
 }
 
 .ux-area svg {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
 .ux-area svg {
-    width: 200px;
-    height: 200px;
-    flex-grow: 2;
+  width: 200px;
+  height: 200px;
+  flex-grow: 2;
 }
-
 
 .ux-area div {
-    flex-grow: 1;
+  flex-grow: 1;
 }
-
 
 .ux-area:hover svg path {
-
-    transition: stroke-width .5s;
-    stroke-width: 30;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+  transition: stroke-width 0.5s;
+  stroke-width: 30;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-
 .ux-area:hover svg path ~ defs .uxcolor1 {
-
-    
-    stop-color: #F40000;
+  stop-color: #f40000;
 }
 
 .ux-area:hover svg path ~ defs .uxcolor2 {
-
-    
-    stop-color: #FF1DC0;
+  stop-color: #ff1dc0;
 }
 
 .contact-area {
-
-    margin: 0 auto;
-    align-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    grid-area: contacts;
-    width: 300px;
-    height: 100px;
-    background-color: lightgreen;
-    border-radius: 72px;
-
+  margin: 0 auto;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-area: contacts;
+  width: 300px;
+  height: 100px;
+  background-color: lightgreen;
+  border-radius: 72px;
 }
 
 .contact-area button {
-
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 72px;
-    background: none;
-    color: black;
-    font-size: 24pt;
-    font-weight: 800;
-    font-family: 'KyivType Sans';
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 72px;
+  background: none;
+  color: black;
+  font-size: 24pt;
+  font-weight: 800;
+  font-family: "KyivType Sans";
 }
 
 .contact-area button:hover {
-
-    cursor: pointer;
-    color: lightgreen;
-    transition: all .3s;
+  cursor: pointer;
+  color: lightgreen;
+  transition: all 0.3s;
 }
 
 .contact-area:hover {
-
-    background-color: black;
-    transition: all .3s;
+  background-color: black;
+  transition: all 0.3s;
 }
 
 .noneareas-area {
-
-    grid-area: none1;
-    width: 300px;
-    height: 100px;
+  grid-area: none1;
+  width: 300px;
+  height: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 428px) {
+
+
+    .workareas-container {
+
+        margin-top: 15px;
+        display: flex;
+        position: absolute;
+        left: 0px;
+        width: 360px;
+        height: 100%;
+        background-image: url('../../assets/images/botonesmobile.png');
+        background-repeat: no-repeat;
+        background-position: center 65px;
+        background-size: 150px 596px;
+        z-index: -1;
+        
+    }
+
+    .noneareas-area {
+        display: none;
+    }
+
+    .photo-area {
+        position: absolute;
+        width: 88px;
+        height: 92px;
+        right: -100px;
+        top: 73px;
+        background: #484444;
+        border-radius: 72px;
+    }
+
+    .photo-area-t {
+        right: 120px;
+        transition: right 1s;
+    }
+
+    .photo-area svg {
+        width: 75%;
+        height: 75%;
+    }
+
+    .photo-area svg path {
+        stroke-width: 28;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .design-area {
+        position: absolute;
+        width: 88px;
+        height: 92px;
+        left: -100px;
+        top: 184px;
+        background: #484444;
+        border-radius: 72px;
+    }
+
+    .design-area-t {
+      left: 124px;
+      transition: left 1s;
+  }
+
+    .design-area svg path {
+        stroke-width: 14;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .design-area svg {
+        width: 75%;
+        height: 75%;
+    }
+
+    .three-area {
+        position: absolute;
+        width: 89px;
+        height: 92px;
+        right: -116px;
+        top: 301px;
+        background: #484444;
+        border-radius: 72px;
+    }
+
+    .three-area-t {
+      right: 136px;
+      transition: right 1s;
+  }
+
+    .three-area svg {
+        width: 75%;
+        height: 75%;
+    }
+
+    .three-area svg path {
+        stroke-width: 36;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .ux-area {
+        position: absolute;
+        width: 89px;
+        height: 92px;
+        left: -114px;
+        top: 418px;  
+        background: #484444;
+        border-radius: 72px;
+    }
+
+    .ux-area-t {
+      left: 114px;
+      transition: left 1s;
+  }
+
+    .ux-area svg {
+        width: 75%;
+        height: 75%;
+    }
+
+    .ux-area svg path {
+        stroke-width: 28;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .contact-area {
+        position: absolute;
+        width: 95px;
+        height: 100px;
+        right: -117px;
+        top: 543px;
+        background: #238313;
+    }
+
+    .contact-area-t {
+      right: 140px;
+      transition: right 1s;
+  }
+
+    .contact-area button {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .area-title-workareas {
+        display: none;
+    }
+
+}
+

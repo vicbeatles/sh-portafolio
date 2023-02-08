@@ -34,3 +34,51 @@
     justify-content: center;
    
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .musician-container {
+
+        margin-top: auto;
+        position: absolute;
+        left: -500px;
+
+    }
+
+    .musician-container-t {
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .musician-photo {
+    
+        position: absolute;
+        width: 328px;
+        height: 252px;
+        left: 18px;
+        top: 177px;
+        border-radius: 64px;
+    }
+    
+    .musician-footer {
+    
+        position: absolute;
+        width: 171px;
+        height: 28px;
+        left: 103px;
+        top: 449px;
+        font-size: 20px;        
+    
+    }
+    
+    .musician-desc {
+    
+        position: absolute;
+        width: 141px;
+        height: 51px;
+        left: 121px;
+        top: 497px;
+        font-size: 12px;
+    }
+}
+

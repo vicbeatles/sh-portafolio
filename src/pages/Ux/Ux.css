@@ -6,8 +6,10 @@
     grid-template-areas: 
     'photo1 photo2 desc1'
     'photo3 photo2 photo6'
-    'photo4 none photo6'
-    'photo5 none photo6'
+    'photo4 photo2 photo6'
+    'photo5 photo2 photo6'
+    'photo8 photo8 photo8'
+    'photo9 photo9 none9'
     'desc2 photo7 photo7'
     'figm photo7 photo7';
     grid-gap: 20px;
@@ -99,6 +101,39 @@
     border-radius: 72px;
 }
 
+.photo8-ux {
+
+    grid-area: photo8;
+    width: 1033px;
+    height: 691px;  
+    background-image: url('../../assets/images/ux/barramenus.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo9-ux {
+
+    grid-area: photo9;
+    width: 750px;
+    height: 750px;
+    background-image: url('../../assets/images/ux/menuhamburguesa.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.video1-ux {
+
+    display: none;
+}
+
+.video2-ux {
+    display: none;
+}
+
+
 .description-soyte {
 
     width: 324px;
@@ -125,5 +160,179 @@
     grid-area: figm;
     border: none;
 
+
+}
+
+@media (min-width:320px) and (max-width: 428px) {
+
+    .ux-container {
+
+        display: block;
+        position: absolute;
+        top: 900px;
+        left: 0px;
+    
+    }
+
+    .ux-container-t {
+
+        top: 0px;
+        transition: top 1s;
+    }
+    
+    .photo1-ux {
+    
+        position: absolute;
+        width: 249px;
+        height: 255px;
+        left: 11px;
+        top: 86px;
+        background-position: center;
+        border-radius: 180px;
+    }
+    
+    .photo2-ux {
+
+        position: absolute;
+        width: 157px;
+        height: 390px;
+        left: 48px;
+        top: 444px;
+        background-position: center;
+        
+    }
+    
+    .photo3-ux {
+
+        position: absolute;
+        width: 151px;
+        height: 46px;
+        left: 205px;
+        top: 546px;
+        background-size: 151px 150px;
+        background-position: center 82px;
+    }
+    
+    .photo4-ux {
+    
+        position: absolute;
+        width: 114px;
+        height: 101px;
+        left: 224px;
+        top: 639px;
+        border-radius: 23px;
+        background-position: center;
+    }
+    
+    .photo5-ux {
+    
+        position: absolute;
+        width: 114px;
+        height: 55px;
+        left: 237px;
+        top: 779px;
+        background-position: -43px 68px;
+        background-size: 175px 85px;
+        border-radius: 69px;
+    
+    }
+    
+    .description-ux {
+    
+        position: absolute;
+        width: 98px;
+        height: 72px;
+        left: 245px;
+        top: 408px;
+        font-size: 10px;
+    }
+    
+    .photo6-ux {
+    
+        position: absolute;
+        width: 294px;
+        height: 292px;
+        left: 33px;
+        top: 856px;
+        border-radius: 42px;
+    }
+    
+    .photo7-ux {
+    
+        display: none;
+    }
+
+    .photo8-ux {
+
+        display: block;
+        position: absolute;
+        width: 240px;
+        height: 78px;
+        left: -16px;
+        top: 750px;
+        border-radius: 11px;
+
+    }
+
+    .photo9-ux {
+
+        display: block;
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 47px;
+        top: 1163px;
+        border-radius: 48px;
+
+    }
+
+    .video1-ux {
+
+        display: block;
+        position: absolute;
+        width: 136px;
+        height: 260px;
+        left: 104px;
+        top: 1426px;
+        border-radius: 28px;
+
+    }
+
+    .video1-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .video2-ux {
+
+        display: block;
+        position: absolute;
+        width: 136px;
+        height: 260px;
+        left: 104px;
+        top: 1709px;
+        border-radius: 28px;
+
+    }
+    
+    .video2-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .description-soyte {
+    
+        display: none;
+    }
+    
+    .frame-te {
+    
+        display: none;
+    
+    }
+    
 
 }

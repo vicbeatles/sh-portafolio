@@ -8,7 +8,7 @@
 
     margin: auto;
     font-family: 'Kosugi', sans-serif;
-    font-size: 128pt;
+    font-size: 128px;
     font-weight: 400;
     text-align: center;
 }
@@ -19,55 +19,60 @@
     margin: auto;
     font-family: 'KyivType Sans', sans-serif;
     font-weight: 400;
-    font-size: 32pt;
+    font-size: 32px;
     text-align: center;
 }
 
-/* @media (max-height: 1000px) {
-    .aboutme-text {
-        font-size: 28pt;
-    }
-}
-
-
-@media (max-width: 412px) {
+@media (min-width:320px) and (max-width: 428px) {
 
     .aboutme-title {
 
-        font-size: 60pt;
-
+        position: absolute;
+        width: 256px;
+        height: 64px;
+        left: 20vw;
+        top: 45px;
+        font-family: 'Kosugi', sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 64px;
+        box-sizing: border-box;
     }
-
+    
     .aboutme-text {
-        font-size: 20pt;
+    
+        position: absolute;
+        width: 309px;
+        height: 136px;
+        left: 15vw;
+        top: 227px;
+        font-family: 'KyivType Sans',sans-serif;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        box-sizing: border-box;
     }
+
 }
-*/
 
 
-@media (max-width: 640px){
+@media (min-width:1366px) and (max-width: 1440px) {
 
     .aboutme-title {
 
-        font-size: 30pt;
+        font-size: 128px;
 
     }
-
+    
     .aboutme-text {
-        font-size: 12pt;
-    }
-}
-
-
-@media (min-width: 641px) and (max-width: 1368px){
-
-    .aboutme-title {
-
-        font-size: 70pt;
-
+        
+        width: 606px;
+        height: 304px;
+        left: 276px;
+        top: 214px;
+        font-size: 32px;
     }
 
-    .aboutme-text {
-        font-size: 28pt;
-    }
 }

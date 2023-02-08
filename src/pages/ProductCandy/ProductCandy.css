@@ -1,5 +1,6 @@
 .candy-container {
 
+    margin-top: 168px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto;
@@ -11,10 +12,14 @@
 
 
 .photo1-candy {
+    position: relative;
+    left: 52px;
     width: 337px;
     height: 263px;
     background-image: url('../../assets/images/fotografia/producto/dulces.png');
     background-size: cover;
+    
+
     grid-area: photo1;
 }
 
@@ -59,3 +64,83 @@
     font-family: 'KyivType Sans';
 
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .candy-container {
+
+        margin-top: 0px;
+        display: block;
+        position: absolute;
+        left: -700px;
+
+    }
+
+    .candy-container-t {
+
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    
+    .photo1-candy {
+        position: absolute;
+        width: 190px;
+        height: 174.66px;
+        left: 0px;
+        top: 101px;
+        filter: drop-shadow(37px 7px 23px rgba(0, 0, 0, 0.25));
+        border-radius: 72px;
+    }
+    
+    .none1-candy {
+    
+        display: none;
+    
+    }
+    
+    
+    .photo2-candy {
+    
+        position: absolute;
+        width: 147px;
+        height: 166px;
+        left: 204px;
+        top: 105px;
+        filter: drop-shadow(36px 5px 27px rgba(0, 0, 0, 0.25));
+        border-radius: 72px;     
+    }
+    
+    .photo3-candy {
+        position: absolute;
+        width: 211px;
+        height: 151px;
+        left: 55px;
+        top: 462px;
+    }
+    
+    .none2-candy {
+    
+        display: none;
+    }
+    
+    .description-candy {
+    
+        position: absolute;
+        left: 32px;
+        top: 280px;
+        width: 274px;
+        height: 70px;
+    
+    }
+
+    .description-candy h1 {
+         font-size: 20px;
+    }
+
+    .description-candy p {
+        font-size: 10px;
+    }
+
+}
+

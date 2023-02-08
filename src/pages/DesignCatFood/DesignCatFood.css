@@ -11,6 +11,8 @@
 
 .photo1-catfood {
 
+    position: relative;
+    left: 200px;
     width: 316px;
     height: 421px;
     background-image: url('../../assets/images/diseño/wiskas.png');
@@ -24,7 +26,7 @@
 .photo2-catfood {
 
     width: 605px;
-    height: 421px;
+    height: 655px;
     background-image: url('../../assets/images/diseño/whiskas\ mockup.png');
     background-size: cover;
     grid-area: photo2;
@@ -35,7 +37,9 @@
 
 .description-catfood {
 
-    width: 343px;
+    position: relative;
+    left: 300px;
+    width: 583px;
     height: 144px;
     grid-area: desc;
     text-align: center;
@@ -44,4 +48,74 @@
     font-family: 'KyivType Sans';
     font-size: 12pt;
 
+}
+
+.description-catfood p {
+
+    font-size: 22px;
+}
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .catfood-container {
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: 600px;
+        z-index: -1;
+
+    }
+
+    .catfood-container-t {
+
+        left: 0px;
+        transition: left 1s;
+
+    }
+    
+    .photo1-catfood {
+    
+        position: absolute;
+        width: 128px;
+        height: 166px;
+        left: 123px;
+        top: 78px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 51px;
+    
+    }
+    
+    .photo2-catfood {
+    
+        position: absolute;
+        width: 268px;
+        height: 267px;
+        left: 47px;
+        top: 361px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 54px;
+    
+    }
+    
+    .description-catfood h1 {
+    
+        position: absolute;
+        width: 99px;
+        height: 29px;
+        left: 137px;
+        top: 244px;    
+        font-size: 24px;    
+    
+    }
+
+    .description-catfood p {
+        
+        position: absolute;
+        width: 242px;
+        height: 48px;
+        left: 73px;
+        top: 289px;
+        font-size: 10px;
+
+    }
 }

@@ -1,4 +1,6 @@
 .brand-container {
+
+    margin-top: 81px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -33,10 +35,75 @@
 
 .description-brand {
 
+    position: relative;
+    left: 79px;
     width: 487px;
     height: 280px;
     grid-area: desc;
     text-align: center;
     align-self: center;
     font-family: 'KyivType Sans';
+    line-height: 137.52%;
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .brand-container {
+
+        margin-top: 0px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        right: -700px;
+
+    }
+
+    .brand-container-t {
+
+        right: 0px;
+        transition: right 1s;
+    }
+    
+    .none1-brand {
+        display: none;
+    }
+    
+    .photo1-brand {
+    
+        position: absolute;
+        width: 163px;
+        height: 140px;
+        left: 99px;
+        top: 98px;
+        border-radius: 29px;
+    }
+    
+    .photo2-brand {
+    
+        position: absolute;
+        width: 232px;
+        height: 189px;
+        left: 58px;
+        top: 439px;
+        border-radius: 84px;
+    }
+    
+    .description-brand {
+    
+        position: absolute;
+        width: 244px;
+        height: 140px;
+        left: 58px;
+        top: 244px;
+    }
+
+    .description-brand h1 {
+        font-size: 20px;
+    }
+
+    .description-brand p {
+        font-size: 10px;
+    }
+
+}
+

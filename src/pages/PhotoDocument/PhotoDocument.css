@@ -1,4 +1,5 @@
 .photodoc-container {
+    
     margin-top: 90px;
     display: flex;
     flex-direction: column;
@@ -137,3 +138,145 @@
 .photo6-photodoc button:hover {
    cursor: pointer;
 }
+
+@media (min-width:320px) and (max-width: 428px) {
+
+    .photodoc-container {
+        margin-top: auto;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 640px;
+        left: 0px;
+    }
+
+    .photodoc-container-t {
+
+        top: 0px;
+        transition: top 1s;
+
+    }
+
+    .photo1-photodoc {
+
+        margin: auto;
+        position: absolute;
+        width: 205px;
+        height: 190px;
+        left: 66px;
+        top: 98px;
+        border-radius: 72px;
+    }
+    
+    .photo1-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 72px;
+        border: none;
+        background: none;
+    }
+    
+
+    .photo2-photodoc {
+    
+        margin: auto;
+        position: absolute;
+        width: 216px;
+        height: 185px;
+        left: 55px;
+        top: 310px;
+        border-radius: 73px;
+    
+    }
+    
+    
+    .photo2-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 73px;
+        border: none;
+        background: none;
+    }
+    
+    
+    .photo3-photodoc {
+    
+        margin: auto;
+        position: absolute;
+        width: 222px;
+        height: 198px;
+        left: 49px;
+        top: 507px;
+        border-radius: 64px;
+    }
+    
+    .photo3-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 64px;
+        border: none;
+        background: none;
+    }
+    
+
+    .photo4-photodoc {
+    
+        margin: auto;
+        position: absolute;
+        width: 213px;
+        height: 184px;
+        left: 37px;
+        top: 727px;
+        border-radius: 75px;
+    }
+    
+    .photo4-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 75px;
+        border: none;
+        background: none;
+    }
+    
+    
+    .photo5-photodoc {
+    
+        margin: auto;
+        position: absolute;
+        width: 213px;
+        height: 196px;
+        left: 37px;
+        top: 950px;
+        border-radius: 82px;
+    }
+    
+    
+    .photo5-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 82px;
+        border: none;
+        background: none;
+    }
+    
+    .photo6-photodoc {
+    
+        margin: auto;
+        position: absolute;
+        width: 216px;
+        height: 196px;
+        left: 48px;
+        top: 1167px;
+        border-radius: 83px;
+    }
+    
+    .photo6-photodoc button {
+        width: 100%;
+        height: 100%;
+        border-radius: 83px;
+        border: none;
+        background: none;
+    }
+    
+}
+

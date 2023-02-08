@@ -39,3 +39,57 @@
 
     margin: auto;
 }
+
+@media (min-width:320px) and (max-width: 428px) {
+
+    .dices-container {
+
+        margin-top: 20px;
+        display: block;
+        position: absolute;
+        left: -700px;
+    }
+
+    .dices-container-t {
+        left: 0px;
+        transition: left 1s;
+
+    }
+    
+    .dices-photo {
+    
+        position: absolute;
+        width: 336px;
+        height: 282px;
+        left: 24px;
+        top: 141px;
+        border-radius: 103px;
+    
+    }
+    
+    .dices-footer {
+    
+        position: absolute;
+        width: 180px;
+        height: 48px;
+        left: 92px;
+        top: 456px;
+        font-size: 20px;
+    
+    }
+    
+    .dices-desc {
+    
+        position: absolute;
+        width: 220px;
+        height: 48px;
+        left: 82px;
+        top: 480px;
+        font-size: 20px;       
+    }
+    
+    .dices-desc P {
+    
+        margin: auto;
+    }
+}
