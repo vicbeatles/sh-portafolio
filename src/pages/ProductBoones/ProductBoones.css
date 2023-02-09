@@ -114,3 +114,71 @@
 }
 
 
+
+@media (min-width:429px) and (max-width:768px) {
+
+    .boones-container {
+
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 600px;
+        z-index: -1;
+    }
+
+    .boones-container-t {
+        left: 0px;
+        transition: left 1s;
+    }
+
+    .photo1-boones {
+
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 373px;
+        height: 308px;
+        left: 214px;
+        top: 98px;
+        order: 1;
+
+    }
+    
+    .none1-boones {
+        display: none;
+    }
+    
+    .photo2-boones {
+
+        position: absolute;
+        width: 450px;
+        height: 374px;
+        left: 168px;
+        top: 628px;
+        order: 3;
+    }
+    
+    .description-boones {
+    
+        position: absolute;
+        width: 151px;
+        height: 61px;
+        left: 337px;
+        top: 400px;
+        order: 2;
+        text-align: center;
+    }
+
+    .description-boones h1 {
+        font-size: 20px;
+    }
+
+    .description-boones p {
+        font-size: 10px;
+    }
+
+
+}
+
+

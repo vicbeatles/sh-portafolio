@@ -121,6 +121,71 @@
 
 }
 
+@media (min-width:429px) and (max-width:768px) {
+
+    .ring-container {
+
+        margin-top: 0px;
+        display: block;
+        width: 360px;
+        position: fixed;
+        left: 700px;
+
+    }
+
+    .ring-container-t {
+
+        left: 0px;
+        transition: left 1s;
+
+    }
+    
+    .none1-ring {
+    
+        display: none;
+    
+    }
+    
+    .photo1-ring {
+    
+        position: absolute;
+        width: 478px;
+        height: 366px;
+        left: 132px;
+        top: 85px;
+        border-radius: 99.5px;
+    }
+    
+    .photo2-ring {
+    
+        position: absolute;
+        width: 437px;
+        height: 348px;
+        left: 177px;
+        top: 660px;
+        border-radius: 61px;
+    
+    }
+    
+    .description-ring {
+    
+        position: absolute;
+        width: 396px;
+        height: 145px;
+        left: 186px;
+        top: 469px;
+    }
+
+    .description-ring h1 {
+        font-size: 20px;
+    }
+    
+    .description-ring p {
+        font-size: 10px;
+    }
+
+}
+
 @media (min-width:1360px) and (max-width:1440px) {
 
     .ring-container {

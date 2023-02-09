@@ -124,6 +124,81 @@
     }
 }
 
+@media (min-width:429px) and (max-width:768px) {
+
+    .billboard-container {
+
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        'photo1'
+        'desc'
+        'photo2';
+        grid-gap: 0px;
+        position: absolute;
+        top: 80px;
+        left: -600px;
+        z-index: -1;
+
+    }
+
+    .billboard-container-t {
+
+        left: 30%;
+        transition: left 1s;
+    }
+    
+    .photo1-billboard {
+
+        margin: auto;
+        position: static;
+        width: 294px;
+        height: 359px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 51px;
+    
+    }
+    
+    .photo2-billboard {
+    
+        margin: auto;
+        position: static;
+        width: 322px;
+        height: 384px;       
+        box-shadow: none;
+        border-radius: 72px;
+    
+    }
+    
+    .description-billboard {
+
+        margin: auto;
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .description-billboard h1 {
+        
+        width: auto;
+        height: 29px;
+        font-size: 24px;
+    }
+
+    .description-billboard p {
+        
+        width: 230px;
+        height: 60px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
 @media (min-width:1360px) and (max-width:1440px) {
 
     .billboard-container {

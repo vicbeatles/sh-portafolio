@@ -116,6 +116,70 @@
         font-size: 10px;
     }
 }
+@media (min-width:429px) and (max-width:768px) {
+
+    .soap-container {
+
+        margin-top: 0px;
+        display: block;
+        position: absolute;
+        left: -700px;
+
+    }
+
+    .soap-container-t {
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .photo1-soap {
+        position: absolute;
+        width: 319px;
+        height: 280px;
+        left: 32px;
+        top: 125px;
+        border-radius: 140px;
+    }
+    
+    .photo2-soap {
+
+        position: absolute;
+        width: 313px;
+        height: 463px;
+        left: 431px;
+        top: 125px;
+        border-radius: 39px;
+    }
+    
+    .photo3-soap {
+
+        position: absolute;
+        width: 509px;
+        height: 346px;
+        left: 130px;
+        top: 662px;
+        border-radius: 72px;
+    }
+    
+    
+    .description-soap {
+        
+        position: absolute;
+        width: 236px;
+        height: 253px;
+        left: 90px;
+        top: 485px;
+    }
+
+    .description-soap h1 {
+
+        font-size: 20px;
+    }
+
+    .description-soap p {
+        font-size: 10px;
+    }
+}
 
 @media (min-width:1360px) and (max-width:1440px) {
 
