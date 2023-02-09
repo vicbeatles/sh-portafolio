@@ -158,3 +158,84 @@
 
 }
 
+
+@media (min-width:429px) and (max-width:768px) {
+
+    .jewelry-container {
+
+        display: block;
+        position: absolute;
+        left: -700px;
+    
+    }
+
+    .jewelry-container-t {
+    
+        left: 0px;
+        transition: left 1s;
+    }
+
+    .none1-jewelry {
+        display: none;
+    }
+
+    
+    .none2-jewelry {
+        display: none;
+    }
+    
+
+    .photo1-jewelry {
+
+        position: absolute;
+        width: 310px;
+        height: 283px;
+        left: 20px;
+        top: 87px;
+
+    }
+    
+    .photo2-jewelry {
+    
+        position: absolute;
+        width: 275.88px;
+        height: 284.31px;
+        left: 467.33px;
+        top: 84px;
+        filter: drop-shadow(27px 26px 36px rgba(0, 0, 0, 0.25));
+ 
+    }
+    
+    
+    .photo3-jewelry {
+
+        position: absolute;
+        width: 419px;
+        height: 393px;
+        left: 167px;
+        top: 631px;        
+        filter: drop-shadow(38px 7px 28px rgba(0, 0, 0, 0.25));        
+ 
+    }
+    
+    .description-jewelry {
+
+        position: absolute;
+        width: 252px;
+        height: 46px;
+        left: 239px;
+        top: 415px;
+    }
+
+    .description-jewelry h1 {
+
+        font-size: 20px;
+    }
+    
+    .description-jewelry p {
+
+        font-size: 10px;
+    }
+
+}
+

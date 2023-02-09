@@ -57,6 +57,39 @@
 
 }
 
+@media (min-width:429px) and (max-width: 768px) {
+
+    .aboutme-title {
+
+        position: absolute;
+        width: 512px;
+        height: 128px;
+        left: 119px;
+        top: 58px;
+        font-family: 'Kosugi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 128px;
+    }
+    
+    .aboutme-text {
+    
+        position: absolute;
+        width: 100%;
+        height: 304px;
+        left: -1px;
+        top: 214px; 
+        font-family: 'KyivType Sans';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+}
+
 
 @media (min-width:1360px) and (max-width: 1440px) {
 

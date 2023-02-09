@@ -129,6 +129,71 @@
     }
 }
 
+@media (min-width:429px) and (max-width:768px) {
+
+    .scene-container {
+
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: -600px;
+
+    }
+
+    .scene-container-t {
+
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .photo1-scene {
+    
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        left: 279px;
+        top: 104px;
+        border-radius: 280px;
+        background-position: center;
+    
+    }
+    
+    .photo2-scene {
+    
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 0px;
+        top: 363px;
+        border-radius: 400px;
+        background-position: center;
+    
+    }
+    
+    .photo3-scene {
+    
+        position: absolute;
+        width: 330px;
+        height: 398px;
+        left: 310px;
+        top: 698px;
+        border-radius: 87.5px;
+        background-position: center;
+    
+    }
+    
+    .description-scene {
+    
+        position: absolute;
+        width: 284px;
+        height: 88px;
+        left: 400px;
+        top: 492px;
+        font-size: 12px;
+    
+    }
+}
+
 @media (min-width:1360px) and (max-width:1440px) {
 
     .scene-container {
