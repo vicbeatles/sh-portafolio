@@ -75,3 +75,50 @@
 
 }
 
+
+@media (min-width:429px) and (max-width:768px) {
+
+    .startpage {
+
+        width: 100vw;
+        height:100vh;
+        background-image: url('../../assets/images/startpage360x640.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .designerName {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 587px;
+        height: 150px;
+        left: 90px;
+        top: 499px;
+        background-color: #000000;
+        box-shadow: 0px 32px 60px rgba(0, 0, 0, 0.25);
+        border-radius: 62px;
+        color: #FFFCFC;
+
+    }
+    .designerName span {
+
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        font-family: 'Jockey One', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #FFFCFC;
+
+    }
+
+    .startnone {
+        background: none;
+    }
+
+}
+

@@ -413,6 +413,617 @@
 
 }
 
+@media (min-width: 429px) and (max-width: 480px) {
+
+  .workareas-container {
+
+      margin-top: 15px;
+      display: flex;
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/botonesmobile.png');
+      background-repeat: no-repeat;
+      background-position: center 65px;
+      background-size: 150px 596px;
+      z-index: -1;
+      
+  }
+
+  .noneareas-area {
+      display: none;
+  }
+
+  .photo-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      right: -100px;
+      top: 73px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .photo-area-t {
+      right: 35vw;
+      transition: right 1s;
+  }
+
+  .photo-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .photo-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      left: -100px;
+      top: 184px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .design-area-t {
+    left: 36vw;
+    transition: left 1s;
+}
+
+  .design-area svg path {
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      right: -116px;
+      top: 301px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .three-area-t {
+    right: 38vw;
+    transition: right 1s;
+}
+
+  .three-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area svg path {
+      stroke-width: 36;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .ux-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      left: -114px;
+      top: 418px;  
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .ux-area-t {
+    left: 32vw;
+    transition: left 1s;
+}
+
+  .ux-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .ux-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .contact-area {
+      position: absolute;
+      width: 95px;
+      height: 100px;
+      right: -117px;
+      top: 543px;
+      background: #238313;
+  }
+
+  .contact-area-t {
+    right: 40vw;
+    transition: right 1s;
+}
+
+  .contact-area button {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+  }
+
+  .area-title-workareas {
+      display: none;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 570px) {
+
+  .workareas-container {
+
+      margin-top: 15px;
+      display: flex;
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/botonesmobile.png');
+      background-repeat: no-repeat;
+      background-position: center 65px;
+      background-size: 150px 596px;
+      z-index: -1;
+      
+  }
+
+  .noneareas-area {
+      display: none;
+  }
+
+  .photo-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      right: -100px;
+      top: 73px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .photo-area-t {
+      right: 39vw;
+      transition: right 1s;
+  }
+
+  .photo-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .photo-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      left: -100px;
+      top: 184px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .design-area-t {
+    left: 39vw;
+    transition: left 1s;
+}
+
+  .design-area svg path {
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      right: -116px;
+      top: 301px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .three-area-t {
+    right: 40vw;
+    transition: right 1s;
+}
+
+  .three-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area svg path {
+      stroke-width: 36;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .ux-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      left: -114px;
+      top: 418px;  
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .ux-area-t {
+    left: 36vw;
+    transition: left 1s;
+}
+
+  .ux-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .ux-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .contact-area {
+      position: absolute;
+      width: 95px;
+      height: 100px;
+      right: -117px;
+      top: 543px;
+      background: #238313;
+  }
+
+  .contact-area-t {
+    right: 43vw;
+    transition: right 1s;
+}
+
+  .contact-area button {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+  }
+
+  .area-title-workareas {
+      display: none;
+  }
+
+}
+
+@media (min-width: 571px) and (max-width: 640px) {
+
+  .workareas-container {
+
+      margin-top: 15px;
+      display: flex;
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/botonesmobile.png');
+      background-repeat: no-repeat;
+      background-position: center 65px;
+      background-size: 150px 596px;
+      z-index: -1;
+      
+  }
+
+  .noneareas-area {
+      display: none;
+  }
+
+  .photo-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      right: -100px;
+      top: 73px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .photo-area-t {
+      right: 41vw;
+      transition: right 1s;
+  }
+
+  .photo-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .photo-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      left: -100px;
+      top: 184px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .design-area-t {
+    left: 41vw;
+    transition: left 1s;
+}
+
+  .design-area svg path {
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      right: -116px;
+      top: 301px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .three-area-t {
+    right: 42vw;
+    transition: right 1s;
+}
+
+  .three-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area svg path {
+      stroke-width: 36;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .ux-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      left: -114px;
+      top: 418px;  
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .ux-area-t {
+    left: 38vw;
+    transition: left 1s;
+}
+
+  .ux-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .ux-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .contact-area {
+      position: absolute;
+      width: 95px;
+      height: 100px;
+      right: -117px;
+      top: 543px;
+      background: #238313;
+  }
+
+  .contact-area-t {
+    right: 45vw;
+    transition: right 1s;
+}
+
+  .contact-area button {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+  }
+
+  .area-title-workareas {
+      display: none;
+  }
+
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+
+  .workareas-container {
+
+      margin-top: 15px;
+      display: flex;
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/botonesmobile.png');
+      background-repeat: no-repeat;
+      background-position: center 65px;
+      background-size: 150px 596px;
+      z-index: -1;
+      
+  }
+
+  .noneareas-area {
+      display: none;
+  }
+
+  .photo-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      right: -100px;
+      top: 73px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .photo-area-t {
+      right: 43vw;
+      transition: right 1s;
+  }
+
+  .photo-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .photo-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area {
+      position: absolute;
+      width: 88px;
+      height: 92px;
+      left: -100px;
+      top: 184px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .design-area-t {
+    left: 42.5vw;
+    transition: left 1s;
+}
+
+  .design-area svg path {
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .design-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      right: -116px;
+      top: 301px;
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .three-area-t {
+    right: 44vw;
+    transition: right 1s;
+}
+
+  .three-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .three-area svg path {
+      stroke-width: 36;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .ux-area {
+      position: absolute;
+      width: 89px;
+      height: 92px;
+      left: -114px;
+      top: 418px;  
+      background: #484444;
+      border-radius: 72px;
+  }
+
+  .ux-area-t {
+    left: 41vw;
+    transition: left 1s;
+}
+
+  .ux-area svg {
+      width: 75%;
+      height: 75%;
+  }
+
+  .ux-area svg path {
+      stroke-width: 28;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+  }
+
+  .contact-area {
+      position: absolute;
+      width: 95px;
+      height: 100px;
+      right: -117px;
+      top: 543px;
+      background: #238313;
+  }
+
+  .contact-area-t {
+    right: 46vw;
+    transition: right 1s;
+}
+
+  .contact-area button {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+  }
+
+  .area-title-workareas {
+      display: none;
+  }
+
+}
 
 @media (min-width: 1360px) and (max-width: 1440px) {
 

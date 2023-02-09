@@ -128,6 +128,75 @@
     }
     
 }
+@media (min-width:429px) and (max-width:768px) {
+
+    .watch-container {
+
+        margin-top: 0px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        right: -700px;
+
+    }
+
+    .watch-container-t {
+
+        right: 0px;
+        transition: right 1s;
+    }
+    
+    .photo1-watch {
+    
+        position: absolute;
+        width: 323px;
+        height: 252px;
+        left: 31px;
+        top: 155px;
+        border-radius: 72px;
+    
+    }
+    
+    .photo2-watch {
+    
+        position: absolute;
+        width: 302px;
+        height: 234px;
+        left: 433px;
+        top: 173px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 39px;
+    
+    }
+    
+    .photo3-watch {
+    
+        position: absolute;
+        width: 468px;
+        height: 342px;
+        left: 168px;
+        top: 656px;
+        border-radius: 57px;
+    }
+    
+    .description-watch {
+    
+        position: absolute;
+        width: 300px;
+        height: 128px;
+        left: 258px;
+        top: 450px;
+    }
+
+    .description-watch h1 {
+        font-size: 20px;
+    }
+
+    .description-watch p {
+        font-size: 10px;
+    }
+    
+}
 
 
 @media (min-width:1360px) and (max-width:1440px) {

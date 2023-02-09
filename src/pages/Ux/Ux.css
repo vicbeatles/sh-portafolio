@@ -336,3 +336,354 @@
     
 
 }
+
+@media (min-width:429px) and (max-width: 520px) {
+
+    .ux-container {
+
+        display: block;
+        position: absolute;
+        top: 900px;
+        left: 0px;
+    
+    }
+
+    .ux-container-t {
+
+        top: 0px;
+        transition: top 1s;
+    }
+    
+    .photo1-ux {
+    
+        position: absolute;
+        width: 249px;
+        height: 255px;
+        left: 11px;
+        top: 86px;
+        background-position: center;
+        border-radius: 180px;
+    }
+    
+    .photo2-ux {
+
+        position: absolute;
+        width: 157px;
+        height: 390px;
+        left: 48px;
+        top: 444px;
+        background-position: center;
+        
+    }
+    
+    .photo3-ux {
+
+        position: absolute;
+        width: 151px;
+        height: 46px;
+        left: 205px;
+        top: 546px;
+        background-size: 151px 150px;
+        background-position: center 82px;
+    }
+    
+    .photo4-ux {
+    
+        position: absolute;
+        width: 114px;
+        height: 101px;
+        left: 224px;
+        top: 639px;
+        border-radius: 23px;
+        background-position: center;
+    }
+    
+    .photo5-ux {
+    
+        position: absolute;
+        width: 114px;
+        height: 55px;
+        left: 237px;
+        top: 779px;
+        background-position: -43px 68px;
+        background-size: 175px 85px;
+        border-radius: 69px;
+    
+    }
+    
+    .description-ux {
+    
+        position: absolute;
+        width: 98px;
+        height: 72px;
+        left: 245px;
+        top: 408px;
+        font-size: 10px;
+    }
+    
+    .photo6-ux {
+    
+        position: absolute;
+        width: 294px;
+        height: 292px;
+        left: 33px;
+        top: 856px;
+        border-radius: 42px;
+    }
+    
+    .photo7-ux {
+    
+        display: none;
+    }
+
+    .photo8-ux {
+
+        display: block;
+        position: absolute;
+        width: 240px;
+        height: 78px;
+        left: -16px;
+        top: 750px;
+        border-radius: 11px;
+
+    }
+
+    .photo9-ux {
+
+        display: block;
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 47px;
+        top: 1163px;
+        border-radius: 48px;
+
+    }
+
+    .video1-ux {
+
+        display: block;
+        position: absolute;
+        width: 136px;
+        height: 260px;
+        left: 104px;
+        top: 1426px;
+        border-radius: 28px;
+
+    }
+
+    .video1-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .video2-ux {
+
+        display: block;
+        position: absolute;
+        width: 136px;
+        height: 260px;
+        left: 104px;
+        top: 1709px;
+        border-radius: 28px;
+
+    }
+    
+    .video2-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .description-soyte {
+    
+        display: none;
+    }
+    
+    .frame-te {
+    
+        display: none;
+    
+    }
+    
+
+}
+
+@media (min-width:520px) and (max-width: 768px) {
+
+    .ux-container {
+
+        display: block;
+        position: absolute;
+        top: 900px;
+        left: 0px;
+    
+    }
+
+    .ux-container-t {
+
+        top: 0px;
+        transition: top 1s;
+    }
+    
+    .photo1-ux {
+    
+        position: absolute;
+        width: 407px;
+        height: 407px;
+        left: 83px;
+        top: 183px;
+        background-position: center;
+        border-radius: 407px;
+    }
+    
+    .photo2-ux {
+
+        position: absolute;
+        width: 228px;
+        height: 567px;
+        left: 137px;
+        top: 703px;        
+        background-position: center;
+        
+    }
+    
+    .photo3-ux {
+
+        position: absolute;
+        width: 317px;
+        height: 91px;
+        left: 410px;
+        top: 827px;
+        background-repeat: no-repeat;
+        background-size: 340px 300px;
+        background-position: -20px -140px;
+
+    }
+    
+    .photo4-ux {
+    
+        position: absolute;
+        width: 225px;
+        height: 188px;
+        left: 456px;
+        top: 986px;
+        border-radius: 23px;
+        background-position: center;
+    }
+    
+    .photo5-ux {
+    
+        position: absolute;
+        width: 276px;
+        height: 139px;
+        left: 456px;
+        top: 1185px;
+        background-repeat: no-repeat;
+        background-position: -105px -50px;
+        background-size: 430px 230px;
+        border-radius: 69px;
+    
+    }
+    
+    .description-ux {
+    
+        position: absolute;
+        width: 142px;
+        height: 104px;
+        left: 423px;
+        top: 651px;
+        font-size: 10px;
+    }
+    
+    .photo6-ux {
+    
+        position: absolute;
+        width: 553px;
+        height: 506px;
+        left: 85px;
+        top: 1381px;
+        border-radius: 42px;
+    }
+    
+    .photo7-ux {
+    
+        display: none;
+    }
+
+    .photo8-ux {
+
+        display: block;
+        position: absolute;
+        width: 464px;
+        height: 360px;
+        left: -20px;
+        top: 940px;
+        border-radius: 11px;
+
+    }
+
+    .photo9-ux {
+
+        display: block;
+        position: absolute;
+        width: 677px;
+        height: 677px;
+        left: 4px;
+        top: 1935px;
+        border-radius: 48px;
+
+    }
+
+    .video1-ux {
+
+        display: block;
+        position: absolute;
+        width: 198px;
+        height: 378px;
+        left: 266px;
+        top: 2660px;
+        border-radius: 28px;
+
+    }
+
+    .video1-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .video2-ux {
+
+        display: block;
+        position: absolute;
+        width: 198px;
+        height: 378px;
+        left: 284px;
+        top: 3086px;
+        border-radius: 28px;
+
+    }
+    
+    .video2-ux video {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .description-soyte {
+    
+        display: none;
+    }
+    
+    .frame-te {
+    
+        display: none;
+    
+    }
+    
+
+}

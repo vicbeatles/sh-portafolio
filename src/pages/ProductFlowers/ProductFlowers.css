@@ -160,6 +160,86 @@
     }
 }
 
+@media (min-width:429px) and (max-width:768px) {
+
+    .flowers-container {
+
+        margin-top: 0px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: -700px;
+    }
+
+    .flowers-container-t {
+
+        left: 0px;
+        transition: left 1s;
+
+
+    }
+    
+    .photo1-flowers {
+    
+        position: absolute;
+        width: 311px;
+        height: 261px;
+        left: 12px;
+        top: 117px;
+        border-radius: 72px;
+    }
+    
+    .photo2-flowers {
+    
+        position: absolute;
+        width: 285px;
+        height: 242px;
+        left: 458px;
+        top: 117px;
+        border-radius: 36px;
+    
+    }
+    
+    .none1-flowers {
+    
+        display: none;
+    }
+    
+    .photo3-flowers {
+    
+       display: none;
+    
+    }
+    
+    .photo4-flowers {
+    
+        position: absolute;
+        width: 478px;
+        height: 354px;
+        left: 158px;
+        top: 592px;
+        border-radius: 60px;
+    }
+    
+    .description-flowers {
+    
+        position: absolute;
+        width: 340px;
+        height: 76px;
+        left: 256px;
+        top: 424px;
+    
+    }
+
+    .description-flowers h1 {
+        font-size: 20px;
+    }
+
+    .description-flowers p {
+        font-size: 10px;
+    }
+}
+
 
 @media (min-width:1360px) and (max-width:1440px) {
 

@@ -14,10 +14,10 @@ const Contact = (props) => {
     <div class='contact-backArrow'><button onClick={()=>{navigate('/mywork/areas')}}></button></div>
     <div class='contact-container'>
       <div class='sh-name'>Samantha Hernandez Soto</div>
-      <div class='sh-title'>Diseñadora, fotógrafa y UX</div>
+      <div class='sh-title'><span>Samantha Hernandez Soto</span><br></br>Diseñadora, fotógrafa y UX</div>
       <div class='contact-title'>Contactos</div>
       <div class='vc-name'>Victor Manuel Castro Lopez</div>
-      <div class='vc-title'>Desarrollador Front End</div>
+      <div class='vc-title'><span>Victor Manuel Castro Lopez</span><br></br>Desarrollador Front End</div>
       <div class='qr-mail-sh'></div>
       <div class='qr-be-sh-bg'><div class='qr-be-sh'></div></div>
       <div class='qr-mail-vc'></div>
