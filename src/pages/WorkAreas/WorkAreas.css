@@ -885,7 +885,7 @@
       background-image: url('../../assets/images/botonesmobile.png');
       background-repeat: no-repeat;
       background-position: center 65px;
-      background-size: 150px 596px;
+      background-size: 230px 820px;
       z-index: -1;
       
   }
@@ -896,16 +896,16 @@
 
   .photo-area {
       position: absolute;
-      width: 88px;
-      height: 92px;
+      width: 133px;
+      height: 139px;
       right: -100px;
-      top: 73px;
+      top: 65px;
       background: #484444;
       border-radius: 72px;
   }
 
   .photo-area-t {
-      right: 43vw;
+      right: 39vw;
       transition: right 1s;
   }
 
@@ -922,16 +922,16 @@
 
   .design-area {
       position: absolute;
-      width: 88px;
-      height: 92px;
+      width: 133px;
+      height: 139px;
       left: -100px;
-      top: 184px;
+      top: 220px;
       background: #484444;
       border-radius: 72px;
   }
 
   .design-area-t {
-    left: 42.5vw;
+    left: 40vw;
     transition: left 1s;
 }
 
@@ -948,16 +948,16 @@
 
   .three-area {
       position: absolute;
-      width: 89px;
-      height: 92px;
+      width: 133px;
+      height: 139px;
       right: -116px;
-      top: 301px;
+      top: 385px;
       background: #484444;
-      border-radius: 72px;
+      border-radius: 150px;
   }
 
   .three-area-t {
-    right: 44vw;
+    right: 40vw;
     transition: right 1s;
 }
 
@@ -974,16 +974,16 @@
 
   .ux-area {
       position: absolute;
-      width: 89px;
-      height: 92px;
+      width: 139px;
+      height: 144px;
       left: -114px;
-      top: 418px;  
+      top: 548px;  
       background: #484444;
       border-radius: 72px;
   }
 
   .ux-area-t {
-    left: 41vw;
+    left: 35vw;
     transition: left 1s;
 }
 
@@ -1000,15 +1000,15 @@
 
   .contact-area {
       position: absolute;
-      width: 95px;
-      height: 100px;
+      width: 133px;
+      height: 139px;
       right: -117px;
-      top: 543px;
+      top: 723px;
       background: #238313;
   }
 
   .contact-area-t {
-    right: 46vw;
+    right: 44vw;
     transition: right 1s;
 }
 
