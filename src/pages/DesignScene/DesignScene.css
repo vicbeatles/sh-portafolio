@@ -18,7 +18,7 @@
 
     width: 378px;
     height: 378px;
-    background-image: url('../../assets/images/diseño/desiertogif.gif');
+    background-image: url('../../assets/images/design/desiertogif.gif');
     background-size: cover;
     background-position: center;
     grid-area: photo1;
@@ -30,7 +30,7 @@
 
     width: 690px;
     height: 690px;
-    background-image: url('../../assets/images/diseño/bosquegif.gif');
+    background-image: url('../../assets/images/design/bosquegif.gif');
     background-size: cover;
     background-position: center;
     grid-area: photo2;
@@ -42,7 +42,7 @@
 
     width: 300px;
     height: 217px;
-    background-image: url('../../assets/images/diseño/playagif.gif');
+    background-image: url('../../assets/images/design/playagif.gif');
     background-size: cover;
     grid-area: photo3;
     border-radius: 72px;
