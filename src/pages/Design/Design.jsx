@@ -20,8 +20,8 @@ const Design = (props) => {
         <div class='photo1-design'><button onClick={()=>{navigate('/mywork/areas/design/billboard')}}></button></div>
         <div class='photo2-design'><button onClick={()=>{navigate('/mywork/areas/design/cat-food')}}></button></div>
         <div class='photo3-design'><button onClick={()=>{navigate('/mywork/areas/design/scene')}}>
-            <img src={require('../../assets/images/diseño/desiertogif.gif')} alt='Desierto GIF' />
-            <img src={require('../../assets/images/diseño/bosquegif.gif')} alt='Bosque GIF' />
+            <img src={require('../../assets/images/design/desiertogif.gif')} alt='Desierto GIF' />
+            <img src={require('../../assets/images/design/bosquegif.gif')} alt='Bosque GIF' />
             </button>
         </div>
         <div class='photo4-design'><button onClick={()=>{navigate('/mywork/areas/design/bread')}}></button></div>

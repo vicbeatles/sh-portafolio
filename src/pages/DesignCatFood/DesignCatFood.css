@@ -20,7 +20,7 @@
     left: 200px;
     width: 316px;
     height: 421px;
-    background-image: url('../../assets/images/diseño/wiskas.png');
+    background-image: url('../../assets/images/design/wiskas.png');
     background-size: cover;
     grid-area: photo1;
     box-shadow: 22px 21px 42px 13px lightgray;
@@ -32,7 +32,7 @@
 
     width: 605px;
     height: 655px;
-    background-image: url('../../assets/images/diseño/whiskas\ mockup.png');
+    background-image: url('../../assets/images/design/whiskas\ mockup.png');
     background-size: cover;
     grid-area: photo2;
     box-shadow: 22px 21px 42px 13px lightgray;
