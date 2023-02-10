@@ -17,7 +17,7 @@
 
     width: 577px;
     height: 470px;
-    background-image: url('../../assets/images/diseño/elglobo.png');
+    background-image: url('../../assets/images/design/elglobo.png');
     background-size: cover;
     grid-area: photo1;
     box-shadow: 22px 21px 42px 13px lightgray;
@@ -29,7 +29,7 @@
 
     width: 764px;
     height: 540px;
-    background-image: url('../../assets/images/diseño/el\ globo\ mockup.png');
+    background-image: url('../../assets/images/design/el\ globo\ mockup.png');
     background-size: cover;
     grid-area: photo2;
     box-shadow: 22px 21px 42px 13px lightgray;
