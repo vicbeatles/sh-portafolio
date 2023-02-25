@@ -1,6 +1,6 @@
 # Sam's portfolio of design projects
 
-This project was created by UX designer Samantha Hernandez Soto. You can find a example of her work in different skills. Also, you can take a look of my development skills coding this project.
+This project was created by UI/UX designer Samantha Hernandez Soto. You can find a example of her work in different skills. Also, you can take a look of my development skills coding this project.
  
 
 ## This project was made using:
