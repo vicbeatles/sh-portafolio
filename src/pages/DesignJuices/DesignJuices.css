@@ -1,0 +1,252 @@
+.dsjuices-container {
+
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'none photo1 photo2'
+    'desc photo3 photo3';
+    grid-gap: 40px;
+    justify-content: center;
+
+
+}
+
+.photo1-dsjuices {
+
+    width: 255px;
+    height: 350px;
+    background-image: url('../../assets/images/design/jamaica.png');
+    background-size: cover;
+    grid-area: photo1;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+
+}
+
+.photo2-dsjuices {
+
+    width: 289px;
+    height: 326px;
+    background-image: url('../../assets/images/design/mango.png');
+    background-size: cover;
+    grid-area: photo2;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+}
+
+.photo3-dsjuices {
+
+    width: 680px;
+    height: 380px;
+    background-image: url('../../assets/images/design/juices.png');
+    background-size: cover;
+    background-position: center;
+    grid-area: photo3;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+
+}
+
+.description-dsjuices {
+
+    width: 325px;
+    height: auto;
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'KyivType Sans';
+    font-size: 12pt;
+    line-height: 137.52%;
+
+}
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .dsjuices-container {
+
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: -600px;
+        z-index: -1;
+
+    }
+
+    .dsjuices-container-t {
+
+        left: 0px;
+        transition: left 1s;
+    }
+    
+    .photo1-dsjuices {
+    
+        position: absolute;
+        width: 151px;
+        height: 186px;
+        left: 109px;
+        top: 80px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 72px;
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        position: absolute;
+        width: 187px;
+        height: 223px;
+        left: 73px;
+        top: 417px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 72px;
+    
+    }
+    
+    .description-dsjuices {
+
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .description-dsjuices h1 {
+        
+        position: absolute;
+        width: 122px;
+        height: 29px;
+        left: 119px;
+        top: 278px;
+        font-size: 24px;
+    }
+
+    .description-dsjuices p {
+        
+        position: absolute;
+        width: 230px;
+        height: 60px;
+        left: 60px;
+        top: 338px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:429px) and (max-width:768px) {
+
+    .dsjuices-container {
+
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        'photo1'
+        'desc'
+        'photo2';
+        grid-gap: 0px;
+        position: absolute;
+        top: 80px;
+        left: -600px;
+        z-index: -1;
+
+    }
+
+    .dsjuices-container-t {
+
+        left: 30%;
+        transition: left 1s;
+    }
+    
+    .photo1-dsjuices {
+
+        margin: auto;
+        position: static;
+        width: 294px;
+        height: 359px;
+        box-shadow: 22px 21px 42px 13px lightgray;
+        border-radius: 51px;
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        margin: auto;
+        position: static;
+        width: 322px;
+        height: 384px;       
+        box-shadow: none;
+        border-radius: 72px;
+    
+    }
+    
+    .description-dsjuices {
+
+        margin: auto;
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .description-dsjuices h1 {
+        
+        width: auto;
+        height: 29px;
+        font-size: 24px;
+    }
+
+    .description-dsjuices p {
+        
+        width: 230px;
+        height: 60px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width:1360px) and (max-width:1440px) {
+
+    .dsjuices-container {
+
+        margin-top: 100px;
+        grid-gap: 40px;
+    
+    }
+    
+    .photo1-dsjuices {
+    
+        width: 116px;
+        height: 221px;
+        background-position: center;
+        border-radius: 30px;
+        position: relative;
+        left: 350px;
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        width: 256px;
+        height: 433px;
+        background-position: center;
+        border-radius: 30px;
+
+    
+    }
+    
+    .description-dsjuices {
+
+        font-size: 14px;
+        position: relative;
+        top: -200px;
+
+    }
+    
+}
