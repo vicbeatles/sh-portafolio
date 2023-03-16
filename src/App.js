@@ -28,6 +28,9 @@ import DesignBillboard from './pages/DesignBillboard/DesignBillboard';
 import DesignCatFood from './pages/DesignCatFood/DesignCatFood';
 import DesignScene from './pages/DesignScene';
 import DesignBread from './pages/DesignBread/DesignBread';
+import DesignJuices from './pages/DesignJuices/DesignJuices';
+import DesignBoones from './pages/DesignBoones/DesignBoones';
+import DesignSoap from './pages/DesignSoap/DesignSoap';
 import Ux from './pages/Ux/Ux';
 import ThreeDim from './pages/ThreeDim/ThreeDim';
 import ThreeDimJapan from './pages/ThreeDimJapan/ThreeDimJapan';
@@ -71,6 +74,9 @@ function App() {
                     <Route path="/mywork/areas/design/cat-food" element={<DesignCatFood where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/design/scene" element={<DesignScene where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/design/bread" element={<DesignBread where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/juices" element={<DesignJuices where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/boones" element={<DesignBoones where={where} setWhere={setWhere} />} />
+                    <Route path="/mywork/areas/design/soap" element={<DesignSoap where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/ux" element={<Ux where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/threedim" element={<ThreeDim where={where} setWhere={setWhere} />} />
                     <Route path="/mywork/areas/threedim/japan" element={<ThreeDimJapan where={where} setWhere={setWhere} />} />
