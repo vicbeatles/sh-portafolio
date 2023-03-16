@@ -25,3 +25,24 @@ text-align: center;
 color: #000000;
 
 }
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .video1-boones-ds video {
+
+        width: 355px;
+        height: 290px;
+        left: 5px;
+        top: 92px;
+        
+        }
+        
+        .description-boones-ds {
+
+        width: 300px;
+        left: 25px;
+        top: 422px;
+        font-size: 12px;
+        
+        }
+}
