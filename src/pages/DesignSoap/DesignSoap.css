@@ -25,3 +25,25 @@
     color: #000000;
     
     }
+
+    @media (min-width:320px) and (max-width:428px) {
+
+        .video1-soap-ds video {
+    
+            width: 355px;
+            height: 290px;
+            left: 5px;
+            top: 92px;
+            
+            }
+            
+            .description-soap-ds {
+    
+            width: 300px;
+            left: 25px;
+            top: 422px;
+            font-size: 12px;
+            
+            }
+    }
+    
