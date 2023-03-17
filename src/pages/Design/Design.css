@@ -162,17 +162,20 @@
 .video1-ds {
 
     display: block;
-    width: 380px;
-    height: 350px;
-    border-radius: 130px;
+    width: 500px;
+    height: 280px;
+    border-radius: 100px;
     overflow: hidden;
     grid-area: photo6;
-    justify-self: right;
     position: relative;
-    right: -180px;
+    right: -15%;
+    background-image: url('../../assets/images/design/boones-video-img.png');
+    background-size: cover;
+
 }
 
 .video1-ds button {
+
     width: 100%;
     height: 100%;
     border-radius: 100px;
@@ -186,22 +189,19 @@
     cursor: pointer;
 }
 
-.video1-ds video {
-
-    width: 100%;
-    height: 100%;
-}
 
 .video2-ds {
 
     display: block;
-    width: 380px;
-    height: 300px;
-    border-radius: 80px;
+    width: 500px;
+    height: 280px;
+    border-radius: 60px;
     overflow: hidden;
     grid-area: photo7;
     position: relative;
-    left: -180px;
+    left: -15%;
+    background-image: url('../../assets/images/design/soap-video-img.png');
+    background-size: cover;
 
 }
 
@@ -219,11 +219,6 @@
     cursor: pointer;
 }
 
-.video2-ds video {
-
-    width: 100%;
-    height: 100%;
-}
 
 @media (min-width:320px) and (max-width:428px) {
  
