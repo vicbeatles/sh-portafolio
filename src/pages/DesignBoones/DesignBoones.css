@@ -1,0 +1,71 @@
+.video1-boones-ds video {
+
+position: absolute;
+width: 1050px;
+height: 660px;
+left: 239px;
+top: 102px;
+background: #D9D9D9;
+border-radius: 194px;
+
+}
+
+.description-boones-ds {
+
+position: absolute;
+width: 783px;
+left: 331px;
+top: 763px;
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+
+}
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .video1-boones-ds video {
+
+        width: 355px;
+        height: 290px;
+        left: 5px;
+        top: 92px;
+        
+        }
+        
+        .description-boones-ds {
+
+        width: 300px;
+        left: 25px;
+        top: 422px;
+        font-size: 12px;
+        
+        }
+}
+
+
+@media (min-width:429px) and (max-width:1024px) {
+
+    .video1-boones-ds video {
+
+        width: 569px;
+        height: 606px;
+        left: 143px;
+        top: 104px;
+        
+        }
+        
+        .description-boones-ds {
+
+            width: 287px;
+            height: 64px;
+            left: 309px;
+            top: 753px;
+            font-weight: 400;
+        
+        }
+}

@@ -1,0 +1,175 @@
+.dsjuices-container {
+
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'none photo1 photo2'
+    'desc photo3 photo3';
+    grid-gap: 40px;
+    justify-content: center;
+
+
+}
+
+.photo1-dsjuices {
+
+    width: 255px;
+    height: 350px;
+    background-image: url('../../assets/images/design/jamaica.png');
+    background-size: cover;
+    grid-area: photo1;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+
+}
+
+.photo2-dsjuices {
+
+    width: 289px;
+    height: 326px;
+    background-image: url('../../assets/images/design/mango.png');
+    background-size: cover;
+    grid-area: photo2;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+}
+
+.photo3-dsjuices {
+
+    width: 680px;
+    height: 380px;
+    background-image: url('../../assets/images/design/juices.png');
+    background-size: cover;
+    background-position: center;
+    grid-area: photo3;
+    box-shadow: 22px 21px 42px 13px lightgray;
+    border-radius: 72px;
+
+
+}
+
+.description-dsjuices {
+
+    width: 325px;
+    height: auto;
+    grid-area: desc;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'KyivType Sans';
+    font-size: 12pt;
+    line-height: 137.52%;
+
+}
+
+@media (min-width:320px) and (max-width:428px) {
+
+    .dsjuices-container {
+
+        margin-top: 120px;
+        display: block;
+
+    }
+    
+    .photo1-dsjuices {
+    
+        position: absolute;
+        width: 133px;
+        height: 156px;
+        left: 13px;
+        top: 73px;      
+    
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        position: absolute;
+        width: 153px;
+        height: 169px;
+        left: 207px;
+        top: 66px;
+    
+    }
+    
+    .photo3-dsjuices {
+    
+        position: absolute;
+        width: 300px;
+        height: 231px;
+        left: 21px;
+        top: 396px;
+    
+    
+    }
+    
+    .description-dsjuices {
+    
+        position: absolute;
+        width: 259px;
+        height: 33px;
+        left: 52px;
+        top: 230px;
+        font-size: 12px;
+    
+    }
+
+}
+
+@media (min-width:429px) and (max-width:1024px) {
+
+    .dsjuices-container {
+
+        margin-top: 120px;
+        display: block;
+
+    }
+    
+    .photo1-dsjuices {
+    
+        position: absolute;
+        width: 281px;
+        height: 309px;
+        left: 37px;
+        top: 140px;  
+    
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        position: absolute;
+        width: 286px;
+        height: 278px;
+        left: 452px;
+        top: 157px;
+    
+    }
+    
+    .photo3-dsjuices {
+    
+        position: absolute;
+        width: 425px;
+        height: 348px;
+        left: 161px;
+        top: 659px;
+    
+    
+    }
+    
+    .description-dsjuices {
+    
+        position: absolute;
+        width: 325px;
+        height: 41px;
+        left: 235px;
+        top: 451px;
+        font-size: 12px;
+    
+    }
+
+}

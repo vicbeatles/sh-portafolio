@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from "react-router-dom"; 
 import './Design.css'
 
+
 const Design = (props) => {
 
   const {setWhere} = props;
@@ -19,6 +20,9 @@ const Design = (props) => {
     <div className={!transition ? 'design-container' : 'design-container design-container-t'}>
         <div class='photo1-design'><button onClick={()=>{navigate('/mywork/areas/design/billboard')}}></button></div>
         <div class='photo2-design'><button onClick={()=>{navigate('/mywork/areas/design/cat-food')}}></button></div>
+        <div class='photo5-design'><button onClick={()=>{navigate('/mywork/areas/design/juices')}}></button></div>
+        <div class='video1-ds'><button onClick={()=>{navigate('/mywork/areas/design/boones')}}></button></div>
+        <div class='video2-ds'><button onClick={()=>{navigate('/mywork/areas/design/soap')}}></button></div>
         <div class='photo3-design'><button onClick={()=>{navigate('/mywork/areas/design/scene')}}>
             <img src={require('../../assets/images/design/desiertogif.gif')} alt='Desierto GIF' />
             <img src={require('../../assets/images/design/bosquegif.gif')} alt='Bosque GIF' />
