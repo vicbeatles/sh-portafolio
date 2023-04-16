@@ -119,3 +119,57 @@
     }
 
 }
+
+@media (min-width:429px) and (max-width:1024px) {
+
+    .dsjuices-container {
+
+        margin-top: 120px;
+        display: block;
+
+    }
+    
+    .photo1-dsjuices {
+    
+        position: absolute;
+        width: 281px;
+        height: 309px;
+        left: 37px;
+        top: 140px;  
+    
+    
+    }
+    
+    .photo2-dsjuices {
+    
+        position: absolute;
+        width: 286px;
+        height: 278px;
+        left: 452px;
+        top: 157px;
+    
+    }
+    
+    .photo3-dsjuices {
+    
+        position: absolute;
+        width: 425px;
+        height: 348px;
+        left: 161px;
+        top: 659px;
+    
+    
+    }
+    
+    .description-dsjuices {
+    
+        position: absolute;
+        width: 325px;
+        height: 41px;
+        left: 235px;
+        top: 451px;
+        font-size: 12px;
+    
+    }
+
+}

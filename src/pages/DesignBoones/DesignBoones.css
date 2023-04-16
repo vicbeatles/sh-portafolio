@@ -46,3 +46,26 @@ color: #000000;
         
         }
 }
+
+
+@media (min-width:429px) and (max-width:1024px) {
+
+    .video1-boones-ds video {
+
+        width: 569px;
+        height: 606px;
+        left: 143px;
+        top: 104px;
+        
+        }
+        
+        .description-boones-ds {
+
+            width: 287px;
+            height: 64px;
+            left: 309px;
+            top: 753px;
+            font-weight: 400;
+        
+        }
+}
