@@ -46,4 +46,26 @@
             
             }
     }
+
+    @media (min-width:429px) and (max-width:1024px) {
+
+        .video1-soap-ds video {
+    
+            width: 569px;
+            height: 606px;
+            left: 74px;
+            top: 143px;
+            
+            }
+            
+            .description-soap-ds {
+
+            width: 146px;
+            height: 29px;
+            left: 315px;
+            top: 788px;
+            font-weight: 400;
+            
+            }
+    }
     
